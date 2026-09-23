@@ -92,29 +92,63 @@ VERIFIED_ACCIDENT_DATA = {
     },
 
     "Piper Alpha Offshore Platform Disaster (UK North Sea, 1988)": {
-        "date": "6 July 1988",
-        "location": "UK North Sea",
-        "type": "Offshore fire and explosions",
-        "fatalities": 167,
-        "injuries": "Not included in current verified dataset",
 
-        "investigation_agency": "UK Government Public Inquiry chaired by Lord Cullen",
-        "report_title": "The Public Inquiry into the Piper Alpha Disaster",
-        "report_number": "Not assigned in current dataset",
-        "report_date": "1990",
+        "schema_version": 2,
 
-        "official_source": "https://www.hse.gov.uk/",
-        "official_report": "The Public Inquiry into the Piper Alpha Disaster (Cullen Report)",
+        "metadata": {
+            "date": "6 July 1988",
+            "location": "UK North Sea",
+            "type": "Offshore fire and explosions",
+            "fatalities": 167,
+            "injuries": "Not included in current verified dataset",
+            "investigation_agency":
+                "UK Government Public Inquiry chaired by Lord Cullen",
+            "report_title":
+                "The Public Inquiry into the Piper Alpha Disaster",
+            "report_date": "1990"
+        },
 
-        "verified_facts": [
-            "The Piper Alpha disaster occurred on 6 July 1988.",
+        "event_sequence": [
+            "Maintenance work was being carried out on process equipment before the accident.",
+            "Permit-to-work failures were important in the sequence of events leading to the disaster.",
+            "A hydrocarbon release occurred and ignited.",
+            "The event escalated into major fires and explosions.",
+            "The Piper Alpha offshore installation was destroyed."
+        ],
+
+        "contributing_factors": [
+            "Deficiencies existed in the permit-to-work system.",
+            "Information concerning maintenance work was not adequately communicated between relevant personnel.",
+            "The permit-to-work arrangements did not reliably ensure that process operating staff could readily identify equipment that was under maintenance and unavailable for operation.",
+            "Competence in the operation and supervision of the permit-to-work system was inadequate."
+        ],
+
+        "system_causes": [
+            "Management and control of the permit-to-work system were inadequate.",
+            "Maintenance and operations coordination was insufficient.",
+            "The management system did not provide sufficiently robust control of safety-critical maintenance information."
+        ],
+
+        "consequences": [
             "The disaster resulted in 167 fatalities.",
-            "The Piper Alpha offshore production platform was destroyed.",
-            "Failures in the permit-to-work system were important in the sequence of events leading to the disaster.",
-            "The UK Government established a public inquiry chaired by Lord Cullen.",
-            "The Cullen Report led to major changes in the UK offshore safety regime, including the offshore safety case approach."
+            "The Piper Alpha offshore production platform was destroyed."
+        ],
+
+        "investigation_findings": [
+            "The UK Government established a Public Inquiry chaired by Lord Cullen.",
+            "The inquiry examined the causes of the disaster and the offshore safety regime.",
+            "The Cullen Report resulted in major changes to offshore safety regulation and management in the UK."
+        ],
+
+        "lessons": [
+            "Permit-to-work systems must provide effective control and communication of safety-critical maintenance activities.",
+            "Shift handover must communicate equipment status and outstanding maintenance clearly.",
+            "Operations personnel must be able to identify equipment that is unavailable because of maintenance.",
+            "Personnel responsible for permit-to-work control require appropriate competence and supervision.",
+            "Major-hazard management should not depend on administrative controls alone."
         ]
     }
+
 }
 
 
@@ -124,17 +158,193 @@ VERIFIED_ACCIDENT_DATA = {
 # ---------------------------------------------------------
 def build_grounded_prompt(industry, accident):
     """
-    Builds a grounded AI prompt using verified accident data.
+    Build a grounded prompt from verified accident data.
 
-    Returns:
-        A formatted prompt if verified data exists.
-        None if verified data is not yet available.
+    Supports:
+    - Schema Version 1: legacy flat verified_facts structure
+    - Schema Version 2: rich structured evidence
     """
 
     accident_data = VERIFIED_ACCIDENT_DATA.get(accident)
 
     if accident_data is None:
         return None
+
+    schema_version = accident_data.get("schema_version", 1)
+
+    # =====================================================
+    # SCHEMA VERSION 2 — RICH STRUCTURED DATA
+    # =====================================================
+    if schema_version == 2:
+
+        metadata = accident_data["metadata"]
+
+        def format_numbered_list(items):
+            return "\n".join(
+                f"{number}. {item}"
+                for number, item in enumerate(items, start=1)
+            )
+
+        event_text = format_numbered_list(
+            accident_data.get("event_sequence", [])
+        )
+
+        contributing_text = format_numbered_list(
+            accident_data.get("contributing_factors", [])
+        )
+
+        system_text = format_numbered_list(
+            accident_data.get("system_causes", [])
+        )
+
+        consequences_text = format_numbered_list(
+            accident_data.get("consequences", [])
+        )
+
+        findings_text = format_numbered_list(
+            accident_data.get("investigation_findings", [])
+        )
+
+        lessons_text = format_numbered_list(
+            accident_data.get("lessons", [])
+        )
+
+        metadata_lines = [
+            f'Date: {metadata["date"]}',
+            f'Location: {metadata["location"]}',
+            f'Accident Type: {metadata["type"]}',
+            f'Fatalities: {metadata["fatalities"]}',
+            f'Injuries: {metadata["injuries"]}',
+            f'Investigation Agency: {metadata["investigation_agency"]}',
+            f'Investigation Report: {metadata["report_title"]}'
+        ]
+
+        # Optional metadata fields appear only when actually supplied.
+        if metadata.get("report_number"):
+            metadata_lines.append(
+                f'Report Number: {metadata["report_number"]}'
+            )
+
+        if metadata.get("report_date"):
+            metadata_lines.append(
+                f'Report Date: {metadata["report_date"]}'
+            )
+
+        metadata_text = "\n".join(metadata_lines)
+
+        prompt = f"""
+Prepare a technical accident-history case study.
+
+Industry: {industry}
+Accident: {accident}
+
+VERIFIED ACCIDENT INFORMATION:
+
+{metadata_text}
+
+VERIFIED EVENT SEQUENCE:
+
+{event_text}
+
+VERIFIED CONTRIBUTING FACTORS:
+
+{contributing_text}
+
+VERIFIED SYSTEM / MANAGEMENT CAUSES:
+
+{system_text}
+
+VERIFIED CONSEQUENCES:
+
+{consequences_text}
+
+VERIFIED INVESTIGATION INFORMATION:
+
+{findings_text}
+
+VERIFIED LESSONS:
+
+{lessons_text}
+
+OUTPUT REQUIREMENTS:
+
+# {accident}
+
+## Verified Accident Information
+
+Display every metadata field supplied above.
+
+Do not create metadata fields that were not supplied.
+In particular, do not create a Report Number unless one appears
+in VERIFIED ACCIDENT INFORMATION.
+
+## 1. Type of Accident
+
+Describe the accident using the verified information.
+
+## 2. What Went Wrong
+
+### Event Sequence
+
+Incorporate every item supplied under VERIFIED EVENT SEQUENCE.
+
+### Immediate Causes
+
+Identify immediate causes only where supported by the supplied
+verified information.
+
+Do not invent detailed equipment failure mechanisms.
+
+### Contributing Factors
+
+Incorporate ALL items supplied under VERIFIED CONTRIBUTING FACTORS.
+
+### Root / System Causes
+
+Incorporate ALL items supplied under VERIFIED SYSTEM / MANAGEMENT CAUSES.
+
+## 3. Effects and Consequences
+
+Use the supplied VERIFIED CONSEQUENCES.
+
+Do not invent casualty or injury information.
+
+## 4. Investigation Report and Recommendations
+
+### Investigation
+
+Use the supplied VERIFIED INVESTIGATION INFORMATION.
+
+### Major Findings
+
+Clearly distinguish verified investigation information from
+engineering interpretation.
+
+### Key Recommendations / Lessons Learned
+
+Incorporate ALL items supplied under VERIFIED LESSONS.
+
+## Key Process Safety Lesson
+
+Summarize the principal process-safety lesson in 2-4 sentences.
+
+GROUNDING REQUIREMENTS:
+
+- Treat the supplied information as the factual basis of the report.
+- Do not contradict supplied verified information.
+- Do not invent casualty figures, dates, locations, report numbers,
+  equipment details, investigation findings, recommendations,
+  or legal conclusions.
+- If additional historical detail is required, explicitly state that
+  further verification from the official investigation report is required.
+- Clearly distinguish verified historical information from
+  engineering interpretation.
+"""
+        return prompt
+
+    # =====================================================
+    # SCHEMA VERSION 1 — LEGACY DATA
+    # =====================================================
 
     facts_text = "\n".join(
         f"{number}. {fact}"
@@ -195,13 +405,17 @@ Display ALL of the following verified fields exactly as supplied above:
 Do not omit any of these fields.
 
 IMPORTANT:
+
 Every item listed under VERIFIED FACTS must be incorporated into the
-case study in an appropriate section. Do not silently omit a verified fact.
+case study in an appropriate section.
+
+Do not silently omit a verified fact.
 Do not change the meaning of a verified fact.
 
 ## 1. Type of Accident
 
 ## 2. What Went Wrong
+
 ### Immediate Causes
 ### Contributing Factors
 ### Root / System Causes
@@ -210,6 +424,7 @@ Clearly distinguish verified historical facts from
 process-safety interpretation.
 
 ## 3. Effects and Consequences
+
 ### Fatalities and Injuries
 ### Asset / Production Damage
 ### Environmental Impact
@@ -219,6 +434,7 @@ Do not invent consequence information that is not supported
 by the verified information supplied above.
 
 ## 4. Investigation Report and Recommendations
+
 ### Investigation
 ### Major Findings
 ### Key Recommendations / Lessons Learned
