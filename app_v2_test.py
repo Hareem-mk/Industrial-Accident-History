@@ -178,6 +178,27 @@ REQUIRED CASE STUDY STRUCTURE:
 
 # {accident}
 
+## Verified Accident Information
+
+Display ALL of the following verified fields exactly as supplied above:
+
+- Date
+- Location
+- Accident Type
+- Fatalities
+- Injuries
+- Investigation Agency
+- Investigation Report
+- Report Number
+- Report Date
+
+Do not omit any of these fields.
+
+IMPORTANT:
+Every item listed under VERIFIED FACTS must be incorporated into the
+case study in an appropriate section. Do not silently omit a verified fact.
+Do not change the meaning of a verified fact.
+
 ## 1. Type of Accident
 
 ## 2. What Went Wrong
