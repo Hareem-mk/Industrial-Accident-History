@@ -196,6 +196,85 @@ VERIFIED_ACCIDENT_DATA = {
         ]
     }
 
+,
+
+    "Chevron Richmond Refinery Fire (USA, 2012)": {
+
+        "schema_version": 2,
+
+        "metadata": {
+            "date": "6 August 2012",
+            "location": "Richmond, California, USA",
+            "type": "Refinery pipe rupture and fire",
+            "fatalities": 0,
+            "injuries":
+                "19 workers endangered by the vapor cloud; approximately "
+                "15,000 community members sought medical treatment",
+            "investigation_agency":
+                "U.S. Chemical Safety and Hazard Investigation Board (CSB)",
+            "report_title":
+                "Chevron Richmond Refinery Investigation Report",
+            "report_number":
+                "2012-03-I-CA",
+            "report_date":
+                "28 January 2015"
+        },
+
+        "event_sequence": [
+            "The incident occurred in the #4 Crude Unit at the Chevron Richmond Refinery.",
+            "A leak developed in the 4-sidecut piping.",
+            "The crude unit continued operating while personnel investigated the leak.",
+            "A severely thinned carbon steel piping component ruptured.",
+            "The pipe failure released hot flammable hydrocarbon process fluid.",
+            "A portion of the released hydrocarbon vaporized and formed a large flammable vapor cloud.",
+            "Nineteen Chevron employees were engulfed by the vapor cloud but escaped.",
+            "The released hydrocarbon ignited and produced a major refinery fire."
+        ],
+
+        "contributing_factors": [
+            "The failed piping component had experienced severe wall thinning caused by sulfidation corrosion.",
+            "The failed carbon steel piping component had low silicon content and was particularly susceptible to accelerated sulfidation corrosion.",
+            "Existing inspection practices did not adequately identify the highly corroded low-silicon piping component before failure.",
+            "Damage mechanism hazards associated with sulfidation corrosion were not adequately identified and evaluated.",
+            "The crude unit was not shut down when the initial leak was detected.",
+            "Opportunities to replace susceptible carbon steel piping with more corrosion-resistant material had not been effectively implemented."
+        ],
+
+        "system_causes": [
+            "The mechanical integrity program did not adequately control the risk from sulfidation corrosion in susceptible piping components.",
+            "The process hazard analysis approach did not adequately identify corrosion damage mechanisms as potential causes of loss of containment.",
+            "The refinery did not effectively apply inherently safer design principles to eliminate or reduce the sulfidation corrosion hazard.",
+            "Management systems did not ensure timely implementation of recommendations concerning susceptible piping and corrosion hazards."
+        ],
+
+        "consequences": [
+            "Nineteen Chevron employees were engulfed by the flammable vapor cloud but escaped without serious injury.",
+            "The hydrocarbon release ignited and resulted in a major refinery fire.",
+            "A large plume of combustion products traveled across the surrounding area.",
+            "Approximately 15,000 people from the surrounding community sought medical treatment in the weeks following the incident.",
+            "Approximately 20 people were admitted to hospitals for treatment."
+        ],
+
+        "investigation_findings": [
+            "The U.S. Chemical Safety Board investigated the pipe rupture and fire.",
+            "The pipe failure resulted from extreme wall thinning caused by sulfidation corrosion.",
+            "The CSB identified deficiencies in identifying and evaluating damage mechanism hazards.",
+            "The CSB identified missed opportunities to use inherently safer, more corrosion-resistant piping materials.",
+            "The CSB examined mechanical integrity practices and refinery process safety management requirements.",
+            "The CSB issued recommendations addressing damage mechanism hazard reviews, mechanical integrity, inherently safer design, industry standards, and regulatory oversight."
+        ],
+
+        "lessons": [
+            "Refinery piping circuits susceptible to sulfidation corrosion require systematic damage mechanism assessment.",
+            "Inspection programs must account for component-to-component variations in corrosion susceptibility, including low-silicon carbon steel components.",
+            "Material verification and appropriate inspection strategies are necessary where susceptible piping materials may be present.",
+            "More corrosion-resistant materials should be considered as an inherently safer means of controlling credible corrosion hazards.",
+            "Process hazard analysis should systematically consider applicable damage mechanisms and their potential loss-of-containment consequences.",
+            "A hydrocarbon leak from operating process equipment must trigger a conservative assessment of whether continued operation is safe.",
+            "Mechanical integrity recommendations involving safety-critical degradation must be tracked and completed in a timely manner."
+        ]
+    }
+
 }
 
 
