@@ -67,27 +67,74 @@ ACCIDENTS = {
 VERIFIED_ACCIDENT_DATA = {
 
     "BP Texas City Refinery Explosion (USA, 2005)": {
-        "date": "23 March 2005",
-        "location": "Texas City, Texas, USA",
-        "type": "Fire and explosion",
-        "fatalities": 15,
-        "injuries": 180,
 
-        "investigation_agency": "U.S. Chemical Safety Board (CSB)",
-        "report_title": "BP Texas City Final Investigation Report",
-        "report_number": "2005-04-I-TX",
-        "report_date": "March 2007",
+        "schema_version": 2,
 
-        "official_source": "https://www.csb.gov/bp-america-texas-city-refinery-explosion/",
-        "official_report": "https://www.csb.gov/assets/1/20/CSBFinalReportBP.pdf",
+        "metadata": {
+            "date": "23 March 2005",
+            "location": "Texas City, Texas, USA",
+            "type": "Refinery fire and explosions",
+            "fatalities": 15,
+            "injuries": 180,
+            "investigation_agency":
+                "U.S. Chemical Safety and Hazard Investigation Board (CSB)",
+            "report_title":
+                "BP Texas City Final Investigation Report",
+            "report_number":
+                "2005-04-I-TX",
+            "report_date":
+                "20 March 2007"
+        },
 
-        "verified_facts": [
+        "event_sequence": [
             "The incident occurred during startup of the ISOM unit.",
-            "The raffinate splitter tower became overfilled with hydrocarbons.",
-            "Pressure relief devices opened during the event.",
-            "Flammable liquid and vapor were released from an atmospheric blowdown stack.",
+            "The raffinate splitter tower became severely overfilled with hydrocarbons.",
+            "Pressure increased in the raffinate splitter tower.",
+            "Pressure relief valves opened and discharged hydrocarbons toward the blowdown system.",
+            "The blowdown drum and atmospheric vent stack were overwhelmed.",
+            "Flammable hydrocarbon liquid and vapor were released to the atmosphere.",
             "The released hydrocarbons formed a flammable vapor cloud that ignited.",
-            "Many victims were located in or around temporary work trailers near the process unit."
+            "The resulting explosions and fire caused multiple fatalities and injuries."
+        ],
+
+        "contributing_factors": [
+            "Key level instrumentation and alarms did not provide operators with reliable warning of the abnormal tower condition.",
+            "The raffinate splitter startup proceeded despite known problems with important level instrumentation.",
+            "Previous abnormal startups were not adequately investigated as near-miss events.",
+            "The atmospheric blowdown system provided an unsafe means of handling a major flammable hydrocarbon release.",
+            "Occupied temporary trailers were located too close to the hazardous process area."
+        ],
+
+        "system_causes": [
+            "Process safety management systems at the refinery were deficient.",
+            "Mechanical integrity and preventive maintenance deficiencies contributed to unsafe equipment conditions.",
+            "Management systems did not adequately identify and correct recurring abnormal startup conditions.",
+            "The refinery did not adequately address the hazards associated with the atmospheric blowdown system.",
+            "Organizational and safety deficiencies existed at multiple levels of the company."
+        ],
+
+        "consequences": [
+            "Fifteen workers were killed.",
+            "Approximately 180 people were injured.",
+            "Occupied temporary trailers near the process unit were severely damaged or destroyed.",
+            "The incident caused extensive physical damage at the refinery."
+        ],
+
+        "investigation_findings": [
+            "The U.S. Chemical Safety Board conducted a root-cause investigation of the accident.",
+            "The CSB identified organizational and safety deficiencies at multiple levels of BP.",
+            "The CSB identified unsafe trailer siting as an important factor that increased the severity of the consequences.",
+            "The CSB identified the atmospheric blowdown system as an unsafe design that should be replaced by safer alternatives.",
+            "The CSB issued recommendations addressing refinery process safety, corporate oversight, trailer siting, blowdown systems, and regulatory oversight."
+        ],
+
+        "lessons": [
+            "Startup is a safety-critical operating mode and requires strict control of process conditions and operating procedures.",
+            "Safety-critical instruments, alarms, and protective systems must be functional before startup.",
+            "Repeated abnormal operating events and near misses must be investigated and their causes corrected.",
+            "Atmospheric discharge of large quantities of flammable hydrocarbons should be eliminated in favor of appropriately engineered safer disposal systems.",
+            "Occupied temporary buildings and trailers must be located using appropriate process-hazard and facility-siting assessments.",
+            "Process safety performance requires effective management oversight, adequate resources, mechanical integrity, competent operations, and learning from previous incidents."
         ]
     },
 
