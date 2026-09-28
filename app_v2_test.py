@@ -275,6 +275,88 @@ VERIFIED_ACCIDENT_DATA = {
         ]
     }
 
+,
+
+    "Philadelphia Energy Solutions Refinery Fire and Explosions (USA, 2019)": {
+
+        "schema_version": 2,
+
+        "metadata": {
+            "date": "21 June 2019",
+            "location": "Philadelphia, Pennsylvania, USA",
+            "type": "Refinery fire and explosions following loss of containment",
+            "fatalities": 0,
+            "injuries":
+                "Five workers and one firefighter experienced minor injuries",
+            "investigation_agency":
+                "U.S. Chemical Safety and Hazard Investigation Board (CSB)",
+            "report_title":
+                "Fire and Explosions at Philadelphia Energy Solutions Refinery",
+            "report_number":
+                "2019-04-I-PA",
+            "report_date":
+                "11 October 2022"
+        },
+
+        "event_sequence": [
+            "The incident occurred in the hydrofluoric acid alkylation unit at the Philadelphia Energy Solutions refinery.",
+            "A pipe elbow in the alkylation unit ruptured after significant corrosion-related wall thinning.",
+            "Process fluid containing hydrocarbons and hydrofluoric acid was released.",
+            "The release formed a large flammable vapor cloud within the unit.",
+            "The flammable vapor cloud ignited and caused a large fire.",
+            "Three explosions subsequently occurred in the alkylation unit.",
+            "The largest explosion involved the violent rupture of the V-1 Treater Feed Surge Drum.",
+            "A large fragment from the ruptured vessel was propelled off-site across the Schuylkill River."
+        ],
+
+        "contributing_factors": [
+            "The failed pipe elbow experienced accelerated corrosion in hydrofluoric acid service.",
+            "The failed carbon steel elbow contained higher nickel and copper content than other piping in the unit, making it more susceptible to accelerated corrosion.",
+            "The thickness of the elbow that ultimately failed had not been directly monitored for corrosion.",
+            "The mechanical integrity program did not adequately identify and control the corrosion risk associated with the susceptible elbow.",
+            "Critical components used to remotely activate hydrofluoric acid mitigation water pumps were damaged by the fire and explosions.",
+            "Remotely operated emergency isolation capability was inadequate for rapidly isolating hazardous inventories during the incident."
+        ],
+
+        "system_causes": [
+            "The refinery mechanical integrity program did not adequately manage the corrosion hazard associated with hydrofluoric acid alkylation service.",
+            "Management systems did not adequately verify equipment safety when relevant recognized and generally accepted good engineering practice information changed or became available.",
+            "Safeguards important to hydrofluoric acid release mitigation were not sufficiently protected from fire and explosion hazards.",
+            "The facility and applicable industry practices did not provide adequate remotely operated emergency isolation capability for hazardous process inventories.",
+            "Existing requirements did not ensure systematic evaluation of inherently safer alternatives for hydrofluoric acid alkylation technology."
+        ],
+
+        "consequences": [
+            "Five workers and one firefighter experienced minor injuries.",
+            "Approximately 676,000 pounds of hydrocarbons were released.",
+            "More than 5,200 pounds of hydrofluoric acid were released.",
+            "The hydrofluoric acid alkylation unit was severely damaged.",
+            "The estimated property damage loss was approximately 750 million U.S. dollars.",
+            "A vessel fragment weighing approximately 38,000 pounds was propelled off-site across the Schuylkill River.",
+            "Philadelphia Energy Solutions subsequently announced that the refining complex would shut down."
+        ],
+
+        "investigation_findings": [
+            "The U.S. Chemical Safety Board investigated the fire and explosions.",
+            "The CSB determined that the pipe elbow failure resulted from corrosion-related wall thinning.",
+            "The CSB identified mechanical integrity as a major safety issue.",
+            "The CSB identified the need to verify equipment safety when new information or changes to recognized good engineering practices become available.",
+            "The CSB identified deficiencies in safeguard reliability in hydrofluoric acid alkylation service.",
+            "The CSB identified the need for remotely operated emergency isolation capability.",
+            "The CSB identified inherently safer design as an important safety issue for hydrofluoric acid alkylation technology."
+        ],
+
+        "lessons": [
+            "Mechanical integrity programs must identify and monitor individual components that may have greater susceptibility to corrosion than surrounding piping.",
+            "Material composition can significantly affect corrosion behavior and should be considered when managing hydrofluoric acid service piping.",
+            "Inspection strategies must ensure that susceptible fittings and components are directly assessed rather than relying only on nearby piping measurements.",
+            "Facilities must evaluate new or revised recognized and generally accepted good engineering practice information and determine whether existing equipment remains safe.",
+            "Critical mitigation safeguards and their control systems should be protected from credible fire and explosion hazards.",
+            "Hazardous process inventories should have effective emergency isolation capability that can be operated from a safe location where appropriate.",
+            "Facilities using highly hazardous chemicals should systematically evaluate practicable inherently safer technologies and alternatives."
+        ]
+    }
+
 }
 
 
