@@ -618,6 +618,107 @@ VERIFIED_ACCIDENT_DATA = {
              'competent field execution.',
              'Regulatory oversight must provide effective assurance that operators are controlling '
              'major well-integrity hazards.']}
+,
+
+'Alexander L. Kielland Offshore Platform Disaster (North Sea, 1980)': {'schema_version': 2,
+ 'metadata': {'date': '27 March 1980',
+              'location': 'Ekofisk area, Norwegian North Sea',
+              'type': 'Offshore structural failure, loss of stability and capsize',
+              'fatalities': 123,
+              'injuries': 'Not included in current verified dataset',
+              'investigation_agency': 'Norwegian Government Commission of Inquiry',
+              'report_title': 'Alexander L. Kielland-ulykken',
+              'report_number': 'NOU 1981:11',
+              'report_date': '1981'},
+ 'event_sequence': ['Alexander L. Kielland was operating as an accommodation platform in the '
+                    'Ekofisk area of the Norwegian North Sea.',
+                    'A fatigue crack had developed in structural brace D-6 at the attachment for a '
+                    'hydrophone support.',
+                    'The fatigue crack propagated until brace D-6 fractured.',
+                    'Following failure of D-6, five other braces connecting column D to the '
+                    'platform failed due to overload.',
+                    'Column D was lost from the platform structure.',
+                    'Loss of column D and its buoyancy caused the platform to develop a severe '
+                    'list of approximately 30 to 35 degrees.',
+                    'Water entered other columns and deck volumes through openings as the platform '
+                    'remained heavily listed.',
+                    "Progressive flooding further reduced the platform's stability and buoyancy.",
+                    'Alexander L. Kielland capsized approximately 20 minutes after the initial '
+                    'structural failure.'],
+ 'contributing_factors': ['The fatigue crack initiated in the area where a hydrophone support had '
+                          'been attached to brace D-6.',
+                          'The hydrophone-support attachment incorporated a low-quality fillet '
+                          'weld.',
+                          'The hydrophone-support detail created a significant stress '
+                          'concentration in the load-carrying brace.',
+                          'The fatigue crack propagated in the D-6 brace until structural fracture '
+                          'occurred.',
+                          'The remaining braces connected to column D were unable to withstand the '
+                          'redistributed loads after D-6 failed.',
+                          'Loss of column D caused a major loss of buoyancy and a severe platform '
+                          'list.',
+                          'Openings in the structure permitted progressive flooding after the '
+                          'platform developed the severe list.',
+                          'Severe weather, cold water and the rapid development of the accident '
+                          'complicated evacuation and rescue.'],
+ 'system_causes': ['Deficiencies associated with the design and fabrication of the '
+                   'hydrophone-support attachment contributed to fatigue-crack initiation.',
+                   'The structural arrangement lacked sufficient redundancy to prevent a local '
+                   'brace failure from escalating into loss of an entire column.',
+                   'Structural integrity arrangements did not prevent the fatigue crack from '
+                   'developing into a catastrophic structural failure.',
+                   'The accident demonstrated the need for stronger control of fatigue-critical '
+                   'structural details, welding quality and inspection.',
+                   'Emergency preparedness and lifesaving arrangements were inadequate for a '
+                   'rapidly developing capsize scenario.',
+                   'The accident exposed weaknesses in the offshore safety and regulatory '
+                   'framework that subsequently required significant improvement.'],
+ 'consequences': ['There were 212 people aboard Alexander L. Kielland when the accident occurred.',
+                  'One hundred and twenty-three people died.',
+                  'Eighty-nine people survived.',
+                  'The platform capsized approximately 20 minutes after the initial structural '
+                  'failure.',
+                  'Cold water, severe weather and the rapid capsize greatly complicated evacuation '
+                  'and rescue.',
+                  'The accident became a major turning point in Norwegian offshore safety.'],
+ 'investigation_findings': ['The Norwegian Government established a Commission of Inquiry '
+                            'following the accident.',
+                            'The Commission concluded that the triggering cause of the accident '
+                            'was fatigue fracture of structural brace D-6.',
+                            'The fatigue crack developed where a hydrophone support had been '
+                            'welded to brace D-6.',
+                            'The Commission linked development of the fatigue crack to '
+                            'deficiencies associated with planning and construction of the '
+                            'platform.',
+                            'Failure of D-6 caused overload failure of the remaining braces '
+                            'connecting column D to the platform.',
+                            'Loss of column D caused loss of buoyancy and severe listing.',
+                            'Flooding through openings contributed to the rapid loss of stability '
+                            'and capsize.',
+                            'The official investigation report was published as NOU 1981:11.',
+                            'A later review by the Norwegian Office of the Auditor General found '
+                            "broad support for the original Commission's conclusion that D-6 "
+                            'failed due to fatigue.'],
+ 'lessons': ['Fatigue-critical structural details require rigorous design assessment throughout '
+             'the operating life of an offshore installation.',
+             'Attachments welded to primary load-carrying members must be assessed for stress '
+             'concentration and fatigue effects.',
+             'Welding quality on safety-critical structural members requires effective fabrication '
+             'control and inspection.',
+             'Structural inspection programs must be capable of detecting fatigue cracking before '
+             'it develops into catastrophic fracture.',
+             'Offshore structures require adequate redundancy so that a local structural failure '
+             'does not readily escalate into global collapse.',
+             'Damage-stability assessments must consider progressive flooding following severe '
+             'structural damage and loss of buoyancy.',
+             'Openings that can contribute to progressive flooding require appropriate design and '
+             'control.',
+             'Emergency evacuation systems must remain usable during severe list, high waves and '
+             'rapidly developing structural emergencies.',
+             'Personnel require effective personal survival equipment appropriate for cold '
+             'offshore environments.',
+             'Major offshore accidents require integrated management of structural integrity, '
+             'emergency preparedness and regulatory assurance.']}
 }
 
 
