@@ -719,6 +719,193 @@ VERIFIED_ACCIDENT_DATA = {
              'offshore environments.',
              'Major offshore accidents require integrated management of structural integrity, '
              'emergency preparedness and regulatory assurance.']}
+,
+'Bhopal Gas Disaster (India, 1984)': {'schema_version': 2,
+                                       'metadata': {'date': 'Night of 2-3 December 1984',
+                                                    'location': 'Bhopal, Madhya Pradesh, India',
+                                                    'type': 'Major toxic chemical release '
+                                                            'following an uncontrolled exothermic '
+                                                            'reaction in methyl isocyanate storage',
+                                                    'fatalities': 'Reported fatality totals vary '
+                                                                  'by source and reporting period',
+                                                    'injuries': 'Large-scale acute exposure '
+                                                                'occurred; a single definitive '
+                                                                'injury count is not included in '
+                                                                'the current verified dataset',
+                                                    'investigation_agency': 'Multiple Indian '
+                                                                            'government, '
+                                                                            'scientific and '
+                                                                            'medical bodies',
+                                                    'report_title': 'Multiple official technical, '
+                                                                    'medical and governmental '
+                                                                    'reports',
+                                                    'report_number': None,
+                                                    'report_date': None},
+                                       'event_sequence': ['Methyl isocyanate (MIC) was stored at '
+                                                          'the Union Carbide India Limited '
+                                                          'pesticide plant in Bhopal.',
+                                                          'Water entered MIC storage tank 610.',
+                                                          'The water contamination initiated '
+                                                          'uncontrolled exothermic reactions in '
+                                                          'the MIC-containing tank.',
+                                                          'The reaction caused a rapid increase in '
+                                                          'temperature and pressure inside tank '
+                                                          '610.',
+                                                          'The increasing tank pressure resulted '
+                                                          'in discharge of toxic material through '
+                                                          'the pressure-relief and vent system.',
+                                                          'Available mitigation systems did not '
+                                                          'prevent the major toxic release from '
+                                                          'reaching the atmosphere.',
+                                                          'A toxic gas cloud dispersed beyond the '
+                                                          'plant boundary into surrounding '
+                                                          'populated areas.',
+                                                          'Large numbers of people in the '
+                                                          'surrounding community were exposed '
+                                                          'during the night of 2-3 December 1984.'],
+                                       'contributing_factors': ['A substantial inventory of '
+                                                                'hazardous methyl isocyanate was '
+                                                                'stored at the facility.',
+                                                                'The MIC refrigeration system was '
+                                                                'not providing its intended '
+                                                                'protective function at the time '
+                                                                'of the accident.',
+                                                                'The vent-gas scrubber did not '
+                                                                'provide effective control of the '
+                                                                'major release.',
+                                                                'The flare system was unavailable '
+                                                                'to provide its intended '
+                                                                'mitigation function during the '
+                                                                'incident.',
+                                                                'The combination of unavailable or '
+                                                                'ineffective safeguards allowed '
+                                                                'the consequences of the runaway '
+                                                                'reaction and toxic release to '
+                                                                'escalate.',
+                                                                'Emergency warning and '
+                                                                'community-protection arrangements '
+                                                                'were inadequate for a rapidly '
+                                                                'developing major toxic release.',
+                                                                'The plant was located close to '
+                                                                'densely populated communities, '
+                                                                'greatly increasing the potential '
+                                                                'consequences of an off-site toxic '
+                                                                'release.'],
+                                       'system_causes': ['Process-safety management arrangements '
+                                                         'did not adequately control the major '
+                                                         'hazards associated with storage of a '
+                                                         'large inventory of highly hazardous MIC.',
+                                                         'Safety-critical safeguards were not '
+                                                         'maintained in a condition that could '
+                                                         'reliably provide their intended '
+                                                         'protection.',
+                                                         'Management of hazardous chemical '
+                                                         'inventory and storage conditions was '
+                                                         'inadequate for the potential severity of '
+                                                         'an MIC release.',
+                                                         'Emergency preparedness was insufficient '
+                                                         'for a major off-site toxic-release '
+                                                         'scenario.',
+                                                         'Community warning, communication and '
+                                                         'protective arrangements were inadequate '
+                                                         'for the surrounding population.',
+                                                         'The accident demonstrated major '
+                                                         'weaknesses in management of process '
+                                                         'safety, maintenance, emergency '
+                                                         'preparedness and major-hazard risk '
+                                                         'control.'],
+                                       'consequences': ['A large toxic release affected '
+                                                        'communities surrounding the Bhopal '
+                                                        'pesticide plant.',
+                                                        'Thousands of people died, although '
+                                                        'reported fatality totals vary '
+                                                        'substantially depending on the source and '
+                                                        'the period over which deaths are counted.',
+                                                        'Large numbers of people experienced acute '
+                                                        'toxic exposure and required medical '
+                                                        'attention.',
+                                                        'Survivors experienced significant '
+                                                        'respiratory, ocular and other health '
+                                                        'effects.',
+                                                        'Long-term health consequences were '
+                                                        'documented among exposed populations.',
+                                                        'The accident produced severe social, '
+                                                        'environmental, medical and economic '
+                                                        'consequences for the affected community.',
+                                                        'Bhopal became one of the most '
+                                                        'consequential industrial chemical '
+                                                        'disasters in history.'],
+                                       'investigation_findings': ['Official, scientific and '
+                                                                  'medical investigations examined '
+                                                                  'the causes and consequences of '
+                                                                  'the Bhopal disaster.',
+                                                                  'Water contamination of MIC '
+                                                                  'storage tank 610 was central to '
+                                                                  'initiation of the uncontrolled '
+                                                                  'chemical reaction.',
+                                                                  'The reaction generated a rapid '
+                                                                  'increase in temperature and '
+                                                                  'pressure in the MIC storage '
+                                                                  'system.',
+                                                                  'The pressure-relief and vent '
+                                                                  'system provided a release path '
+                                                                  'for toxic material from the '
+                                                                  'pressurized tank.',
+                                                                  'Protective and mitigation '
+                                                                  'systems did not prevent the '
+                                                                  'major toxic release from '
+                                                                  'reaching the surrounding '
+                                                                  'community.',
+                                                                  'The disaster demonstrated '
+                                                                  'serious deficiencies in '
+                                                                  'major-hazard prevention, '
+                                                                  'safety-system availability and '
+                                                                  'emergency preparedness.',
+                                                                  'Medical investigations '
+                                                                  'documented extensive acute and '
+                                                                  'long-term health consequences '
+                                                                  'among exposed populations.',
+                                                                  'The precise route by which '
+                                                                  'water entered tank 610 has been '
+                                                                  'disputed in published accounts '
+                                                                  'and is not asserted as '
+                                                                  'conclusively established in '
+                                                                  'this verified dataset.'],
+                                       'lessons': ['Highly hazardous chemical inventories should '
+                                                   'be minimized where practicable to reduce '
+                                                   'major-accident potential.',
+                                                   'Reactive chemical storage requires strict '
+                                                   'prevention of contamination by incompatible '
+                                                   'materials such as water.',
+                                                   'Safety-critical temperature, pressure and '
+                                                   'containment conditions must be continuously '
+                                                   'controlled and monitored.',
+                                                   'Safety-critical refrigeration and other '
+                                                   'preventive safeguards must remain available '
+                                                   'and reliable when required by the '
+                                                   'process-safety design.',
+                                                   'Vent-gas treatment and flare systems must be '
+                                                   'designed, maintained and available for '
+                                                   'credible major-release scenarios.',
+                                                   'Multiple independent protection layers are '
+                                                   'required for highly hazardous chemical storage '
+                                                   'and processing.',
+                                                   'Management of change must evaluate the '
+                                                   'process-safety consequences of disabling, '
+                                                   'reducing or altering safety-critical systems.',
+                                                   'Major-hazard facilities require effective '
+                                                   'mechanical-integrity, inspection and '
+                                                   'maintenance programs.',
+                                                   'Emergency planning must address credible '
+                                                   'off-site toxic releases and provide rapid '
+                                                   'warning to potentially affected communities.',
+                                                   'Communities surrounding major-hazard '
+                                                   'facilities require appropriate hazard '
+                                                   'communication and emergency-response '
+                                                   'arrangements.',
+                                                   'Process-safety decisions must consider both '
+                                                   'the probability of an initiating event and the '
+                                                   'potential severity of off-site consequences.']}
 }
 
 
