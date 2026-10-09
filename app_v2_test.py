@@ -11,6 +11,28 @@ st.set_page_config(
     layout="wide"
 )
 
+
+st.markdown(
+    """
+    <div class="mku-label">
+        MKU
+    </div>
+
+    <style>
+    .mku-label {
+        position: fixed;
+        top: 0.8rem;
+        right: 1.2rem;
+        z-index: 9999;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # ---------------------------------------------------------
 # ACCIDENT DATABASE
 # ---------------------------------------------------------
