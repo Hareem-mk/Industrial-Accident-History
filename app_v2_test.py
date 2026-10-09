@@ -906,6 +906,305 @@ VERIFIED_ACCIDENT_DATA = {
                                                    'Process-safety decisions must consider both '
                                                    'the probability of an initiating event and the '
                                                    'potential severity of off-site consequences.']}
+,
+'Flixborough Chemical Plant Explosion (UK, 1974)': {'schema_version': 2,
+                                                     'metadata': {'date': '1 June 1974',
+                                                                  'location': 'Flixborough, '
+                                                                              'England, United '
+                                                                              'Kingdom',
+                                                                  'type': 'Major loss of '
+                                                                          'containment of '
+                                                                          'cyclohexane followed by '
+                                                                          'a flammable vapour '
+                                                                          'cloud explosion and '
+                                                                          'fires',
+                                                                  'fatalities': '28 workers',
+                                                                  'injuries': '36 people were '
+                                                                              'injured on site and '
+                                                                              '53 injuries were '
+                                                                              'reported off site',
+                                                                  'investigation_agency': 'Court '
+                                                                                          'of '
+                                                                                          'Inquiry '
+                                                                                          'appointed '
+                                                                                          'following '
+                                                                                          'the '
+                                                                                          'Flixborough '
+                                                                                          'disaster',
+                                                                  'report_title': 'The Flixborough '
+                                                                                  'Disaster: '
+                                                                                  'Report of the '
+                                                                                  'Court of '
+                                                                                  'Inquiry',
+                                                                  'report_number': None,
+                                                                  'report_date': '1975'},
+                                                     'event_sequence': ['A crack was discovered in '
+                                                                        'reactor No. 5 in March '
+                                                                        '1974, and the reactor was '
+                                                                        'removed from service.',
+                                                                        'To permit continued '
+                                                                        'operation, a temporary '
+                                                                        'bypass assembly was '
+                                                                        'installed between '
+                                                                        'reactors No. 4 and No. 6.',
+                                                                        'The temporary bypass '
+                                                                        'incorporated '
+                                                                        'large-diameter pipework '
+                                                                        'and bellows and did not '
+                                                                        'receive adequate '
+                                                                        'engineering design '
+                                                                        'assessment.',
+                                                                        'On 1 June 1974, a major '
+                                                                        'loss of containment '
+                                                                        'occurred involving the '
+                                                                        'temporary bypass system.',
+                                                                        'A large quantity of hot '
+                                                                        'cyclohexane was released '
+                                                                        'from the process.',
+                                                                        'The released cyclohexane '
+                                                                        'formed a large flammable '
+                                                                        'vapour cloud.',
+                                                                        'The vapour cloud '
+                                                                        'encountered an ignition '
+                                                                        'source.',
+                                                                        'A major vapour cloud '
+                                                                        'explosion occurred, '
+                                                                        'followed by extensive '
+                                                                        'fires.',
+                                                                        'The explosion caused '
+                                                                        'severe destruction within '
+                                                                        'the plant and damage '
+                                                                        'beyond the site '
+                                                                        'boundary.'],
+                                                     'contributing_factors': ['The temporary '
+                                                                              'bypass modification '
+                                                                              'was introduced '
+                                                                              'following removal '
+                                                                              'of reactor No. 5.',
+                                                                              'The bypass '
+                                                                              'arrangement did not '
+                                                                              'receive adequate '
+                                                                              'mechanical-design '
+                                                                              'assessment for the '
+                                                                              'loads and movements '
+                                                                              'that could occur in '
+                                                                              'service.',
+                                                                              'The modification '
+                                                                              'was implemented '
+                                                                              'without a complete '
+                                                                              'engineered design '
+                                                                              'and associated '
+                                                                              'drawing.',
+                                                                              'The installed '
+                                                                              'bypass was not '
+                                                                              'subjected to an '
+                                                                              'appropriate '
+                                                                              'pressure test '
+                                                                              'before operation.',
+                                                                              'The use and '
+                                                                              'arrangement of '
+                                                                              'bellows in the '
+                                                                              'temporary bypass '
+                                                                              'introduced '
+                                                                              'mechanical-integrity '
+                                                                              'concerns that were '
+                                                                              'not adequately '
+                                                                              'assessed.',
+                                                                              'The facility '
+                                                                              'contained a '
+                                                                              'substantial '
+                                                                              'inventory of '
+                                                                              'flammable process '
+                                                                              'material capable of '
+                                                                              'producing severe '
+                                                                              'consequences '
+                                                                              'following loss of '
+                                                                              'containment.',
+                                                                              'Plant layout and '
+                                                                              'occupied-building '
+                                                                              'vulnerability '
+                                                                              'increased the '
+                                                                              'potential '
+                                                                              'consequences of a '
+                                                                              'major explosion.'],
+                                                     'system_causes': ['Management controls for '
+                                                                       'temporary plant '
+                                                                       'modifications were '
+                                                                       'inadequate.',
+                                                                       'Engineering design '
+                                                                       'assurance for the bypass '
+                                                                       'modification was '
+                                                                       'insufficient.',
+                                                                       'The modification was '
+                                                                       'undertaken without '
+                                                                       'adequate involvement of '
+                                                                       'personnel with appropriate '
+                                                                       'mechanical-engineering '
+                                                                       'competence for the design '
+                                                                       'problem.',
+                                                                       'Mechanical-integrity '
+                                                                       'requirements for the '
+                                                                       'temporary modification '
+                                                                       'were not adequately '
+                                                                       'demonstrated before '
+                                                                       'startup.',
+                                                                       'Major-accident hazards '
+                                                                       'associated with a large '
+                                                                       'cyclohexane release and '
+                                                                       'vapour cloud explosion '
+                                                                       'were not adequately '
+                                                                       'addressed.',
+                                                                       'Plant layout and '
+                                                                       'occupied-building '
+                                                                       'protection did not '
+                                                                       'adequately account for the '
+                                                                       'consequences of a major '
+                                                                       'explosion.'],
+                                                     'consequences': ['Twenty-eight workers were '
+                                                                      'killed.',
+                                                                      'Thirty-six people were '
+                                                                      'injured on site.',
+                                                                      'Fifty-three injuries were '
+                                                                      'reported off site.',
+                                                                      'The explosion and '
+                                                                      'subsequent fires caused '
+                                                                      'extensive destruction '
+                                                                      'within the plant.',
+                                                                      'Buildings and property '
+                                                                      'outside the plant boundary '
+                                                                      'were damaged.',
+                                                                      'The accident demonstrated '
+                                                                      'the catastrophic potential '
+                                                                      'of a large flammable '
+                                                                      'hydrocarbon release and '
+                                                                      'vapour cloud explosion.',
+                                                                      'The disaster became a major '
+                                                                      'reference case for '
+                                                                      'process-safety regulation '
+                                                                      'and management of plant '
+                                                                      'modifications.'],
+                                                     'investigation_findings': ['The Court of '
+                                                                                'Inquiry '
+                                                                                'investigated the '
+                                                                                'Flixborough '
+                                                                                'disaster and '
+                                                                                'reported in 1975.',
+                                                                                'The temporary '
+                                                                                'bypass installed '
+                                                                                'after removal of '
+                                                                                'reactor No. 5 was '
+                                                                                'central to the '
+                                                                                'investigation of '
+                                                                                'the major loss of '
+                                                                                'containment.',
+                                                                                'The bypass '
+                                                                                'modification had '
+                                                                                'not been '
+                                                                                'supported by '
+                                                                                'adequate '
+                                                                                'engineering '
+                                                                                'design '
+                                                                                'calculations and '
+                                                                                'assessment.',
+                                                                                'A complete '
+                                                                                'engineering '
+                                                                                'drawing of the '
+                                                                                'proposed '
+                                                                                'modification had '
+                                                                                'not been '
+                                                                                'prepared.',
+                                                                                'The installed '
+                                                                                'bypass had not '
+                                                                                'been '
+                                                                                'appropriately '
+                                                                                'pressure tested '
+                                                                                'before operation.',
+                                                                                'The mechanical '
+                                                                                'behaviour of the '
+                                                                                'bypass pipework '
+                                                                                'and bellows had '
+                                                                                'not been '
+                                                                                'adequately '
+                                                                                'evaluated.',
+                                                                                'The inquiry '
+                                                                                'identified '
+                                                                                'important '
+                                                                                'weaknesses in the '
+                                                                                'control and '
+                                                                                'engineering '
+                                                                                'assessment of '
+                                                                                'plant '
+                                                                                'modifications.',
+                                                                                'The disaster '
+                                                                                'demonstrated the '
+                                                                                'need to consider '
+                                                                                'major fire and '
+                                                                                'explosion '
+                                                                                'consequences in '
+                                                                                'plant layout and '
+                                                                                'occupied-building '
+                                                                                'design.',
+                                                                                'The precise '
+                                                                                'circumstances '
+                                                                                'leading to '
+                                                                                'failure of the '
+                                                                                'bypass system '
+                                                                                'have been subject '
+                                                                                'to technical '
+                                                                                'discussion, and '
+                                                                                'unsupported '
+                                                                                'details should '
+                                                                                'not be presented '
+                                                                                'as conclusively '
+                                                                                'established.'],
+                                                     'lessons': ['Temporary process modifications '
+                                                                 'require the same disciplined '
+                                                                 'engineering control as permanent '
+                                                                 'modifications.',
+                                                                 'A formal Management of Change '
+                                                                 'process should assess '
+                                                                 'process-safety consequences '
+                                                                 'before a modification is '
+                                                                 'implemented.',
+                                                                 'Temporary pipework must be '
+                                                                 'supported by appropriate '
+                                                                 'mechanical-design calculations, '
+                                                                 'drawings and engineering review.',
+                                                                 'Expansion joints and bellows '
+                                                                 'require careful assessment of '
+                                                                 'pressure thrust, piping loads, '
+                                                                 'movement and structural '
+                                                                 'restraint.',
+                                                                 'Safety-critical temporary '
+                                                                 'modifications require '
+                                                                 'appropriate inspection and '
+                                                                 'testing before startup.',
+                                                                 'Personnel approving '
+                                                                 'modifications must have '
+                                                                 'competence appropriate to the '
+                                                                 'engineering disciplines '
+                                                                 'involved.',
+                                                                 'Major-hazard assessments must '
+                                                                 'consider credible large releases '
+                                                                 'of flammable process material.',
+                                                                 'Plant layout should reduce '
+                                                                 'escalation and limit exposure of '
+                                                                 'personnel to major fire and '
+                                                                 'explosion hazards.',
+                                                                 'Occupied buildings and control '
+                                                                 'rooms should be located and '
+                                                                 'designed with credible explosion '
+                                                                 'hazards in mind.',
+                                                                 'Large inventories of flammable '
+                                                                 'material require multiple '
+                                                                 'independent layers of prevention '
+                                                                 'and mitigation.',
+                                                                 'Lessons from temporary '
+                                                                 'modifications should be '
+                                                                 'incorporated into operating '
+                                                                 'procedures, mechanical-integrity '
+                                                                 'programs and process-safety '
+                                                                 'management systems.']}
 }
 
 
