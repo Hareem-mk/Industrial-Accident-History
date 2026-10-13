@@ -83,663 +83,2862 @@ ACCIDENTS = {
 # The accident names must exactly match the names used in
 # the ACCIDENTS dropdown database.
 
-VERIFIED_ACCIDENT_DATA = {
-
-    "BP Texas City Refinery Explosion (USA, 2005)": {
-
-        "schema_version": 2,
-
-        "metadata": {
-            "date": "23 March 2005",
-            "location": "Texas City, Texas, USA",
-            "type": "Refinery fire and explosions",
-            "fatalities": 15,
-            "injuries": 180,
-            "investigation_agency":
-                "U.S. Chemical Safety and Hazard Investigation Board (CSB)",
-            "report_title":
-                "BP Texas City Final Investigation Report",
-            "report_number":
-                "2005-04-I-TX",
-            "report_date":
-                "20 March 2007"
-        },
-
-        "event_sequence": [
-            "The incident occurred during startup of the ISOM unit.",
-            "The raffinate splitter tower became severely overfilled with hydrocarbons.",
-            "Pressure increased in the raffinate splitter tower.",
-            "Pressure relief valves opened and discharged hydrocarbons toward the blowdown system.",
-            "The blowdown drum and atmospheric vent stack were overwhelmed.",
-            "Flammable hydrocarbon liquid and vapor were released to the atmosphere.",
-            "The released hydrocarbons formed a flammable vapor cloud that ignited.",
-            "The resulting explosions and fire caused multiple fatalities and injuries."
-        ],
-
-        "contributing_factors": [
-            "Key level instrumentation and alarms did not provide operators with reliable warning of the abnormal tower condition.",
-            "The raffinate splitter startup proceeded despite known problems with important level instrumentation.",
-            "Previous abnormal startups were not adequately investigated as near-miss events.",
-            "The atmospheric blowdown system provided an unsafe means of handling a major flammable hydrocarbon release.",
-            "Occupied temporary trailers were located too close to the hazardous process area."
-        ],
-
-        "system_causes": [
-            "Process safety management systems at the refinery were deficient.",
-            "Mechanical integrity and preventive maintenance deficiencies contributed to unsafe equipment conditions.",
-            "Management systems did not adequately identify and correct recurring abnormal startup conditions.",
-            "The refinery did not adequately address the hazards associated with the atmospheric blowdown system.",
-            "Organizational and safety deficiencies existed at multiple levels of the company."
-        ],
-
-        "consequences": [
-            "Fifteen workers were killed.",
-            "Approximately 180 people were injured.",
-            "Occupied temporary trailers near the process unit were severely damaged or destroyed.",
-            "The incident caused extensive physical damage at the refinery."
-        ],
-
-        "investigation_findings": [
-            "The U.S. Chemical Safety Board conducted a root-cause investigation of the accident.",
-            "The CSB identified organizational and safety deficiencies at multiple levels of BP.",
-            "The CSB identified unsafe trailer siting as an important factor that increased the severity of the consequences.",
-            "The CSB identified the atmospheric blowdown system as an unsafe design that should be replaced by safer alternatives.",
-            "The CSB issued recommendations addressing refinery process safety, corporate oversight, trailer siting, blowdown systems, and regulatory oversight."
-        ],
-
-        "lessons": [
-            "Startup is a safety-critical operating mode and requires strict control of process conditions and operating procedures.",
-            "Safety-critical instruments, alarms, and protective systems must be functional before startup.",
-            "Repeated abnormal operating events and near misses must be investigated and their causes corrected.",
-            "Atmospheric discharge of large quantities of flammable hydrocarbons should be eliminated in favor of appropriately engineered safer disposal systems.",
-            "Occupied temporary buildings and trailers must be located using appropriate process-hazard and facility-siting assessments.",
-            "Process safety performance requires effective management oversight, adequate resources, mechanical integrity, competent operations, and learning from previous incidents."
-        ]
-    },
-
-    "Piper Alpha Offshore Platform Disaster (UK North Sea, 1988)": {
-
-        "schema_version": 2,
-
-        "metadata": {
-            "date": "6 July 1988",
-            "location": "UK North Sea",
-            "type": "Offshore fire and explosions",
-            "fatalities": 167,
-            "injuries": "Not included in current verified dataset",
-            "investigation_agency":
-                "UK Government Public Inquiry chaired by Lord Cullen",
-            "report_title":
-                "The Public Inquiry into the Piper Alpha Disaster",
-            "report_date": "1990"
-        },
-
-        "event_sequence": [
-            "Maintenance work was being carried out on process equipment before the accident.",
-            "Permit-to-work failures were important in the sequence of events leading to the disaster.",
-            "A hydrocarbon release occurred and ignited.",
-            "The event escalated into major fires and explosions.",
-            "The Piper Alpha offshore installation was destroyed."
-        ],
-
-        "contributing_factors": [
-            "Deficiencies existed in the permit-to-work system.",
-            "Information concerning maintenance work was not adequately communicated between relevant personnel.",
-            "The permit-to-work arrangements did not reliably ensure that process operating staff could readily identify equipment that was under maintenance and unavailable for operation.",
-            "Competence in the operation and supervision of the permit-to-work system was inadequate."
-        ],
-
-        "system_causes": [
-            "Management and control of the permit-to-work system were inadequate.",
-            "Maintenance and operations coordination was insufficient.",
-            "The management system did not provide sufficiently robust control of safety-critical maintenance information."
-        ],
-
-        "consequences": [
-            "The disaster resulted in 167 fatalities.",
-            "The Piper Alpha offshore production platform was destroyed."
-        ],
-
-        "investigation_findings": [
-            "The UK Government established a Public Inquiry chaired by Lord Cullen.",
-            "The inquiry examined the causes of the disaster and the offshore safety regime.",
-            "The Cullen Report resulted in major changes to offshore safety regulation and management in the UK."
-        ],
-
-        "lessons": [
-            "Permit-to-work systems must provide effective control and communication of safety-critical maintenance activities.",
-            "Shift handover must communicate equipment status and outstanding maintenance clearly.",
-            "Operations personnel must be able to identify equipment that is unavailable because of maintenance.",
-            "Personnel responsible for permit-to-work control require appropriate competence and supervision.",
-            "Major-hazard management should not depend on administrative controls alone."
-        ]
-    }
-
-,
-
-    "Chevron Richmond Refinery Fire (USA, 2012)": {
-
-        "schema_version": 2,
-
-        "metadata": {
-            "date": "6 August 2012",
-            "location": "Richmond, California, USA",
-            "type": "Refinery pipe rupture and fire",
-            "fatalities": 0,
-            "injuries":
-                "19 workers endangered by the vapor cloud; approximately "
-                "15,000 community members sought medical treatment",
-            "investigation_agency":
-                "U.S. Chemical Safety and Hazard Investigation Board (CSB)",
-            "report_title":
-                "Chevron Richmond Refinery Investigation Report",
-            "report_number":
-                "2012-03-I-CA",
-            "report_date":
-                "28 January 2015"
-        },
-
-        "event_sequence": [
-            "The incident occurred in the #4 Crude Unit at the Chevron Richmond Refinery.",
-            "A leak developed in the 4-sidecut piping.",
-            "The crude unit continued operating while personnel investigated the leak.",
-            "A severely thinned carbon steel piping component ruptured.",
-            "The pipe failure released hot flammable hydrocarbon process fluid.",
-            "A portion of the released hydrocarbon vaporized and formed a large flammable vapor cloud.",
-            "Nineteen Chevron employees were engulfed by the vapor cloud but escaped.",
-            "The released hydrocarbon ignited and produced a major refinery fire."
-        ],
-
-        "contributing_factors": [
-            "The failed piping component had experienced severe wall thinning caused by sulfidation corrosion.",
-            "The failed carbon steel piping component had low silicon content and was particularly susceptible to accelerated sulfidation corrosion.",
-            "Existing inspection practices did not adequately identify the highly corroded low-silicon piping component before failure.",
-            "Damage mechanism hazards associated with sulfidation corrosion were not adequately identified and evaluated.",
-            "The crude unit was not shut down when the initial leak was detected.",
-            "Opportunities to replace susceptible carbon steel piping with more corrosion-resistant material had not been effectively implemented."
-        ],
-
-        "system_causes": [
-            "The mechanical integrity program did not adequately control the risk from sulfidation corrosion in susceptible piping components.",
-            "The process hazard analysis approach did not adequately identify corrosion damage mechanisms as potential causes of loss of containment.",
-            "The refinery did not effectively apply inherently safer design principles to eliminate or reduce the sulfidation corrosion hazard.",
-            "Management systems did not ensure timely implementation of recommendations concerning susceptible piping and corrosion hazards."
-        ],
-
-        "consequences": [
-            "Nineteen Chevron employees were engulfed by the flammable vapor cloud but escaped without serious injury.",
-            "The hydrocarbon release ignited and resulted in a major refinery fire.",
-            "A large plume of combustion products traveled across the surrounding area.",
-            "Approximately 15,000 people from the surrounding community sought medical treatment in the weeks following the incident.",
-            "Approximately 20 people were admitted to hospitals for treatment."
-        ],
-
-        "investigation_findings": [
-            "The U.S. Chemical Safety Board investigated the pipe rupture and fire.",
-            "The pipe failure resulted from extreme wall thinning caused by sulfidation corrosion.",
-            "The CSB identified deficiencies in identifying and evaluating damage mechanism hazards.",
-            "The CSB identified missed opportunities to use inherently safer, more corrosion-resistant piping materials.",
-            "The CSB examined mechanical integrity practices and refinery process safety management requirements.",
-            "The CSB issued recommendations addressing damage mechanism hazard reviews, mechanical integrity, inherently safer design, industry standards, and regulatory oversight."
-        ],
-
-        "lessons": [
-            "Refinery piping circuits susceptible to sulfidation corrosion require systematic damage mechanism assessment.",
-            "Inspection programs must account for component-to-component variations in corrosion susceptibility, including low-silicon carbon steel components.",
-            "Material verification and appropriate inspection strategies are necessary where susceptible piping materials may be present.",
-            "More corrosion-resistant materials should be considered as an inherently safer means of controlling credible corrosion hazards.",
-            "Process hazard analysis should systematically consider applicable damage mechanisms and their potential loss-of-containment consequences.",
-            "A hydrocarbon leak from operating process equipment must trigger a conservative assessment of whether continued operation is safe.",
-            "Mechanical integrity recommendations involving safety-critical degradation must be tracked and completed in a timely manner."
-        ]
-    }
-
-,
-
-    "Philadelphia Energy Solutions Refinery Fire and Explosions (USA, 2019)": {
-
-        "schema_version": 2,
-
-        "metadata": {
-            "date": "21 June 2019",
-            "location": "Philadelphia, Pennsylvania, USA",
-            "type": "Refinery fire and explosions following loss of containment",
-            "fatalities": 0,
-            "injuries":
-                "Five workers and one firefighter experienced minor injuries",
-            "investigation_agency":
-                "U.S. Chemical Safety and Hazard Investigation Board (CSB)",
-            "report_title":
-                "Fire and Explosions at Philadelphia Energy Solutions Refinery",
-            "report_number":
-                "2019-04-I-PA",
-            "report_date":
-                "11 October 2022"
-        },
-
-        "event_sequence": [
-            "The incident occurred in the hydrofluoric acid alkylation unit at the Philadelphia Energy Solutions refinery.",
-            "A pipe elbow in the alkylation unit ruptured after significant corrosion-related wall thinning.",
-            "Process fluid containing hydrocarbons and hydrofluoric acid was released.",
-            "The release formed a large flammable vapor cloud within the unit.",
-            "The flammable vapor cloud ignited and caused a large fire.",
-            "Three explosions subsequently occurred in the alkylation unit.",
-            "The largest explosion involved the violent rupture of the V-1 Treater Feed Surge Drum.",
-            "A large fragment from the ruptured vessel was propelled off-site across the Schuylkill River."
-        ],
-
-        "contributing_factors": [
-            "The failed pipe elbow experienced accelerated corrosion in hydrofluoric acid service.",
-            "The failed carbon steel elbow contained higher nickel and copper content than other piping in the unit, making it more susceptible to accelerated corrosion.",
-            "The thickness of the elbow that ultimately failed had not been directly monitored for corrosion.",
-            "The mechanical integrity program did not adequately identify and control the corrosion risk associated with the susceptible elbow.",
-            "Critical components used to remotely activate hydrofluoric acid mitigation water pumps were damaged by the fire and explosions.",
-            "Remotely operated emergency isolation capability was inadequate for rapidly isolating hazardous inventories during the incident."
-        ],
-
-        "system_causes": [
-            "The refinery mechanical integrity program did not adequately manage the corrosion hazard associated with hydrofluoric acid alkylation service.",
-            "Management systems did not adequately verify equipment safety when relevant recognized and generally accepted good engineering practice information changed or became available.",
-            "Safeguards important to hydrofluoric acid release mitigation were not sufficiently protected from fire and explosion hazards.",
-            "The facility and applicable industry practices did not provide adequate remotely operated emergency isolation capability for hazardous process inventories.",
-            "Existing requirements did not ensure systematic evaluation of inherently safer alternatives for hydrofluoric acid alkylation technology."
-        ],
-
-        "consequences": [
-            "Five workers and one firefighter experienced minor injuries.",
-            "Approximately 676,000 pounds of hydrocarbons were released.",
-            "More than 5,200 pounds of hydrofluoric acid were released.",
-            "The hydrofluoric acid alkylation unit was severely damaged.",
-            "The estimated property damage loss was approximately 750 million U.S. dollars.",
-            "A vessel fragment weighing approximately 38,000 pounds was propelled off-site across the Schuylkill River.",
-            "Philadelphia Energy Solutions subsequently announced that the refining complex would shut down."
-        ],
-
-        "investigation_findings": [
-            "The U.S. Chemical Safety Board investigated the fire and explosions.",
-            "The CSB determined that the pipe elbow failure resulted from corrosion-related wall thinning.",
-            "The CSB identified mechanical integrity as a major safety issue.",
-            "The CSB identified the need to verify equipment safety when new information or changes to recognized good engineering practices become available.",
-            "The CSB identified deficiencies in safeguard reliability in hydrofluoric acid alkylation service.",
-            "The CSB identified the need for remotely operated emergency isolation capability.",
-            "The CSB identified inherently safer design as an important safety issue for hydrofluoric acid alkylation technology."
-        ],
-
-        "lessons": [
-            "Mechanical integrity programs must identify and monitor individual components that may have greater susceptibility to corrosion than surrounding piping.",
-            "Material composition can significantly affect corrosion behavior and should be considered when managing hydrofluoric acid service piping.",
-            "Inspection strategies must ensure that susceptible fittings and components are directly assessed rather than relying only on nearby piping measurements.",
-            "Facilities must evaluate new or revised recognized and generally accepted good engineering practice information and determine whether existing equipment remains safe.",
-            "Critical mitigation safeguards and their control systems should be protected from credible fire and explosion hazards.",
-            "Hazardous process inventories should have effective emergency isolation capability that can be operated from a safe location where appropriate.",
-            "Facilities using highly hazardous chemicals should systematically evaluate practicable inherently safer technologies and alternatives."
-        ]
-    }
-
-,
-
-    'Buncefield Oil Storage Depot Explosion and Fire (UK, 2005)': {'schema_version': 2,
- 'metadata': {'date': '11 December 2005',
-              'location': 'Hemel Hempstead, Hertfordshire, UK',
-              'type': 'Fuel storage tank overfill, vapor cloud explosion and major fire',
-              'fatalities': 0,
-              'injuries': 'More than 40 people were injured',
-              'investigation_agency': 'Buncefield Major Incident Investigation Board (MIIB), '
-                                      'supported by the HSE and Environment Agency',
-              'report_title': 'Buncefield Major Incident Investigation',
-              'report_number': None,
-              'report_date': 'Investigation reports issued in multiple stages'},
- 'event_sequence': ['The incident occurred at the Buncefield Oil Storage Depot in Hemel Hempstead.',
-                    'A gasoline storage tank continued filling and overfilled.',
-                    'Gasoline escaped from the overfilled tank.',
-                    'The sustained release generated a large flammable gasoline vapor cloud.',
-                    'The vapor cloud spread across the site and beyond the site boundary.',
-                    'The flammable vapor cloud ignited.',
-                    'A series of major explosions occurred.',
-                    'Large fires subsequently engulfed a significant proportion of the storage '
-                    'depot.'],
- 'contributing_factors': ['The tank filling operation was not stopped before the tank overfilled.',
-                          'The normal tank level measurement arrangements did not prevent the '
-                          'overfill.',
-                          'The independent high-level overfill protection did not successfully '
-                          'prevent the loss of containment.',
-                          'The overfill continued long enough to generate a very large flammable '
-                          'vapor cloud.',
-                          'The potential consequences of a large vapor cloud explosion at a fuel '
-                          'storage depot had not been adequately controlled.',
-                          'The incident demonstrated weaknesses in the reliability and management '
-                          'of safety-critical overfill protection systems.'],
- 'system_causes': ['Management of safety-critical tank level and overfill protection systems was '
-                   'inadequate.',
-                   'Arrangements for inspection, testing and maintenance of overfill protection '
-                   'required improvement.',
-                   'Process safety management did not adequately control the major-accident risk '
-                   'associated with tank overfilling.',
-                   'Major-hazard assessment and emergency planning needed to address severe vapor '
-                   'cloud explosions and multi-tank fires.',
-                   'Containment and emergency-response arrangements required strengthening for '
-                   'credible major fuel-storage incidents.'],
- 'consequences': ['There were no fatalities.',
-                  'More than 40 people were injured.',
-                  'A large proportion of the Buncefield storage depot was destroyed or severely '
-                  'damaged.',
-                  'Commercial and residential properties surrounding the depot sustained '
-                  'significant damage.',
-                  'A large surrounding area was evacuated on emergency-service advice.',
-                  'The fire continued for several days.',
-                  'Large quantities of smoke were released to the atmosphere.',
-                  'The incident caused major business interruption and wider economic '
-                  'consequences.'],
- 'investigation_findings': ['The Health and Safety Executive and Environment Agency investigated '
-                            'the incident.',
-                            'The Buncefield Major Incident Investigation Board published findings '
-                            'and recommendations arising from the incident.',
-                            'The investigation established tank overfilling as the initiating '
-                            'loss-of-containment event.',
-                            'The investigation highlighted the importance of reliable high-level '
-                            'overfill protection.',
-                            'Post-incident work established stronger expectations for overfill '
-                            'prevention and automatic shutdown systems.',
-                            'Recommendations addressed secondary and tertiary containment.',
-                            'Recommendations also addressed process safety leadership, emergency '
-                            'planning and major-hazard management.'],
- 'lessons': ['Bulk fuel storage tanks require reliable independent protection against overfilling.',
-             'Safety-critical level alarms, trips and shutdown systems require appropriate design, '
-             'installation, testing and maintenance.',
-             'Independent overfill protection should not depend on the same failure mechanisms as '
-             'normal level measurement and control.',
-             'Tank transfer operations require clear operating limits and effective response to '
-             'abnormal level conditions.',
-             'Major-hazard assessments for volatile fuels must consider the possibility of large '
-             'flammable vapor-cloud formation following sustained loss of containment.',
-             'Secondary and tertiary containment must be capable of limiting the environmental '
-             'consequences of major releases and firefighting operations.',
-             'Emergency plans for large fuel-storage facilities should consider severe vapor cloud '
-             'explosions and multi-tank fires.',
-             'Process safety leadership must ensure that safety-critical protective systems remain '
-             'effective throughout their operating life.']}
-,
-
-    'Deepwater Horizon / Macondo Blowout (Gulf of Mexico, 2010)': {'schema_version': 2,
- 'metadata': {'date': '20 April 2010',
-              'location': 'Macondo well, Gulf of Mexico',
-              'type': 'Offshore well blowout, explosions, fire and oil spill',
-              'fatalities': 11,
-              'injuries': '17 workers were seriously injured',
-              'investigation_agency': 'U.S. Chemical Safety Board (CSB), with separate '
-                                      'investigations also conducted by other U.S. authorities',
-              'report_title': 'Macondo Investigation Report',
-              'report_number': None,
-              'report_date': 'CSB investigation volumes issued in multiple stages'},
- 'event_sequence': ['The Deepwater Horizon was conducting temporary abandonment operations at the '
-                    'Macondo well.',
-                    'The cement barrier intended to isolate hydrocarbons from the wellbore did not '
-                    'provide an effective seal.',
-                    'A negative pressure test was interpreted as indicating that the well was '
-                    'adequately sealed.',
-                    'Hydrocarbons subsequently flowed into the well.',
-                    'The developing well-control event was not detected and controlled before '
-                    'hydrocarbons had traveled high in the well toward the rig.',
-                    'Oil and gas reached the Deepwater Horizon drilling rig.',
-                    'The hydrocarbon release resulted in explosions and a major fire.',
-                    'The blowout preventer did not ultimately seal the well.',
-                    'The Deepwater Horizon rig sank two days after the accident.',
-                    'Oil and gas continued flowing from the Macondo well into the Gulf of Mexico '
-                    'for 87 days.'],
- 'contributing_factors': ['The cement barrier did not successfully isolate the hydrocarbon-bearing '
-                          'formation.',
-                          'The negative pressure test did not identify that the well was not '
-                          'effectively sealed.',
-                          'There were no written procedures defining how to conduct the negative '
-                          'pressure test and no written criteria or safe limits for determining '
-                          'whether the test was successful.',
-                          'The developing influx was not detected and controlled sufficiently '
-                          'early.',
-                          'Major-accident hazard controls relied significantly on correct and '
-                          'timely manual intervention.',
-                          'The blowout preventer experienced failures that prevented it from '
-                          'reliably sealing the well during the emergency.'],
- 'system_causes': ['Management systems did not adequately control the major-accident risks '
-                   'associated with temporary abandonment and loss of well control.',
-                   'Safety management did not provide sufficiently robust control of '
-                   'safety-critical barriers.',
-                   'Management of change and hazard assessment arrangements did not adequately '
-                   'address changes associated with the temporary abandonment plan.',
-                   'Process safety performance management did not sufficiently emphasize '
-                   'major-accident prevention.',
-                   'Safety-critical BOP systems were not managed with sufficient assurance of '
-                   'emergency reliability.'],
- 'consequences': ['Eleven workers were killed.',
-                  'Seventeen workers were seriously injured.',
-                  'The Deepwater Horizon drilling rig was destroyed and sank two days after the '
-                  'accident.',
-                  'Oil and gas flowed uncontrolled from the Macondo well into the Gulf of Mexico '
-                  'for 87 days.',
-                  'The incident resulted in a major offshore environmental disaster.'],
- 'investigation_findings': ['The U.S. Chemical Safety Board conducted a major process-safety '
-                            'investigation of the Macondo blowout and explosion.',
-                            'The CSB investigation examined failures of physical, operational and '
-                            'organizational safety barriers.',
-                            'The CSB examined the failure of the blowout preventer as a '
-                            'safety-critical barrier.',
-                            'The CSB identified deficiencies in management of safety-critical '
-                            'equipment and major-accident risk.',
-                            'The CSB examined weaknesses in process safety performance indicators '
-                            'and hazard assessment.',
-                            'The CSB investigation was published through multiple report volumes '
-                            'addressing technical, regulatory and organizational issues.'],
- 'lessons': ['Well integrity requires multiple effective and independently verified barriers '
-             'against uncontrolled hydrocarbon flow.',
-             'Negative pressure tests require clear procedures, acceptance criteria and competent '
-             'interpretation.',
-             'Early detection and response to well influx are critical to preventing escalation to '
-             'a blowout.',
-             'Safety-critical blowout prevention equipment must be capable of performing its '
-             'required emergency functions under credible accident conditions.',
-             'Testing and maintenance programs must identify latent failures in emergency safety '
-             'systems.',
-             'Major-accident hazard assessments should not rely excessively on timely human '
-             'intervention as the principal protective layer.',
-             'Management of change must evaluate safety implications of changes to well plans and '
-             'temporary abandonment activities.',
-             'Process safety indicators should measure the health of major-accident prevention '
-             'barriers, not only personal safety performance.']}
-,
-
-    'Montara Wellhead Platform Blowout (Timor Sea, 2009)': {'schema_version': 2,
- 'metadata': {'date': '21 August 2009',
-              'location': 'Montara oil field, Timor Sea, Australia',
-              'type': 'Offshore well blowout and uncontrolled oil and gas release',
-              'fatalities': 0,
-              'injuries': 'Not included in current verified dataset',
-              'investigation_agency': 'Australian Government Montara Commission of Inquiry',
-              'report_title': 'Report of the Montara Commission of Inquiry',
-              'report_number': None,
-              'report_date': 'June 2010'},
- 'event_sequence': ['Problems occurred during cementing of the 9 5/8-inch casing shoe in the H1 '
-                    'well.',
-                    'The cemented casing shoe was likely compromised and did not provide a '
-                    'reliable primary well-control barrier.',
-                    'The 9 5/8-inch cemented casing shoe was not adequately pressure-tested to '
-                    'verify its integrity.',
-                    'Secondary well-control barriers were also inadequate, missing or not properly '
-                    'verified.',
-                    'The 9 5/8-inch pressure-containing anti-corrosion cap was removed and was not '
-                    'reinstalled before subsequent operations.',
-                    'The H1 well was therefore left relying on an unverified primary well-control '
-                    'barrier.',
-                    'Hydrocarbons entered the H1 well through the failed 9 5/8-inch cemented '
-                    'casing shoe.',
-                    'Hydrocarbons flowed up the well and an uncontrolled blowout developed.',
-                    'Oil and gas were released from the Montara well into the Timor Sea.',
-                    'The uncontrolled flow was stopped on 3 November 2009 after intervention '
-                    'through a relief well.'],
- 'contributing_factors': ['Significant problems occurred during the original cementing operation.',
-                          'The cement in the casing shoe was likely compromised by substantial '
-                          'over-displacement of fluid, resulting in a wet shoe.',
-                          'The significance of the cementing problems was not adequately '
-                          'recognized and evaluated.',
-                          'The primary cemented casing-shoe barrier was not properly '
-                          'pressure-tested after the cementing problems.',
-                          'Only one of the two planned pressure-containing anti-corrosion caps was '
-                          'installed.',
-                          'The installed pressure-containing anti-corrosion cap was not adequately '
-                          'tested and verified in situ.',
-                          'The installed 9 5/8-inch pressure-containing anti-corrosion cap was '
-                          'later removed without establishing a verified replacement barrier.'],
- 'system_causes': ["PTTEP Australasia's well-control practices and procedures were deficient.",
-                   'Management systems did not ensure that safety-critical well barriers were '
-                   'properly installed, verified and maintained.',
-                   'Information indicating serious cementing problems was not adequately '
-                   'recognized or acted upon by responsible personnel.',
-                   "Well construction activities did not consistently comply with the company's "
-                   'own Well Construction Standards.',
-                   "The company's procedural and operational shortcomings were widespread and "
-                   'systemic.',
-                   'Regulatory oversight of the Montara well activities was not sufficiently '
-                   'diligent.'],
- 'consequences': ['There were no fatalities during the initial blowout and evacuation.',
-                  'All 69 personnel on the West Atlas drilling rig and Montara wellhead platform '
-                  'were safely evacuated.',
-                  'Oil and gas were released uncontrollably into the Timor Sea.',
-                  'The uncontrolled release continued from 21 August until 3 November 2009.',
-                  'The incident required a major offshore oil-spill response.',
-                  'The remote location and limitations in baseline and monitoring information made '
-                  'the full environmental consequences difficult to determine.'],
- 'investigation_findings': ['The Australian Government established the Montara Commission of '
-                            'Inquiry to investigate the incident.',
-                            'The Inquiry found that hydrocarbons most likely entered the H1 well '
-                            'through the 9 5/8-inch cemented casing shoe.',
-                            'The Inquiry found that the 9 5/8-inch cemented casing shoe, the '
-                            'primary well-control barrier, failed.',
-                            'The Inquiry found that the primary barrier had not been adequately '
-                            'pressure-tested despite significant problems during cementing.',
-                            'The Inquiry identified deficiencies in the installation and '
-                            'verification of secondary well-control barriers.',
-                            'The Inquiry found widespread and systemic shortcomings in PTTEP '
-                            "Australasia's procedures and practices.",
-                            'The Inquiry also identified deficiencies in regulatory oversight.',
-                            'The Montara Commission of Inquiry made 105 recommendations.'],
- 'lessons': ['Every safety-critical well barrier must be positively verified before it is relied '
-             'upon for well control.',
-             'Abnormal cementing results must trigger formal evaluation, pressure testing and '
-             'appropriate remedial action.',
-             'A well should not be left dependent on an unverified primary barrier.',
-             'Secondary well-control barriers must be suitable for their intended safety function '
-             'and independently verified.',
-             'Removal of a verified well barrier requires confirmation that adequate alternative '
-             'barriers are established.',
-             'Well-construction records and abnormal operating information must be reviewed by '
-             'competent personnel who understand their process-safety significance.',
-             'Well-control procedures must comply with approved well-construction standards and '
-             'established good oilfield practice.',
-             'Major-accident prevention requires effective organizational assurance as well as '
-             'competent field execution.',
-             'Regulatory oversight must provide effective assurance that operators are controlling '
-             'major well-integrity hazards.']}
-,
-
-'Alexander L. Kielland Offshore Platform Disaster (North Sea, 1980)': {'schema_version': 2,
- 'metadata': {'date': '27 March 1980',
-              'location': 'Ekofisk area, Norwegian North Sea',
-              'type': 'Offshore structural failure, loss of stability and capsize',
-              'fatalities': 123,
-              'injuries': 'Not included in current verified dataset',
-              'investigation_agency': 'Norwegian Government Commission of Inquiry',
-              'report_title': 'Alexander L. Kielland-ulykken',
-              'report_number': 'NOU 1981:11',
-              'report_date': '1981'},
- 'event_sequence': ['Alexander L. Kielland was operating as an accommodation platform in the '
-                    'Ekofisk area of the Norwegian North Sea.',
-                    'A fatigue crack had developed in structural brace D-6 at the attachment for a '
-                    'hydrophone support.',
-                    'The fatigue crack propagated until brace D-6 fractured.',
-                    'Following failure of D-6, five other braces connecting column D to the '
-                    'platform failed due to overload.',
-                    'Column D was lost from the platform structure.',
-                    'Loss of column D and its buoyancy caused the platform to develop a severe '
-                    'list of approximately 30 to 35 degrees.',
-                    'Water entered other columns and deck volumes through openings as the platform '
-                    'remained heavily listed.',
-                    "Progressive flooding further reduced the platform's stability and buoyancy.",
-                    'Alexander L. Kielland capsized approximately 20 minutes after the initial '
-                    'structural failure.'],
- 'contributing_factors': ['The fatigue crack initiated in the area where a hydrophone support had '
-                          'been attached to brace D-6.',
-                          'The hydrophone-support attachment incorporated a low-quality fillet '
-                          'weld.',
-                          'The hydrophone-support detail created a significant stress '
-                          'concentration in the load-carrying brace.',
-                          'The fatigue crack propagated in the D-6 brace until structural fracture '
-                          'occurred.',
-                          'The remaining braces connected to column D were unable to withstand the '
-                          'redistributed loads after D-6 failed.',
-                          'Loss of column D caused a major loss of buoyancy and a severe platform '
-                          'list.',
-                          'Openings in the structure permitted progressive flooding after the '
-                          'platform developed the severe list.',
-                          'Severe weather, cold water and the rapid development of the accident '
-                          'complicated evacuation and rescue.'],
- 'system_causes': ['Deficiencies associated with the design and fabrication of the '
-                   'hydrophone-support attachment contributed to fatigue-crack initiation.',
-                   'The structural arrangement lacked sufficient redundancy to prevent a local '
-                   'brace failure from escalating into loss of an entire column.',
-                   'Structural integrity arrangements did not prevent the fatigue crack from '
-                   'developing into a catastrophic structural failure.',
-                   'The accident demonstrated the need for stronger control of fatigue-critical '
-                   'structural details, welding quality and inspection.',
-                   'Emergency preparedness and lifesaving arrangements were inadequate for a '
-                   'rapidly developing capsize scenario.',
-                   'The accident exposed weaknesses in the offshore safety and regulatory '
-                   'framework that subsequently required significant improvement.'],
- 'consequences': ['There were 212 people aboard Alexander L. Kielland when the accident occurred.',
-                  'One hundred and twenty-three people died.',
-                  'Eighty-nine people survived.',
-                  'The platform capsized approximately 20 minutes after the initial structural '
-                  'failure.',
-                  'Cold water, severe weather and the rapid capsize greatly complicated evacuation '
-                  'and rescue.',
-                  'The accident became a major turning point in Norwegian offshore safety.'],
- 'investigation_findings': ['The Norwegian Government established a Commission of Inquiry '
-                            'following the accident.',
-                            'The Commission concluded that the triggering cause of the accident '
-                            'was fatigue fracture of structural brace D-6.',
-                            'The fatigue crack developed where a hydrophone support had been '
-                            'welded to brace D-6.',
-                            'The Commission linked development of the fatigue crack to '
-                            'deficiencies associated with planning and construction of the '
-                            'platform.',
-                            'Failure of D-6 caused overload failure of the remaining braces '
-                            'connecting column D to the platform.',
-                            'Loss of column D caused loss of buoyancy and severe listing.',
-                            'Flooding through openings contributed to the rapid loss of stability '
-                            'and capsize.',
-                            'The official investigation report was published as NOU 1981:11.',
-                            'A later review by the Norwegian Office of the Auditor General found '
-                            "broad support for the original Commission's conclusion that D-6 "
-                            'failed due to fatigue.'],
- 'lessons': ['Fatigue-critical structural details require rigorous design assessment throughout '
-             'the operating life of an offshore installation.',
-             'Attachments welded to primary load-carrying members must be assessed for stress '
-             'concentration and fatigue effects.',
-             'Welding quality on safety-critical structural members requires effective fabrication '
-             'control and inspection.',
-             'Structural inspection programs must be capable of detecting fatigue cracking before '
-             'it develops into catastrophic fracture.',
-             'Offshore structures require adequate redundancy so that a local structural failure '
-             'does not readily escalate into global collapse.',
-             'Damage-stability assessments must consider progressive flooding following severe '
-             'structural damage and loss of buoyancy.',
-             'Openings that can contribute to progressive flooding require appropriate design and '
-             'control.',
-             'Emergency evacuation systems must remain usable during severe list, high waves and '
-             'rapidly developing structural emergencies.',
-             'Personnel require effective personal survival equipment appropriate for cold '
-             'offshore environments.',
-             'Major offshore accidents require integrated management of structural integrity, '
-             'emergency preparedness and regulatory assurance.']}
-,
-'Bhopal Gas Disaster (India, 1984)': {'schema_version': 2,
+VERIFIED_ACCIDENT_DATA = {'BP Texas City Refinery Explosion (USA, 2005)': {'schema_version': 2,
+                                                  'metadata': {'date': '23 March 2005',
+                                                               'location': 'Texas City, Texas, USA',
+                                                               'type': 'Refinery fire and '
+                                                                       'explosions',
+                                                               'fatalities': 15,
+                                                               'injuries': 180,
+                                                               'investigation_agency': 'U.S. '
+                                                                                       'Chemical '
+                                                                                       'Safety and '
+                                                                                       'Hazard '
+                                                                                       'Investigation '
+                                                                                       'Board '
+                                                                                       '(CSB)',
+                                                               'report_title': 'BP Texas City '
+                                                                               'Final '
+                                                                               'Investigation '
+                                                                               'Report',
+                                                               'report_number': '2005-04-I-TX',
+                                                               'report_date': '20 March 2007'},
+                                                  'event_sequence': ['The incident occurred during '
+                                                                     'startup of the ISOM unit.',
+                                                                     'The raffinate splitter tower '
+                                                                     'became severely overfilled '
+                                                                     'with hydrocarbons.',
+                                                                     'Pressure increased in the '
+                                                                     'raffinate splitter tower.',
+                                                                     'Pressure relief valves '
+                                                                     'opened and discharged '
+                                                                     'hydrocarbons toward the '
+                                                                     'blowdown system.',
+                                                                     'The blowdown drum and '
+                                                                     'atmospheric vent stack were '
+                                                                     'overwhelmed.',
+                                                                     'Flammable hydrocarbon liquid '
+                                                                     'and vapor were released to '
+                                                                     'the atmosphere.',
+                                                                     'The released hydrocarbons '
+                                                                     'formed a flammable vapor '
+                                                                     'cloud that ignited.',
+                                                                     'The resulting explosions and '
+                                                                     'fire caused multiple '
+                                                                     'fatalities and injuries.'],
+                                                  'contributing_factors': ['Key level '
+                                                                           'instrumentation and '
+                                                                           'alarms did not provide '
+                                                                           'operators with '
+                                                                           'reliable warning of '
+                                                                           'the abnormal tower '
+                                                                           'condition.',
+                                                                           'The raffinate splitter '
+                                                                           'startup proceeded '
+                                                                           'despite known problems '
+                                                                           'with important level '
+                                                                           'instrumentation.',
+                                                                           'Previous abnormal '
+                                                                           'startups were not '
+                                                                           'adequately '
+                                                                           'investigated as '
+                                                                           'near-miss events.',
+                                                                           'The atmospheric '
+                                                                           'blowdown system '
+                                                                           'provided an unsafe '
+                                                                           'means of handling a '
+                                                                           'major flammable '
+                                                                           'hydrocarbon release.',
+                                                                           'Occupied temporary '
+                                                                           'trailers were located '
+                                                                           'too close to the '
+                                                                           'hazardous process '
+                                                                           'area.'],
+                                                  'system_causes': ['Process safety management '
+                                                                    'systems at the refinery were '
+                                                                    'deficient.',
+                                                                    'Mechanical integrity and '
+                                                                    'preventive maintenance '
+                                                                    'deficiencies contributed to '
+                                                                    'unsafe equipment conditions.',
+                                                                    'Management systems did not '
+                                                                    'adequately identify and '
+                                                                    'correct recurring abnormal '
+                                                                    'startup conditions.',
+                                                                    'The refinery did not '
+                                                                    'adequately address the '
+                                                                    'hazards associated with the '
+                                                                    'atmospheric blowdown system.',
+                                                                    'Organizational and safety '
+                                                                    'deficiencies existed at '
+                                                                    'multiple levels of the '
+                                                                    'company.'],
+                                                  'consequences': ['Fifteen workers were killed.',
+                                                                   'Approximately 180 people were '
+                                                                   'injured.',
+                                                                   'Occupied temporary trailers '
+                                                                   'near the process unit were '
+                                                                   'severely damaged or destroyed.',
+                                                                   'The incident caused extensive '
+                                                                   'physical damage at the '
+                                                                   'refinery.'],
+                                                  'investigation_findings': ['The U.S. Chemical '
+                                                                             'Safety Board '
+                                                                             'conducted a '
+                                                                             'root-cause '
+                                                                             'investigation of the '
+                                                                             'accident.',
+                                                                             'The CSB identified '
+                                                                             'organizational and '
+                                                                             'safety deficiencies '
+                                                                             'at multiple levels '
+                                                                             'of BP.',
+                                                                             'The CSB identified '
+                                                                             'unsafe trailer '
+                                                                             'siting as an '
+                                                                             'important factor '
+                                                                             'that increased the '
+                                                                             'severity of the '
+                                                                             'consequences.',
+                                                                             'The CSB identified '
+                                                                             'the atmospheric '
+                                                                             'blowdown system as '
+                                                                             'an unsafe design '
+                                                                             'that should be '
+                                                                             'replaced by safer '
+                                                                             'alternatives.',
+                                                                             'The CSB issued '
+                                                                             'recommendations '
+                                                                             'addressing refinery '
+                                                                             'process safety, '
+                                                                             'corporate oversight, '
+                                                                             'trailer siting, '
+                                                                             'blowdown systems, '
+                                                                             'and regulatory '
+                                                                             'oversight.'],
+                                                  'lessons': ['Startup is a safety-critical '
+                                                              'operating mode and requires strict '
+                                                              'control of process conditions and '
+                                                              'operating procedures.',
+                                                              'Safety-critical instruments, '
+                                                              'alarms, and protective systems must '
+                                                              'be functional before startup.',
+                                                              'Repeated abnormal operating events '
+                                                              'and near misses must be '
+                                                              'investigated and their causes '
+                                                              'corrected.',
+                                                              'Atmospheric discharge of large '
+                                                              'quantities of flammable '
+                                                              'hydrocarbons should be eliminated '
+                                                              'in favor of appropriately '
+                                                              'engineered safer disposal systems.',
+                                                              'Occupied temporary buildings and '
+                                                              'trailers must be located using '
+                                                              'appropriate process-hazard and '
+                                                              'facility-siting assessments.',
+                                                              'Process safety performance requires '
+                                                              'effective management oversight, '
+                                                              'adequate resources, mechanical '
+                                                              'integrity, competent operations, '
+                                                              'and learning from previous '
+                                                              'incidents.']},
+ 'Piper Alpha Offshore Platform Disaster (UK North Sea, 1988)': {'schema_version': 2,
+                                                                 'metadata': {'date': '6 July 1988',
+                                                                              'location': 'UK '
+                                                                                          'North '
+                                                                                          'Sea',
+                                                                              'type': 'Offshore '
+                                                                                      'fire and '
+                                                                                      'explosions',
+                                                                              'fatalities': 167,
+                                                                              'injuries': 'Not '
+                                                                                          'included '
+                                                                                          'in '
+                                                                                          'current '
+                                                                                          'verified '
+                                                                                          'dataset',
+                                                                              'investigation_agency': 'UK '
+                                                                                                      'Government '
+                                                                                                      'Public '
+                                                                                                      'Inquiry '
+                                                                                                      'chaired '
+                                                                                                      'by '
+                                                                                                      'Lord '
+                                                                                                      'Cullen',
+                                                                              'report_title': 'The '
+                                                                                              'Public '
+                                                                                              'Inquiry '
+                                                                                              'into '
+                                                                                              'the '
+                                                                                              'Piper '
+                                                                                              'Alpha '
+                                                                                              'Disaster',
+                                                                              'report_date': '1990'},
+                                                                 'event_sequence': ['Maintenance '
+                                                                                    'work was '
+                                                                                    'being carried '
+                                                                                    'out on '
+                                                                                    'process '
+                                                                                    'equipment '
+                                                                                    'before the '
+                                                                                    'accident.',
+                                                                                    'Permit-to-work '
+                                                                                    'failures were '
+                                                                                    'important in '
+                                                                                    'the sequence '
+                                                                                    'of events '
+                                                                                    'leading to '
+                                                                                    'the disaster.',
+                                                                                    'A hydrocarbon '
+                                                                                    'release '
+                                                                                    'occurred and '
+                                                                                    'ignited.',
+                                                                                    'The event '
+                                                                                    'escalated '
+                                                                                    'into major '
+                                                                                    'fires and '
+                                                                                    'explosions.',
+                                                                                    'The Piper '
+                                                                                    'Alpha '
+                                                                                    'offshore '
+                                                                                    'installation '
+                                                                                    'was '
+                                                                                    'destroyed.'],
+                                                                 'contributing_factors': ['Deficiencies '
+                                                                                          'existed '
+                                                                                          'in the '
+                                                                                          'permit-to-work '
+                                                                                          'system.',
+                                                                                          'Information '
+                                                                                          'concerning '
+                                                                                          'maintenance '
+                                                                                          'work '
+                                                                                          'was not '
+                                                                                          'adequately '
+                                                                                          'communicated '
+                                                                                          'between '
+                                                                                          'relevant '
+                                                                                          'personnel.',
+                                                                                          'The '
+                                                                                          'permit-to-work '
+                                                                                          'arrangements '
+                                                                                          'did not '
+                                                                                          'reliably '
+                                                                                          'ensure '
+                                                                                          'that '
+                                                                                          'process '
+                                                                                          'operating '
+                                                                                          'staff '
+                                                                                          'could '
+                                                                                          'readily '
+                                                                                          'identify '
+                                                                                          'equipment '
+                                                                                          'that '
+                                                                                          'was '
+                                                                                          'under '
+                                                                                          'maintenance '
+                                                                                          'and '
+                                                                                          'unavailable '
+                                                                                          'for '
+                                                                                          'operation.',
+                                                                                          'Competence '
+                                                                                          'in the '
+                                                                                          'operation '
+                                                                                          'and '
+                                                                                          'supervision '
+                                                                                          'of the '
+                                                                                          'permit-to-work '
+                                                                                          'system '
+                                                                                          'was '
+                                                                                          'inadequate.'],
+                                                                 'system_causes': ['Management and '
+                                                                                   'control of the '
+                                                                                   'permit-to-work '
+                                                                                   'system were '
+                                                                                   'inadequate.',
+                                                                                   'Maintenance '
+                                                                                   'and operations '
+                                                                                   'coordination '
+                                                                                   'was '
+                                                                                   'insufficient.',
+                                                                                   'The management '
+                                                                                   'system did not '
+                                                                                   'provide '
+                                                                                   'sufficiently '
+                                                                                   'robust control '
+                                                                                   'of '
+                                                                                   'safety-critical '
+                                                                                   'maintenance '
+                                                                                   'information.'],
+                                                                 'consequences': ['The disaster '
+                                                                                  'resulted in 167 '
+                                                                                  'fatalities.',
+                                                                                  'The Piper Alpha '
+                                                                                  'offshore '
+                                                                                  'production '
+                                                                                  'platform was '
+                                                                                  'destroyed.'],
+                                                                 'investigation_findings': ['The '
+                                                                                            'UK '
+                                                                                            'Government '
+                                                                                            'established '
+                                                                                            'a '
+                                                                                            'Public '
+                                                                                            'Inquiry '
+                                                                                            'chaired '
+                                                                                            'by '
+                                                                                            'Lord '
+                                                                                            'Cullen.',
+                                                                                            'The '
+                                                                                            'inquiry '
+                                                                                            'examined '
+                                                                                            'the '
+                                                                                            'causes '
+                                                                                            'of '
+                                                                                            'the '
+                                                                                            'disaster '
+                                                                                            'and '
+                                                                                            'the '
+                                                                                            'offshore '
+                                                                                            'safety '
+                                                                                            'regime.',
+                                                                                            'The '
+                                                                                            'Cullen '
+                                                                                            'Report '
+                                                                                            'resulted '
+                                                                                            'in '
+                                                                                            'major '
+                                                                                            'changes '
+                                                                                            'to '
+                                                                                            'offshore '
+                                                                                            'safety '
+                                                                                            'regulation '
+                                                                                            'and '
+                                                                                            'management '
+                                                                                            'in '
+                                                                                            'the '
+                                                                                            'UK.'],
+                                                                 'lessons': ['Permit-to-work '
+                                                                             'systems must provide '
+                                                                             'effective control '
+                                                                             'and communication of '
+                                                                             'safety-critical '
+                                                                             'maintenance '
+                                                                             'activities.',
+                                                                             'Shift handover must '
+                                                                             'communicate '
+                                                                             'equipment status and '
+                                                                             'outstanding '
+                                                                             'maintenance clearly.',
+                                                                             'Operations personnel '
+                                                                             'must be able to '
+                                                                             'identify equipment '
+                                                                             'that is unavailable '
+                                                                             'because of '
+                                                                             'maintenance.',
+                                                                             'Personnel '
+                                                                             'responsible for '
+                                                                             'permit-to-work '
+                                                                             'control require '
+                                                                             'appropriate '
+                                                                             'competence and '
+                                                                             'supervision.',
+                                                                             'Major-hazard '
+                                                                             'management should '
+                                                                             'not depend on '
+                                                                             'administrative '
+                                                                             'controls alone.']},
+ 'Chevron Richmond Refinery Fire (USA, 2012)': {'schema_version': 2,
+                                                'metadata': {'date': '6 August 2012',
+                                                             'location': 'Richmond, California, '
+                                                                         'USA',
+                                                             'type': 'Refinery pipe rupture and '
+                                                                     'fire',
+                                                             'fatalities': 0,
+                                                             'injuries': '19 workers endangered by '
+                                                                         'the vapor cloud; '
+                                                                         'approximately 15,000 '
+                                                                         'community members sought '
+                                                                         'medical treatment',
+                                                             'investigation_agency': 'U.S. '
+                                                                                     'Chemical '
+                                                                                     'Safety and '
+                                                                                     'Hazard '
+                                                                                     'Investigation '
+                                                                                     'Board (CSB)',
+                                                             'report_title': 'Chevron Richmond '
+                                                                             'Refinery '
+                                                                             'Investigation Report',
+                                                             'report_number': '2012-03-I-CA',
+                                                             'report_date': '28 January 2015'},
+                                                'event_sequence': ['The incident occurred in the '
+                                                                   '#4 Crude Unit at the Chevron '
+                                                                   'Richmond Refinery.',
+                                                                   'A leak developed in the '
+                                                                   '4-sidecut piping.',
+                                                                   'The crude unit continued '
+                                                                   'operating while personnel '
+                                                                   'investigated the leak.',
+                                                                   'A severely thinned carbon '
+                                                                   'steel piping component '
+                                                                   'ruptured.',
+                                                                   'The pipe failure released hot '
+                                                                   'flammable hydrocarbon process '
+                                                                   'fluid.',
+                                                                   'A portion of the released '
+                                                                   'hydrocarbon vaporized and '
+                                                                   'formed a large flammable vapor '
+                                                                   'cloud.',
+                                                                   'Nineteen Chevron employees '
+                                                                   'were engulfed by the vapor '
+                                                                   'cloud but escaped.',
+                                                                   'The released hydrocarbon '
+                                                                   'ignited and produced a major '
+                                                                   'refinery fire.'],
+                                                'contributing_factors': ['The failed piping '
+                                                                         'component had '
+                                                                         'experienced severe wall '
+                                                                         'thinning caused by '
+                                                                         'sulfidation corrosion.',
+                                                                         'The failed carbon steel '
+                                                                         'piping component had low '
+                                                                         'silicon content and was '
+                                                                         'particularly susceptible '
+                                                                         'to accelerated '
+                                                                         'sulfidation corrosion.',
+                                                                         'Existing inspection '
+                                                                         'practices did not '
+                                                                         'adequately identify the '
+                                                                         'highly corroded '
+                                                                         'low-silicon piping '
+                                                                         'component before '
+                                                                         'failure.',
+                                                                         'Damage mechanism hazards '
+                                                                         'associated with '
+                                                                         'sulfidation corrosion '
+                                                                         'were not adequately '
+                                                                         'identified and '
+                                                                         'evaluated.',
+                                                                         'The crude unit was not '
+                                                                         'shut down when the '
+                                                                         'initial leak was '
+                                                                         'detected.',
+                                                                         'Opportunities to replace '
+                                                                         'susceptible carbon steel '
+                                                                         'piping with more '
+                                                                         'corrosion-resistant '
+                                                                         'material had not been '
+                                                                         'effectively '
+                                                                         'implemented.'],
+                                                'system_causes': ['The mechanical integrity '
+                                                                  'program did not adequately '
+                                                                  'control the risk from '
+                                                                  'sulfidation corrosion in '
+                                                                  'susceptible piping components.',
+                                                                  'The process hazard analysis '
+                                                                  'approach did not adequately '
+                                                                  'identify corrosion damage '
+                                                                  'mechanisms as potential causes '
+                                                                  'of loss of containment.',
+                                                                  'The refinery did not '
+                                                                  'effectively apply inherently '
+                                                                  'safer design principles to '
+                                                                  'eliminate or reduce the '
+                                                                  'sulfidation corrosion hazard.',
+                                                                  'Management systems did not '
+                                                                  'ensure timely implementation of '
+                                                                  'recommendations concerning '
+                                                                  'susceptible piping and '
+                                                                  'corrosion hazards.'],
+                                                'consequences': ['Nineteen Chevron employees were '
+                                                                 'engulfed by the flammable vapor '
+                                                                 'cloud but escaped without '
+                                                                 'serious injury.',
+                                                                 'The hydrocarbon release ignited '
+                                                                 'and resulted in a major refinery '
+                                                                 'fire.',
+                                                                 'A large plume of combustion '
+                                                                 'products traveled across the '
+                                                                 'surrounding area.',
+                                                                 'Approximately 15,000 people from '
+                                                                 'the surrounding community sought '
+                                                                 'medical treatment in the weeks '
+                                                                 'following the incident.',
+                                                                 'Approximately 20 people were '
+                                                                 'admitted to hospitals for '
+                                                                 'treatment.'],
+                                                'investigation_findings': ['The U.S. Chemical '
+                                                                           'Safety Board '
+                                                                           'investigated the pipe '
+                                                                           'rupture and fire.',
+                                                                           'The pipe failure '
+                                                                           'resulted from extreme '
+                                                                           'wall thinning caused '
+                                                                           'by sulfidation '
+                                                                           'corrosion.',
+                                                                           'The CSB identified '
+                                                                           'deficiencies in '
+                                                                           'identifying and '
+                                                                           'evaluating damage '
+                                                                           'mechanism hazards.',
+                                                                           'The CSB identified '
+                                                                           'missed opportunities '
+                                                                           'to use inherently '
+                                                                           'safer, more '
+                                                                           'corrosion-resistant '
+                                                                           'piping materials.',
+                                                                           'The CSB examined '
+                                                                           'mechanical integrity '
+                                                                           'practices and refinery '
+                                                                           'process safety '
+                                                                           'management '
+                                                                           'requirements.',
+                                                                           'The CSB issued '
+                                                                           'recommendations '
+                                                                           'addressing damage '
+                                                                           'mechanism hazard '
+                                                                           'reviews, mechanical '
+                                                                           'integrity, inherently '
+                                                                           'safer design, industry '
+                                                                           'standards, and '
+                                                                           'regulatory oversight.'],
+                                                'lessons': ['Refinery piping circuits susceptible '
+                                                            'to sulfidation corrosion require '
+                                                            'systematic damage mechanism '
+                                                            'assessment.',
+                                                            'Inspection programs must account for '
+                                                            'component-to-component variations in '
+                                                            'corrosion susceptibility, including '
+                                                            'low-silicon carbon steel components.',
+                                                            'Material verification and appropriate '
+                                                            'inspection strategies are necessary '
+                                                            'where susceptible piping materials '
+                                                            'may be present.',
+                                                            'More corrosion-resistant materials '
+                                                            'should be considered as an inherently '
+                                                            'safer means of controlling credible '
+                                                            'corrosion hazards.',
+                                                            'Process hazard analysis should '
+                                                            'systematically consider applicable '
+                                                            'damage mechanisms and their potential '
+                                                            'loss-of-containment consequences.',
+                                                            'A hydrocarbon leak from operating '
+                                                            'process equipment must trigger a '
+                                                            'conservative assessment of whether '
+                                                            'continued operation is safe.',
+                                                            'Mechanical integrity recommendations '
+                                                            'involving safety-critical degradation '
+                                                            'must be tracked and completed in a '
+                                                            'timely manner.']},
+ 'Philadelphia Energy Solutions Refinery Fire and Explosions (USA, 2019)': {'schema_version': 2,
+                                                                            'metadata': {'date': '21 '
+                                                                                                 'June '
+                                                                                                 '2019',
+                                                                                         'location': 'Philadelphia, '
+                                                                                                     'Pennsylvania, '
+                                                                                                     'USA',
+                                                                                         'type': 'Refinery '
+                                                                                                 'fire '
+                                                                                                 'and '
+                                                                                                 'explosions '
+                                                                                                 'following '
+                                                                                                 'loss '
+                                                                                                 'of '
+                                                                                                 'containment',
+                                                                                         'fatalities': 0,
+                                                                                         'injuries': 'Five '
+                                                                                                     'workers '
+                                                                                                     'and '
+                                                                                                     'one '
+                                                                                                     'firefighter '
+                                                                                                     'experienced '
+                                                                                                     'minor '
+                                                                                                     'injuries',
+                                                                                         'investigation_agency': 'U.S. '
+                                                                                                                 'Chemical '
+                                                                                                                 'Safety '
+                                                                                                                 'and '
+                                                                                                                 'Hazard '
+                                                                                                                 'Investigation '
+                                                                                                                 'Board '
+                                                                                                                 '(CSB)',
+                                                                                         'report_title': 'Fire '
+                                                                                                         'and '
+                                                                                                         'Explosions '
+                                                                                                         'at '
+                                                                                                         'Philadelphia '
+                                                                                                         'Energy '
+                                                                                                         'Solutions '
+                                                                                                         'Refinery',
+                                                                                         'report_number': '2019-04-I-PA',
+                                                                                         'report_date': '11 '
+                                                                                                        'October '
+                                                                                                        '2022'},
+                                                                            'event_sequence': ['The '
+                                                                                               'incident '
+                                                                                               'occurred '
+                                                                                               'in '
+                                                                                               'the '
+                                                                                               'hydrofluoric '
+                                                                                               'acid '
+                                                                                               'alkylation '
+                                                                                               'unit '
+                                                                                               'at '
+                                                                                               'the '
+                                                                                               'Philadelphia '
+                                                                                               'Energy '
+                                                                                               'Solutions '
+                                                                                               'refinery.',
+                                                                                               'A '
+                                                                                               'pipe '
+                                                                                               'elbow '
+                                                                                               'in '
+                                                                                               'the '
+                                                                                               'alkylation '
+                                                                                               'unit '
+                                                                                               'ruptured '
+                                                                                               'after '
+                                                                                               'significant '
+                                                                                               'corrosion-related '
+                                                                                               'wall '
+                                                                                               'thinning.',
+                                                                                               'Process '
+                                                                                               'fluid '
+                                                                                               'containing '
+                                                                                               'hydrocarbons '
+                                                                                               'and '
+                                                                                               'hydrofluoric '
+                                                                                               'acid '
+                                                                                               'was '
+                                                                                               'released.',
+                                                                                               'The '
+                                                                                               'release '
+                                                                                               'formed '
+                                                                                               'a '
+                                                                                               'large '
+                                                                                               'flammable '
+                                                                                               'vapor '
+                                                                                               'cloud '
+                                                                                               'within '
+                                                                                               'the '
+                                                                                               'unit.',
+                                                                                               'The '
+                                                                                               'flammable '
+                                                                                               'vapor '
+                                                                                               'cloud '
+                                                                                               'ignited '
+                                                                                               'and '
+                                                                                               'caused '
+                                                                                               'a '
+                                                                                               'large '
+                                                                                               'fire.',
+                                                                                               'Three '
+                                                                                               'explosions '
+                                                                                               'subsequently '
+                                                                                               'occurred '
+                                                                                               'in '
+                                                                                               'the '
+                                                                                               'alkylation '
+                                                                                               'unit.',
+                                                                                               'The '
+                                                                                               'largest '
+                                                                                               'explosion '
+                                                                                               'involved '
+                                                                                               'the '
+                                                                                               'violent '
+                                                                                               'rupture '
+                                                                                               'of '
+                                                                                               'the '
+                                                                                               'V-1 '
+                                                                                               'Treater '
+                                                                                               'Feed '
+                                                                                               'Surge '
+                                                                                               'Drum.',
+                                                                                               'A '
+                                                                                               'large '
+                                                                                               'fragment '
+                                                                                               'from '
+                                                                                               'the '
+                                                                                               'ruptured '
+                                                                                               'vessel '
+                                                                                               'was '
+                                                                                               'propelled '
+                                                                                               'off-site '
+                                                                                               'across '
+                                                                                               'the '
+                                                                                               'Schuylkill '
+                                                                                               'River.'],
+                                                                            'contributing_factors': ['The '
+                                                                                                     'failed '
+                                                                                                     'pipe '
+                                                                                                     'elbow '
+                                                                                                     'experienced '
+                                                                                                     'accelerated '
+                                                                                                     'corrosion '
+                                                                                                     'in '
+                                                                                                     'hydrofluoric '
+                                                                                                     'acid '
+                                                                                                     'service.',
+                                                                                                     'The '
+                                                                                                     'failed '
+                                                                                                     'carbon '
+                                                                                                     'steel '
+                                                                                                     'elbow '
+                                                                                                     'contained '
+                                                                                                     'higher '
+                                                                                                     'nickel '
+                                                                                                     'and '
+                                                                                                     'copper '
+                                                                                                     'content '
+                                                                                                     'than '
+                                                                                                     'other '
+                                                                                                     'piping '
+                                                                                                     'in '
+                                                                                                     'the '
+                                                                                                     'unit, '
+                                                                                                     'making '
+                                                                                                     'it '
+                                                                                                     'more '
+                                                                                                     'susceptible '
+                                                                                                     'to '
+                                                                                                     'accelerated '
+                                                                                                     'corrosion.',
+                                                                                                     'The '
+                                                                                                     'thickness '
+                                                                                                     'of '
+                                                                                                     'the '
+                                                                                                     'elbow '
+                                                                                                     'that '
+                                                                                                     'ultimately '
+                                                                                                     'failed '
+                                                                                                     'had '
+                                                                                                     'not '
+                                                                                                     'been '
+                                                                                                     'directly '
+                                                                                                     'monitored '
+                                                                                                     'for '
+                                                                                                     'corrosion.',
+                                                                                                     'The '
+                                                                                                     'mechanical '
+                                                                                                     'integrity '
+                                                                                                     'program '
+                                                                                                     'did '
+                                                                                                     'not '
+                                                                                                     'adequately '
+                                                                                                     'identify '
+                                                                                                     'and '
+                                                                                                     'control '
+                                                                                                     'the '
+                                                                                                     'corrosion '
+                                                                                                     'risk '
+                                                                                                     'associated '
+                                                                                                     'with '
+                                                                                                     'the '
+                                                                                                     'susceptible '
+                                                                                                     'elbow.',
+                                                                                                     'Critical '
+                                                                                                     'components '
+                                                                                                     'used '
+                                                                                                     'to '
+                                                                                                     'remotely '
+                                                                                                     'activate '
+                                                                                                     'hydrofluoric '
+                                                                                                     'acid '
+                                                                                                     'mitigation '
+                                                                                                     'water '
+                                                                                                     'pumps '
+                                                                                                     'were '
+                                                                                                     'damaged '
+                                                                                                     'by '
+                                                                                                     'the '
+                                                                                                     'fire '
+                                                                                                     'and '
+                                                                                                     'explosions.',
+                                                                                                     'Remotely '
+                                                                                                     'operated '
+                                                                                                     'emergency '
+                                                                                                     'isolation '
+                                                                                                     'capability '
+                                                                                                     'was '
+                                                                                                     'inadequate '
+                                                                                                     'for '
+                                                                                                     'rapidly '
+                                                                                                     'isolating '
+                                                                                                     'hazardous '
+                                                                                                     'inventories '
+                                                                                                     'during '
+                                                                                                     'the '
+                                                                                                     'incident.'],
+                                                                            'system_causes': ['The '
+                                                                                              'refinery '
+                                                                                              'mechanical '
+                                                                                              'integrity '
+                                                                                              'program '
+                                                                                              'did '
+                                                                                              'not '
+                                                                                              'adequately '
+                                                                                              'manage '
+                                                                                              'the '
+                                                                                              'corrosion '
+                                                                                              'hazard '
+                                                                                              'associated '
+                                                                                              'with '
+                                                                                              'hydrofluoric '
+                                                                                              'acid '
+                                                                                              'alkylation '
+                                                                                              'service.',
+                                                                                              'Management '
+                                                                                              'systems '
+                                                                                              'did '
+                                                                                              'not '
+                                                                                              'adequately '
+                                                                                              'verify '
+                                                                                              'equipment '
+                                                                                              'safety '
+                                                                                              'when '
+                                                                                              'relevant '
+                                                                                              'recognized '
+                                                                                              'and '
+                                                                                              'generally '
+                                                                                              'accepted '
+                                                                                              'good '
+                                                                                              'engineering '
+                                                                                              'practice '
+                                                                                              'information '
+                                                                                              'changed '
+                                                                                              'or '
+                                                                                              'became '
+                                                                                              'available.',
+                                                                                              'Safeguards '
+                                                                                              'important '
+                                                                                              'to '
+                                                                                              'hydrofluoric '
+                                                                                              'acid '
+                                                                                              'release '
+                                                                                              'mitigation '
+                                                                                              'were '
+                                                                                              'not '
+                                                                                              'sufficiently '
+                                                                                              'protected '
+                                                                                              'from '
+                                                                                              'fire '
+                                                                                              'and '
+                                                                                              'explosion '
+                                                                                              'hazards.',
+                                                                                              'The '
+                                                                                              'facility '
+                                                                                              'and '
+                                                                                              'applicable '
+                                                                                              'industry '
+                                                                                              'practices '
+                                                                                              'did '
+                                                                                              'not '
+                                                                                              'provide '
+                                                                                              'adequate '
+                                                                                              'remotely '
+                                                                                              'operated '
+                                                                                              'emergency '
+                                                                                              'isolation '
+                                                                                              'capability '
+                                                                                              'for '
+                                                                                              'hazardous '
+                                                                                              'process '
+                                                                                              'inventories.',
+                                                                                              'Existing '
+                                                                                              'requirements '
+                                                                                              'did '
+                                                                                              'not '
+                                                                                              'ensure '
+                                                                                              'systematic '
+                                                                                              'evaluation '
+                                                                                              'of '
+                                                                                              'inherently '
+                                                                                              'safer '
+                                                                                              'alternatives '
+                                                                                              'for '
+                                                                                              'hydrofluoric '
+                                                                                              'acid '
+                                                                                              'alkylation '
+                                                                                              'technology.'],
+                                                                            'consequences': ['Five '
+                                                                                             'workers '
+                                                                                             'and '
+                                                                                             'one '
+                                                                                             'firefighter '
+                                                                                             'experienced '
+                                                                                             'minor '
+                                                                                             'injuries.',
+                                                                                             'Approximately '
+                                                                                             '676,000 '
+                                                                                             'pounds '
+                                                                                             'of '
+                                                                                             'hydrocarbons '
+                                                                                             'were '
+                                                                                             'released.',
+                                                                                             'More '
+                                                                                             'than '
+                                                                                             '5,200 '
+                                                                                             'pounds '
+                                                                                             'of '
+                                                                                             'hydrofluoric '
+                                                                                             'acid '
+                                                                                             'were '
+                                                                                             'released.',
+                                                                                             'The '
+                                                                                             'hydrofluoric '
+                                                                                             'acid '
+                                                                                             'alkylation '
+                                                                                             'unit '
+                                                                                             'was '
+                                                                                             'severely '
+                                                                                             'damaged.',
+                                                                                             'The '
+                                                                                             'estimated '
+                                                                                             'property '
+                                                                                             'damage '
+                                                                                             'loss '
+                                                                                             'was '
+                                                                                             'approximately '
+                                                                                             '750 '
+                                                                                             'million '
+                                                                                             'U.S. '
+                                                                                             'dollars.',
+                                                                                             'A '
+                                                                                             'vessel '
+                                                                                             'fragment '
+                                                                                             'weighing '
+                                                                                             'approximately '
+                                                                                             '38,000 '
+                                                                                             'pounds '
+                                                                                             'was '
+                                                                                             'propelled '
+                                                                                             'off-site '
+                                                                                             'across '
+                                                                                             'the '
+                                                                                             'Schuylkill '
+                                                                                             'River.',
+                                                                                             'Philadelphia '
+                                                                                             'Energy '
+                                                                                             'Solutions '
+                                                                                             'subsequently '
+                                                                                             'announced '
+                                                                                             'that '
+                                                                                             'the '
+                                                                                             'refining '
+                                                                                             'complex '
+                                                                                             'would '
+                                                                                             'shut '
+                                                                                             'down.'],
+                                                                            'investigation_findings': ['The '
+                                                                                                       'U.S. '
+                                                                                                       'Chemical '
+                                                                                                       'Safety '
+                                                                                                       'Board '
+                                                                                                       'investigated '
+                                                                                                       'the '
+                                                                                                       'fire '
+                                                                                                       'and '
+                                                                                                       'explosions.',
+                                                                                                       'The '
+                                                                                                       'CSB '
+                                                                                                       'determined '
+                                                                                                       'that '
+                                                                                                       'the '
+                                                                                                       'pipe '
+                                                                                                       'elbow '
+                                                                                                       'failure '
+                                                                                                       'resulted '
+                                                                                                       'from '
+                                                                                                       'corrosion-related '
+                                                                                                       'wall '
+                                                                                                       'thinning.',
+                                                                                                       'The '
+                                                                                                       'CSB '
+                                                                                                       'identified '
+                                                                                                       'mechanical '
+                                                                                                       'integrity '
+                                                                                                       'as '
+                                                                                                       'a '
+                                                                                                       'major '
+                                                                                                       'safety '
+                                                                                                       'issue.',
+                                                                                                       'The '
+                                                                                                       'CSB '
+                                                                                                       'identified '
+                                                                                                       'the '
+                                                                                                       'need '
+                                                                                                       'to '
+                                                                                                       'verify '
+                                                                                                       'equipment '
+                                                                                                       'safety '
+                                                                                                       'when '
+                                                                                                       'new '
+                                                                                                       'information '
+                                                                                                       'or '
+                                                                                                       'changes '
+                                                                                                       'to '
+                                                                                                       'recognized '
+                                                                                                       'good '
+                                                                                                       'engineering '
+                                                                                                       'practices '
+                                                                                                       'become '
+                                                                                                       'available.',
+                                                                                                       'The '
+                                                                                                       'CSB '
+                                                                                                       'identified '
+                                                                                                       'deficiencies '
+                                                                                                       'in '
+                                                                                                       'safeguard '
+                                                                                                       'reliability '
+                                                                                                       'in '
+                                                                                                       'hydrofluoric '
+                                                                                                       'acid '
+                                                                                                       'alkylation '
+                                                                                                       'service.',
+                                                                                                       'The '
+                                                                                                       'CSB '
+                                                                                                       'identified '
+                                                                                                       'the '
+                                                                                                       'need '
+                                                                                                       'for '
+                                                                                                       'remotely '
+                                                                                                       'operated '
+                                                                                                       'emergency '
+                                                                                                       'isolation '
+                                                                                                       'capability.',
+                                                                                                       'The '
+                                                                                                       'CSB '
+                                                                                                       'identified '
+                                                                                                       'inherently '
+                                                                                                       'safer '
+                                                                                                       'design '
+                                                                                                       'as '
+                                                                                                       'an '
+                                                                                                       'important '
+                                                                                                       'safety '
+                                                                                                       'issue '
+                                                                                                       'for '
+                                                                                                       'hydrofluoric '
+                                                                                                       'acid '
+                                                                                                       'alkylation '
+                                                                                                       'technology.'],
+                                                                            'lessons': ['Mechanical '
+                                                                                        'integrity '
+                                                                                        'programs '
+                                                                                        'must '
+                                                                                        'identify '
+                                                                                        'and '
+                                                                                        'monitor '
+                                                                                        'individual '
+                                                                                        'components '
+                                                                                        'that may '
+                                                                                        'have '
+                                                                                        'greater '
+                                                                                        'susceptibility '
+                                                                                        'to '
+                                                                                        'corrosion '
+                                                                                        'than '
+                                                                                        'surrounding '
+                                                                                        'piping.',
+                                                                                        'Material '
+                                                                                        'composition '
+                                                                                        'can '
+                                                                                        'significantly '
+                                                                                        'affect '
+                                                                                        'corrosion '
+                                                                                        'behavior '
+                                                                                        'and '
+                                                                                        'should be '
+                                                                                        'considered '
+                                                                                        'when '
+                                                                                        'managing '
+                                                                                        'hydrofluoric '
+                                                                                        'acid '
+                                                                                        'service '
+                                                                                        'piping.',
+                                                                                        'Inspection '
+                                                                                        'strategies '
+                                                                                        'must '
+                                                                                        'ensure '
+                                                                                        'that '
+                                                                                        'susceptible '
+                                                                                        'fittings '
+                                                                                        'and '
+                                                                                        'components '
+                                                                                        'are '
+                                                                                        'directly '
+                                                                                        'assessed '
+                                                                                        'rather '
+                                                                                        'than '
+                                                                                        'relying '
+                                                                                        'only on '
+                                                                                        'nearby '
+                                                                                        'piping '
+                                                                                        'measurements.',
+                                                                                        'Facilities '
+                                                                                        'must '
+                                                                                        'evaluate '
+                                                                                        'new or '
+                                                                                        'revised '
+                                                                                        'recognized '
+                                                                                        'and '
+                                                                                        'generally '
+                                                                                        'accepted '
+                                                                                        'good '
+                                                                                        'engineering '
+                                                                                        'practice '
+                                                                                        'information '
+                                                                                        'and '
+                                                                                        'determine '
+                                                                                        'whether '
+                                                                                        'existing '
+                                                                                        'equipment '
+                                                                                        'remains '
+                                                                                        'safe.',
+                                                                                        'Critical '
+                                                                                        'mitigation '
+                                                                                        'safeguards '
+                                                                                        'and their '
+                                                                                        'control '
+                                                                                        'systems '
+                                                                                        'should be '
+                                                                                        'protected '
+                                                                                        'from '
+                                                                                        'credible '
+                                                                                        'fire and '
+                                                                                        'explosion '
+                                                                                        'hazards.',
+                                                                                        'Hazardous '
+                                                                                        'process '
+                                                                                        'inventories '
+                                                                                        'should '
+                                                                                        'have '
+                                                                                        'effective '
+                                                                                        'emergency '
+                                                                                        'isolation '
+                                                                                        'capability '
+                                                                                        'that can '
+                                                                                        'be '
+                                                                                        'operated '
+                                                                                        'from a '
+                                                                                        'safe '
+                                                                                        'location '
+                                                                                        'where '
+                                                                                        'appropriate.',
+                                                                                        'Facilities '
+                                                                                        'using '
+                                                                                        'highly '
+                                                                                        'hazardous '
+                                                                                        'chemicals '
+                                                                                        'should '
+                                                                                        'systematically '
+                                                                                        'evaluate '
+                                                                                        'practicable '
+                                                                                        'inherently '
+                                                                                        'safer '
+                                                                                        'technologies '
+                                                                                        'and '
+                                                                                        'alternatives.']},
+ 'Buncefield Oil Storage Depot Explosion and Fire (UK, 2005)': {'schema_version': 2,
+                                                                'metadata': {'date': '11 December '
+                                                                                     '2005',
+                                                                             'location': 'Hemel '
+                                                                                         'Hempstead, '
+                                                                                         'Hertfordshire, '
+                                                                                         'UK',
+                                                                             'type': 'Fuel storage '
+                                                                                     'tank '
+                                                                                     'overfill, '
+                                                                                     'vapor cloud '
+                                                                                     'explosion '
+                                                                                     'and major '
+                                                                                     'fire',
+                                                                             'fatalities': 0,
+                                                                             'injuries': 'More '
+                                                                                         'than 40 '
+                                                                                         'people '
+                                                                                         'were '
+                                                                                         'injured',
+                                                                             'investigation_agency': 'Buncefield '
+                                                                                                     'Major '
+                                                                                                     'Incident '
+                                                                                                     'Investigation '
+                                                                                                     'Board '
+                                                                                                     '(MIIB), '
+                                                                                                     'supported '
+                                                                                                     'by '
+                                                                                                     'the '
+                                                                                                     'HSE '
+                                                                                                     'and '
+                                                                                                     'Environment '
+                                                                                                     'Agency',
+                                                                             'report_title': 'Buncefield '
+                                                                                             'Major '
+                                                                                             'Incident '
+                                                                                             'Investigation',
+                                                                             'report_number': None,
+                                                                             'report_date': 'Investigation '
+                                                                                            'reports '
+                                                                                            'issued '
+                                                                                            'in '
+                                                                                            'multiple '
+                                                                                            'stages'},
+                                                                'event_sequence': ['The incident '
+                                                                                   'occurred at '
+                                                                                   'the Buncefield '
+                                                                                   'Oil Storage '
+                                                                                   'Depot in Hemel '
+                                                                                   'Hempstead.',
+                                                                                   'A gasoline '
+                                                                                   'storage tank '
+                                                                                   'continued '
+                                                                                   'filling and '
+                                                                                   'overfilled.',
+                                                                                   'Gasoline '
+                                                                                   'escaped from '
+                                                                                   'the overfilled '
+                                                                                   'tank.',
+                                                                                   'The sustained '
+                                                                                   'release '
+                                                                                   'generated a '
+                                                                                   'large '
+                                                                                   'flammable '
+                                                                                   'gasoline vapor '
+                                                                                   'cloud.',
+                                                                                   'The vapor '
+                                                                                   'cloud spread '
+                                                                                   'across the '
+                                                                                   'site and '
+                                                                                   'beyond the '
+                                                                                   'site boundary.',
+                                                                                   'The flammable '
+                                                                                   'vapor cloud '
+                                                                                   'ignited.',
+                                                                                   'A series of '
+                                                                                   'major '
+                                                                                   'explosions '
+                                                                                   'occurred.',
+                                                                                   'Large fires '
+                                                                                   'subsequently '
+                                                                                   'engulfed a '
+                                                                                   'significant '
+                                                                                   'proportion of '
+                                                                                   'the storage '
+                                                                                   'depot.'],
+                                                                'contributing_factors': ['The tank '
+                                                                                         'filling '
+                                                                                         'operation '
+                                                                                         'was not '
+                                                                                         'stopped '
+                                                                                         'before '
+                                                                                         'the tank '
+                                                                                         'overfilled.',
+                                                                                         'The '
+                                                                                         'normal '
+                                                                                         'tank '
+                                                                                         'level '
+                                                                                         'measurement '
+                                                                                         'arrangements '
+                                                                                         'did not '
+                                                                                         'prevent '
+                                                                                         'the '
+                                                                                         'overfill.',
+                                                                                         'The '
+                                                                                         'independent '
+                                                                                         'high-level '
+                                                                                         'overfill '
+                                                                                         'protection '
+                                                                                         'did not '
+                                                                                         'successfully '
+                                                                                         'prevent '
+                                                                                         'the loss '
+                                                                                         'of '
+                                                                                         'containment.',
+                                                                                         'The '
+                                                                                         'overfill '
+                                                                                         'continued '
+                                                                                         'long '
+                                                                                         'enough '
+                                                                                         'to '
+                                                                                         'generate '
+                                                                                         'a very '
+                                                                                         'large '
+                                                                                         'flammable '
+                                                                                         'vapor '
+                                                                                         'cloud.',
+                                                                                         'The '
+                                                                                         'potential '
+                                                                                         'consequences '
+                                                                                         'of a '
+                                                                                         'large '
+                                                                                         'vapor '
+                                                                                         'cloud '
+                                                                                         'explosion '
+                                                                                         'at a '
+                                                                                         'fuel '
+                                                                                         'storage '
+                                                                                         'depot '
+                                                                                         'had not '
+                                                                                         'been '
+                                                                                         'adequately '
+                                                                                         'controlled.',
+                                                                                         'The '
+                                                                                         'incident '
+                                                                                         'demonstrated '
+                                                                                         'weaknesses '
+                                                                                         'in the '
+                                                                                         'reliability '
+                                                                                         'and '
+                                                                                         'management '
+                                                                                         'of '
+                                                                                         'safety-critical '
+                                                                                         'overfill '
+                                                                                         'protection '
+                                                                                         'systems.'],
+                                                                'system_causes': ['Management of '
+                                                                                  'safety-critical '
+                                                                                  'tank level and '
+                                                                                  'overfill '
+                                                                                  'protection '
+                                                                                  'systems was '
+                                                                                  'inadequate.',
+                                                                                  'Arrangements '
+                                                                                  'for inspection, '
+                                                                                  'testing and '
+                                                                                  'maintenance of '
+                                                                                  'overfill '
+                                                                                  'protection '
+                                                                                  'required '
+                                                                                  'improvement.',
+                                                                                  'Process safety '
+                                                                                  'management did '
+                                                                                  'not adequately '
+                                                                                  'control the '
+                                                                                  'major-accident '
+                                                                                  'risk associated '
+                                                                                  'with tank '
+                                                                                  'overfilling.',
+                                                                                  'Major-hazard '
+                                                                                  'assessment and '
+                                                                                  'emergency '
+                                                                                  'planning needed '
+                                                                                  'to address '
+                                                                                  'severe vapor '
+                                                                                  'cloud '
+                                                                                  'explosions and '
+                                                                                  'multi-tank '
+                                                                                  'fires.',
+                                                                                  'Containment and '
+                                                                                  'emergency-response '
+                                                                                  'arrangements '
+                                                                                  'required '
+                                                                                  'strengthening '
+                                                                                  'for credible '
+                                                                                  'major '
+                                                                                  'fuel-storage '
+                                                                                  'incidents.'],
+                                                                'consequences': ['There were no '
+                                                                                 'fatalities.',
+                                                                                 'More than 40 '
+                                                                                 'people were '
+                                                                                 'injured.',
+                                                                                 'A large '
+                                                                                 'proportion of '
+                                                                                 'the Buncefield '
+                                                                                 'storage depot '
+                                                                                 'was destroyed or '
+                                                                                 'severely '
+                                                                                 'damaged.',
+                                                                                 'Commercial and '
+                                                                                 'residential '
+                                                                                 'properties '
+                                                                                 'surrounding the '
+                                                                                 'depot sustained '
+                                                                                 'significant '
+                                                                                 'damage.',
+                                                                                 'A large '
+                                                                                 'surrounding area '
+                                                                                 'was evacuated on '
+                                                                                 'emergency-service '
+                                                                                 'advice.',
+                                                                                 'The fire '
+                                                                                 'continued for '
+                                                                                 'several days.',
+                                                                                 'Large quantities '
+                                                                                 'of smoke were '
+                                                                                 'released to the '
+                                                                                 'atmosphere.',
+                                                                                 'The incident '
+                                                                                 'caused major '
+                                                                                 'business '
+                                                                                 'interruption and '
+                                                                                 'wider economic '
+                                                                                 'consequences.'],
+                                                                'investigation_findings': ['The '
+                                                                                           'Health '
+                                                                                           'and '
+                                                                                           'Safety '
+                                                                                           'Executive '
+                                                                                           'and '
+                                                                                           'Environment '
+                                                                                           'Agency '
+                                                                                           'investigated '
+                                                                                           'the '
+                                                                                           'incident.',
+                                                                                           'The '
+                                                                                           'Buncefield '
+                                                                                           'Major '
+                                                                                           'Incident '
+                                                                                           'Investigation '
+                                                                                           'Board '
+                                                                                           'published '
+                                                                                           'findings '
+                                                                                           'and '
+                                                                                           'recommendations '
+                                                                                           'arising '
+                                                                                           'from '
+                                                                                           'the '
+                                                                                           'incident.',
+                                                                                           'The '
+                                                                                           'investigation '
+                                                                                           'established '
+                                                                                           'tank '
+                                                                                           'overfilling '
+                                                                                           'as the '
+                                                                                           'initiating '
+                                                                                           'loss-of-containment '
+                                                                                           'event.',
+                                                                                           'The '
+                                                                                           'investigation '
+                                                                                           'highlighted '
+                                                                                           'the '
+                                                                                           'importance '
+                                                                                           'of '
+                                                                                           'reliable '
+                                                                                           'high-level '
+                                                                                           'overfill '
+                                                                                           'protection.',
+                                                                                           'Post-incident '
+                                                                                           'work '
+                                                                                           'established '
+                                                                                           'stronger '
+                                                                                           'expectations '
+                                                                                           'for '
+                                                                                           'overfill '
+                                                                                           'prevention '
+                                                                                           'and '
+                                                                                           'automatic '
+                                                                                           'shutdown '
+                                                                                           'systems.',
+                                                                                           'Recommendations '
+                                                                                           'addressed '
+                                                                                           'secondary '
+                                                                                           'and '
+                                                                                           'tertiary '
+                                                                                           'containment.',
+                                                                                           'Recommendations '
+                                                                                           'also '
+                                                                                           'addressed '
+                                                                                           'process '
+                                                                                           'safety '
+                                                                                           'leadership, '
+                                                                                           'emergency '
+                                                                                           'planning '
+                                                                                           'and '
+                                                                                           'major-hazard '
+                                                                                           'management.'],
+                                                                'lessons': ['Bulk fuel storage '
+                                                                            'tanks require '
+                                                                            'reliable independent '
+                                                                            'protection against '
+                                                                            'overfilling.',
+                                                                            'Safety-critical level '
+                                                                            'alarms, trips and '
+                                                                            'shutdown systems '
+                                                                            'require appropriate '
+                                                                            'design, installation, '
+                                                                            'testing and '
+                                                                            'maintenance.',
+                                                                            'Independent overfill '
+                                                                            'protection should not '
+                                                                            'depend on the same '
+                                                                            'failure mechanisms as '
+                                                                            'normal level '
+                                                                            'measurement and '
+                                                                            'control.',
+                                                                            'Tank transfer '
+                                                                            'operations require '
+                                                                            'clear operating '
+                                                                            'limits and effective '
+                                                                            'response to abnormal '
+                                                                            'level conditions.',
+                                                                            'Major-hazard '
+                                                                            'assessments for '
+                                                                            'volatile fuels must '
+                                                                            'consider the '
+                                                                            'possibility of large '
+                                                                            'flammable vapor-cloud '
+                                                                            'formation following '
+                                                                            'sustained loss of '
+                                                                            'containment.',
+                                                                            'Secondary and '
+                                                                            'tertiary containment '
+                                                                            'must be capable of '
+                                                                            'limiting the '
+                                                                            'environmental '
+                                                                            'consequences of major '
+                                                                            'releases and '
+                                                                            'firefighting '
+                                                                            'operations.',
+                                                                            'Emergency plans for '
+                                                                            'large fuel-storage '
+                                                                            'facilities should '
+                                                                            'consider severe vapor '
+                                                                            'cloud explosions and '
+                                                                            'multi-tank fires.',
+                                                                            'Process safety '
+                                                                            'leadership must '
+                                                                            'ensure that '
+                                                                            'safety-critical '
+                                                                            'protective systems '
+                                                                            'remain effective '
+                                                                            'throughout their '
+                                                                            'operating life.']},
+ 'Deepwater Horizon / Macondo Blowout (Gulf of Mexico, 2010)': {'schema_version': 2,
+                                                                'metadata': {'date': '20 April '
+                                                                                     '2010',
+                                                                             'location': 'Macondo '
+                                                                                         'well, '
+                                                                                         'Gulf of '
+                                                                                         'Mexico',
+                                                                             'type': 'Offshore '
+                                                                                     'well '
+                                                                                     'blowout, '
+                                                                                     'explosions, '
+                                                                                     'fire and oil '
+                                                                                     'spill',
+                                                                             'fatalities': 11,
+                                                                             'injuries': '17 '
+                                                                                         'workers '
+                                                                                         'were '
+                                                                                         'seriously '
+                                                                                         'injured',
+                                                                             'investigation_agency': 'U.S. '
+                                                                                                     'Chemical '
+                                                                                                     'Safety '
+                                                                                                     'Board '
+                                                                                                     '(CSB), '
+                                                                                                     'with '
+                                                                                                     'separate '
+                                                                                                     'investigations '
+                                                                                                     'also '
+                                                                                                     'conducted '
+                                                                                                     'by '
+                                                                                                     'other '
+                                                                                                     'U.S. '
+                                                                                                     'authorities',
+                                                                             'report_title': 'Macondo '
+                                                                                             'Investigation '
+                                                                                             'Report',
+                                                                             'report_number': None,
+                                                                             'report_date': 'CSB '
+                                                                                            'investigation '
+                                                                                            'volumes '
+                                                                                            'issued '
+                                                                                            'in '
+                                                                                            'multiple '
+                                                                                            'stages'},
+                                                                'event_sequence': ['The Deepwater '
+                                                                                   'Horizon was '
+                                                                                   'conducting '
+                                                                                   'temporary '
+                                                                                   'abandonment '
+                                                                                   'operations at '
+                                                                                   'the Macondo '
+                                                                                   'well.',
+                                                                                   'The cement '
+                                                                                   'barrier '
+                                                                                   'intended to '
+                                                                                   'isolate '
+                                                                                   'hydrocarbons '
+                                                                                   'from the '
+                                                                                   'wellbore did '
+                                                                                   'not provide an '
+                                                                                   'effective '
+                                                                                   'seal.',
+                                                                                   'A negative '
+                                                                                   'pressure test '
+                                                                                   'was '
+                                                                                   'interpreted as '
+                                                                                   'indicating '
+                                                                                   'that the well '
+                                                                                   'was adequately '
+                                                                                   'sealed.',
+                                                                                   'Hydrocarbons '
+                                                                                   'subsequently '
+                                                                                   'flowed into '
+                                                                                   'the well.',
+                                                                                   'The developing '
+                                                                                   'well-control '
+                                                                                   'event was not '
+                                                                                   'detected and '
+                                                                                   'controlled '
+                                                                                   'before '
+                                                                                   'hydrocarbons '
+                                                                                   'had traveled '
+                                                                                   'high in the '
+                                                                                   'well toward '
+                                                                                   'the rig.',
+                                                                                   'Oil and gas '
+                                                                                   'reached the '
+                                                                                   'Deepwater '
+                                                                                   'Horizon '
+                                                                                   'drilling rig.',
+                                                                                   'The '
+                                                                                   'hydrocarbon '
+                                                                                   'release '
+                                                                                   'resulted in '
+                                                                                   'explosions and '
+                                                                                   'a major fire.',
+                                                                                   'The blowout '
+                                                                                   'preventer did '
+                                                                                   'not ultimately '
+                                                                                   'seal the well.',
+                                                                                   'The Deepwater '
+                                                                                   'Horizon rig '
+                                                                                   'sank two days '
+                                                                                   'after the '
+                                                                                   'accident.',
+                                                                                   'Oil and gas '
+                                                                                   'continued '
+                                                                                   'flowing from '
+                                                                                   'the Macondo '
+                                                                                   'well into the '
+                                                                                   'Gulf of Mexico '
+                                                                                   'for 87 days.'],
+                                                                'contributing_factors': ['The '
+                                                                                         'cement '
+                                                                                         'barrier '
+                                                                                         'did not '
+                                                                                         'successfully '
+                                                                                         'isolate '
+                                                                                         'the '
+                                                                                         'hydrocarbon-bearing '
+                                                                                         'formation.',
+                                                                                         'The '
+                                                                                         'negative '
+                                                                                         'pressure '
+                                                                                         'test did '
+                                                                                         'not '
+                                                                                         'identify '
+                                                                                         'that the '
+                                                                                         'well was '
+                                                                                         'not '
+                                                                                         'effectively '
+                                                                                         'sealed.',
+                                                                                         'There '
+                                                                                         'were no '
+                                                                                         'written '
+                                                                                         'procedures '
+                                                                                         'defining '
+                                                                                         'how to '
+                                                                                         'conduct '
+                                                                                         'the '
+                                                                                         'negative '
+                                                                                         'pressure '
+                                                                                         'test and '
+                                                                                         'no '
+                                                                                         'written '
+                                                                                         'criteria '
+                                                                                         'or safe '
+                                                                                         'limits '
+                                                                                         'for '
+                                                                                         'determining '
+                                                                                         'whether '
+                                                                                         'the test '
+                                                                                         'was '
+                                                                                         'successful.',
+                                                                                         'The '
+                                                                                         'developing '
+                                                                                         'influx '
+                                                                                         'was not '
+                                                                                         'detected '
+                                                                                         'and '
+                                                                                         'controlled '
+                                                                                         'sufficiently '
+                                                                                         'early.',
+                                                                                         'Major-accident '
+                                                                                         'hazard '
+                                                                                         'controls '
+                                                                                         'relied '
+                                                                                         'significantly '
+                                                                                         'on '
+                                                                                         'correct '
+                                                                                         'and '
+                                                                                         'timely '
+                                                                                         'manual '
+                                                                                         'intervention.',
+                                                                                         'The '
+                                                                                         'blowout '
+                                                                                         'preventer '
+                                                                                         'experienced '
+                                                                                         'failures '
+                                                                                         'that '
+                                                                                         'prevented '
+                                                                                         'it from '
+                                                                                         'reliably '
+                                                                                         'sealing '
+                                                                                         'the well '
+                                                                                         'during '
+                                                                                         'the '
+                                                                                         'emergency.'],
+                                                                'system_causes': ['Management '
+                                                                                  'systems did not '
+                                                                                  'adequately '
+                                                                                  'control the '
+                                                                                  'major-accident '
+                                                                                  'risks '
+                                                                                  'associated with '
+                                                                                  'temporary '
+                                                                                  'abandonment and '
+                                                                                  'loss of well '
+                                                                                  'control.',
+                                                                                  'Safety '
+                                                                                  'management did '
+                                                                                  'not provide '
+                                                                                  'sufficiently '
+                                                                                  'robust control '
+                                                                                  'of '
+                                                                                  'safety-critical '
+                                                                                  'barriers.',
+                                                                                  'Management of '
+                                                                                  'change and '
+                                                                                  'hazard '
+                                                                                  'assessment '
+                                                                                  'arrangements '
+                                                                                  'did not '
+                                                                                  'adequately '
+                                                                                  'address changes '
+                                                                                  'associated with '
+                                                                                  'the temporary '
+                                                                                  'abandonment '
+                                                                                  'plan.',
+                                                                                  'Process safety '
+                                                                                  'performance '
+                                                                                  'management did '
+                                                                                  'not '
+                                                                                  'sufficiently '
+                                                                                  'emphasize '
+                                                                                  'major-accident '
+                                                                                  'prevention.',
+                                                                                  'Safety-critical '
+                                                                                  'BOP systems '
+                                                                                  'were not '
+                                                                                  'managed with '
+                                                                                  'sufficient '
+                                                                                  'assurance of '
+                                                                                  'emergency '
+                                                                                  'reliability.'],
+                                                                'consequences': ['Eleven workers '
+                                                                                 'were killed.',
+                                                                                 'Seventeen '
+                                                                                 'workers were '
+                                                                                 'seriously '
+                                                                                 'injured.',
+                                                                                 'The Deepwater '
+                                                                                 'Horizon drilling '
+                                                                                 'rig was '
+                                                                                 'destroyed and '
+                                                                                 'sank two days '
+                                                                                 'after the '
+                                                                                 'accident.',
+                                                                                 'Oil and gas '
+                                                                                 'flowed '
+                                                                                 'uncontrolled '
+                                                                                 'from the Macondo '
+                                                                                 'well into the '
+                                                                                 'Gulf of Mexico '
+                                                                                 'for 87 days.',
+                                                                                 'The incident '
+                                                                                 'resulted in a '
+                                                                                 'major offshore '
+                                                                                 'environmental '
+                                                                                 'disaster.'],
+                                                                'investigation_findings': ['The '
+                                                                                           'U.S. '
+                                                                                           'Chemical '
+                                                                                           'Safety '
+                                                                                           'Board '
+                                                                                           'conducted '
+                                                                                           'a '
+                                                                                           'major '
+                                                                                           'process-safety '
+                                                                                           'investigation '
+                                                                                           'of the '
+                                                                                           'Macondo '
+                                                                                           'blowout '
+                                                                                           'and '
+                                                                                           'explosion.',
+                                                                                           'The '
+                                                                                           'CSB '
+                                                                                           'investigation '
+                                                                                           'examined '
+                                                                                           'failures '
+                                                                                           'of '
+                                                                                           'physical, '
+                                                                                           'operational '
+                                                                                           'and '
+                                                                                           'organizational '
+                                                                                           'safety '
+                                                                                           'barriers.',
+                                                                                           'The '
+                                                                                           'CSB '
+                                                                                           'examined '
+                                                                                           'the '
+                                                                                           'failure '
+                                                                                           'of the '
+                                                                                           'blowout '
+                                                                                           'preventer '
+                                                                                           'as a '
+                                                                                           'safety-critical '
+                                                                                           'barrier.',
+                                                                                           'The '
+                                                                                           'CSB '
+                                                                                           'identified '
+                                                                                           'deficiencies '
+                                                                                           'in '
+                                                                                           'management '
+                                                                                           'of '
+                                                                                           'safety-critical '
+                                                                                           'equipment '
+                                                                                           'and '
+                                                                                           'major-accident '
+                                                                                           'risk.',
+                                                                                           'The '
+                                                                                           'CSB '
+                                                                                           'examined '
+                                                                                           'weaknesses '
+                                                                                           'in '
+                                                                                           'process '
+                                                                                           'safety '
+                                                                                           'performance '
+                                                                                           'indicators '
+                                                                                           'and '
+                                                                                           'hazard '
+                                                                                           'assessment.',
+                                                                                           'The '
+                                                                                           'CSB '
+                                                                                           'investigation '
+                                                                                           'was '
+                                                                                           'published '
+                                                                                           'through '
+                                                                                           'multiple '
+                                                                                           'report '
+                                                                                           'volumes '
+                                                                                           'addressing '
+                                                                                           'technical, '
+                                                                                           'regulatory '
+                                                                                           'and '
+                                                                                           'organizational '
+                                                                                           'issues.'],
+                                                                'lessons': ['Well integrity '
+                                                                            'requires multiple '
+                                                                            'effective and '
+                                                                            'independently '
+                                                                            'verified barriers '
+                                                                            'against uncontrolled '
+                                                                            'hydrocarbon flow.',
+                                                                            'Negative pressure '
+                                                                            'tests require clear '
+                                                                            'procedures, '
+                                                                            'acceptance criteria '
+                                                                            'and competent '
+                                                                            'interpretation.',
+                                                                            'Early detection and '
+                                                                            'response to well '
+                                                                            'influx are critical '
+                                                                            'to preventing '
+                                                                            'escalation to a '
+                                                                            'blowout.',
+                                                                            'Safety-critical '
+                                                                            'blowout prevention '
+                                                                            'equipment must be '
+                                                                            'capable of performing '
+                                                                            'its required '
+                                                                            'emergency functions '
+                                                                            'under credible '
+                                                                            'accident conditions.',
+                                                                            'Testing and '
+                                                                            'maintenance programs '
+                                                                            'must identify latent '
+                                                                            'failures in emergency '
+                                                                            'safety systems.',
+                                                                            'Major-accident hazard '
+                                                                            'assessments should '
+                                                                            'not rely excessively '
+                                                                            'on timely human '
+                                                                            'intervention as the '
+                                                                            'principal protective '
+                                                                            'layer.',
+                                                                            'Management of change '
+                                                                            'must evaluate safety '
+                                                                            'implications of '
+                                                                            'changes to well plans '
+                                                                            'and temporary '
+                                                                            'abandonment '
+                                                                            'activities.',
+                                                                            'Process safety '
+                                                                            'indicators should '
+                                                                            'measure the health of '
+                                                                            'major-accident '
+                                                                            'prevention barriers, '
+                                                                            'not only personal '
+                                                                            'safety performance.']},
+ 'Montara Wellhead Platform Blowout (Timor Sea, 2009)': {'schema_version': 2,
+                                                         'metadata': {'date': '21 August 2009',
+                                                                      'location': 'Montara oil '
+                                                                                  'field, Timor '
+                                                                                  'Sea, Australia',
+                                                                      'type': 'Offshore well '
+                                                                              'blowout and '
+                                                                              'uncontrolled oil '
+                                                                              'and gas release',
+                                                                      'fatalities': 0,
+                                                                      'injuries': 'Not included in '
+                                                                                  'current '
+                                                                                  'verified '
+                                                                                  'dataset',
+                                                                      'investigation_agency': 'Australian '
+                                                                                              'Government '
+                                                                                              'Montara '
+                                                                                              'Commission '
+                                                                                              'of '
+                                                                                              'Inquiry',
+                                                                      'report_title': 'Report of '
+                                                                                      'the Montara '
+                                                                                      'Commission '
+                                                                                      'of Inquiry',
+                                                                      'report_number': None,
+                                                                      'report_date': 'June 2010'},
+                                                         'event_sequence': ['Problems occurred '
+                                                                            'during cementing of '
+                                                                            'the 9 5/8-inch casing '
+                                                                            'shoe in the H1 well.',
+                                                                            'The cemented casing '
+                                                                            'shoe was likely '
+                                                                            'compromised and did '
+                                                                            'not provide a '
+                                                                            'reliable primary '
+                                                                            'well-control barrier.',
+                                                                            'The 9 5/8-inch '
+                                                                            'cemented casing shoe '
+                                                                            'was not adequately '
+                                                                            'pressure-tested to '
+                                                                            'verify its integrity.',
+                                                                            'Secondary '
+                                                                            'well-control barriers '
+                                                                            'were also inadequate, '
+                                                                            'missing or not '
+                                                                            'properly verified.',
+                                                                            'The 9 5/8-inch '
+                                                                            'pressure-containing '
+                                                                            'anti-corrosion cap '
+                                                                            'was removed and was '
+                                                                            'not reinstalled '
+                                                                            'before subsequent '
+                                                                            'operations.',
+                                                                            'The H1 well was '
+                                                                            'therefore left '
+                                                                            'relying on an '
+                                                                            'unverified primary '
+                                                                            'well-control barrier.',
+                                                                            'Hydrocarbons entered '
+                                                                            'the H1 well through '
+                                                                            'the failed 9 5/8-inch '
+                                                                            'cemented casing shoe.',
+                                                                            'Hydrocarbons flowed '
+                                                                            'up the well and an '
+                                                                            'uncontrolled blowout '
+                                                                            'developed.',
+                                                                            'Oil and gas were '
+                                                                            'released from the '
+                                                                            'Montara well into the '
+                                                                            'Timor Sea.',
+                                                                            'The uncontrolled flow '
+                                                                            'was stopped on 3 '
+                                                                            'November 2009 after '
+                                                                            'intervention through '
+                                                                            'a relief well.'],
+                                                         'contributing_factors': ['Significant '
+                                                                                  'problems '
+                                                                                  'occurred during '
+                                                                                  'the original '
+                                                                                  'cementing '
+                                                                                  'operation.',
+                                                                                  'The cement in '
+                                                                                  'the casing shoe '
+                                                                                  'was likely '
+                                                                                  'compromised by '
+                                                                                  'substantial '
+                                                                                  'over-displacement '
+                                                                                  'of fluid, '
+                                                                                  'resulting in a '
+                                                                                  'wet shoe.',
+                                                                                  'The '
+                                                                                  'significance of '
+                                                                                  'the cementing '
+                                                                                  'problems was '
+                                                                                  'not adequately '
+                                                                                  'recognized and '
+                                                                                  'evaluated.',
+                                                                                  'The primary '
+                                                                                  'cemented '
+                                                                                  'casing-shoe '
+                                                                                  'barrier was not '
+                                                                                  'properly '
+                                                                                  'pressure-tested '
+                                                                                  'after the '
+                                                                                  'cementing '
+                                                                                  'problems.',
+                                                                                  'Only one of the '
+                                                                                  'two planned '
+                                                                                  'pressure-containing '
+                                                                                  'anti-corrosion '
+                                                                                  'caps was '
+                                                                                  'installed.',
+                                                                                  'The installed '
+                                                                                  'pressure-containing '
+                                                                                  'anti-corrosion '
+                                                                                  'cap was not '
+                                                                                  'adequately '
+                                                                                  'tested and '
+                                                                                  'verified in '
+                                                                                  'situ.',
+                                                                                  'The installed 9 '
+                                                                                  '5/8-inch '
+                                                                                  'pressure-containing '
+                                                                                  'anti-corrosion '
+                                                                                  'cap was later '
+                                                                                  'removed without '
+                                                                                  'establishing a '
+                                                                                  'verified '
+                                                                                  'replacement '
+                                                                                  'barrier.'],
+                                                         'system_causes': ["PTTEP Australasia's "
+                                                                           'well-control practices '
+                                                                           'and procedures were '
+                                                                           'deficient.',
+                                                                           'Management systems did '
+                                                                           'not ensure that '
+                                                                           'safety-critical well '
+                                                                           'barriers were properly '
+                                                                           'installed, verified '
+                                                                           'and maintained.',
+                                                                           'Information indicating '
+                                                                           'serious cementing '
+                                                                           'problems was not '
+                                                                           'adequately recognized '
+                                                                           'or acted upon by '
+                                                                           'responsible personnel.',
+                                                                           'Well construction '
+                                                                           'activities did not '
+                                                                           'consistently comply '
+                                                                           "with the company's own "
+                                                                           'Well Construction '
+                                                                           'Standards.',
+                                                                           "The company's "
+                                                                           'procedural and '
+                                                                           'operational '
+                                                                           'shortcomings were '
+                                                                           'widespread and '
+                                                                           'systemic.',
+                                                                           'Regulatory oversight '
+                                                                           'of the Montara well '
+                                                                           'activities was not '
+                                                                           'sufficiently '
+                                                                           'diligent.'],
+                                                         'consequences': ['There were no '
+                                                                          'fatalities during the '
+                                                                          'initial blowout and '
+                                                                          'evacuation.',
+                                                                          'All 69 personnel on the '
+                                                                          'West Atlas drilling rig '
+                                                                          'and Montara wellhead '
+                                                                          'platform were safely '
+                                                                          'evacuated.',
+                                                                          'Oil and gas were '
+                                                                          'released uncontrollably '
+                                                                          'into the Timor Sea.',
+                                                                          'The uncontrolled '
+                                                                          'release continued from '
+                                                                          '21 August until 3 '
+                                                                          'November 2009.',
+                                                                          'The incident required a '
+                                                                          'major offshore '
+                                                                          'oil-spill response.',
+                                                                          'The remote location and '
+                                                                          'limitations in baseline '
+                                                                          'and monitoring '
+                                                                          'information made the '
+                                                                          'full environmental '
+                                                                          'consequences difficult '
+                                                                          'to determine.'],
+                                                         'investigation_findings': ['The '
+                                                                                    'Australian '
+                                                                                    'Government '
+                                                                                    'established '
+                                                                                    'the Montara '
+                                                                                    'Commission of '
+                                                                                    'Inquiry to '
+                                                                                    'investigate '
+                                                                                    'the incident.',
+                                                                                    'The Inquiry '
+                                                                                    'found that '
+                                                                                    'hydrocarbons '
+                                                                                    'most likely '
+                                                                                    'entered the '
+                                                                                    'H1 well '
+                                                                                    'through the 9 '
+                                                                                    '5/8-inch '
+                                                                                    'cemented '
+                                                                                    'casing shoe.',
+                                                                                    'The Inquiry '
+                                                                                    'found that '
+                                                                                    'the 9 '
+                                                                                    '5/8-inch '
+                                                                                    'cemented '
+                                                                                    'casing shoe, '
+                                                                                    'the primary '
+                                                                                    'well-control '
+                                                                                    'barrier, '
+                                                                                    'failed.',
+                                                                                    'The Inquiry '
+                                                                                    'found that '
+                                                                                    'the primary '
+                                                                                    'barrier had '
+                                                                                    'not been '
+                                                                                    'adequately '
+                                                                                    'pressure-tested '
+                                                                                    'despite '
+                                                                                    'significant '
+                                                                                    'problems '
+                                                                                    'during '
+                                                                                    'cementing.',
+                                                                                    'The Inquiry '
+                                                                                    'identified '
+                                                                                    'deficiencies '
+                                                                                    'in the '
+                                                                                    'installation '
+                                                                                    'and '
+                                                                                    'verification '
+                                                                                    'of secondary '
+                                                                                    'well-control '
+                                                                                    'barriers.',
+                                                                                    'The Inquiry '
+                                                                                    'found '
+                                                                                    'widespread '
+                                                                                    'and systemic '
+                                                                                    'shortcomings '
+                                                                                    'in PTTEP '
+                                                                                    "Australasia's "
+                                                                                    'procedures '
+                                                                                    'and '
+                                                                                    'practices.',
+                                                                                    'The Inquiry '
+                                                                                    'also '
+                                                                                    'identified '
+                                                                                    'deficiencies '
+                                                                                    'in regulatory '
+                                                                                    'oversight.',
+                                                                                    'The Montara '
+                                                                                    'Commission of '
+                                                                                    'Inquiry made '
+                                                                                    '105 '
+                                                                                    'recommendations.'],
+                                                         'lessons': ['Every safety-critical well '
+                                                                     'barrier must be positively '
+                                                                     'verified before it is relied '
+                                                                     'upon for well control.',
+                                                                     'Abnormal cementing results '
+                                                                     'must trigger formal '
+                                                                     'evaluation, pressure testing '
+                                                                     'and appropriate remedial '
+                                                                     'action.',
+                                                                     'A well should not be left '
+                                                                     'dependent on an unverified '
+                                                                     'primary barrier.',
+                                                                     'Secondary well-control '
+                                                                     'barriers must be suitable '
+                                                                     'for their intended safety '
+                                                                     'function and independently '
+                                                                     'verified.',
+                                                                     'Removal of a verified well '
+                                                                     'barrier requires '
+                                                                     'confirmation that adequate '
+                                                                     'alternative barriers are '
+                                                                     'established.',
+                                                                     'Well-construction records '
+                                                                     'and abnormal operating '
+                                                                     'information must be reviewed '
+                                                                     'by competent personnel who '
+                                                                     'understand their '
+                                                                     'process-safety significance.',
+                                                                     'Well-control procedures must '
+                                                                     'comply with approved '
+                                                                     'well-construction standards '
+                                                                     'and established good '
+                                                                     'oilfield practice.',
+                                                                     'Major-accident prevention '
+                                                                     'requires effective '
+                                                                     'organizational assurance as '
+                                                                     'well as competent field '
+                                                                     'execution.',
+                                                                     'Regulatory oversight must '
+                                                                     'provide effective assurance '
+                                                                     'that operators are '
+                                                                     'controlling major '
+                                                                     'well-integrity hazards.']},
+ 'Alexander L. Kielland Offshore Platform Disaster (North Sea, 1980)': {'schema_version': 2,
+                                                                        'metadata': {'date': '27 '
+                                                                                             'March '
+                                                                                             '1980',
+                                                                                     'location': 'Ekofisk '
+                                                                                                 'area, '
+                                                                                                 'Norwegian '
+                                                                                                 'North '
+                                                                                                 'Sea',
+                                                                                     'type': 'Offshore '
+                                                                                             'structural '
+                                                                                             'failure, '
+                                                                                             'loss '
+                                                                                             'of '
+                                                                                             'stability '
+                                                                                             'and '
+                                                                                             'capsize',
+                                                                                     'fatalities': 123,
+                                                                                     'injuries': 'Not '
+                                                                                                 'included '
+                                                                                                 'in '
+                                                                                                 'current '
+                                                                                                 'verified '
+                                                                                                 'dataset',
+                                                                                     'investigation_agency': 'Norwegian '
+                                                                                                             'Government '
+                                                                                                             'Commission '
+                                                                                                             'of '
+                                                                                                             'Inquiry',
+                                                                                     'report_title': 'Alexander '
+                                                                                                     'L. '
+                                                                                                     'Kielland-ulykken',
+                                                                                     'report_number': 'NOU '
+                                                                                                      '1981:11',
+                                                                                     'report_date': '1981'},
+                                                                        'event_sequence': ['Alexander '
+                                                                                           'L. '
+                                                                                           'Kielland '
+                                                                                           'was '
+                                                                                           'operating '
+                                                                                           'as an '
+                                                                                           'accommodation '
+                                                                                           'platform '
+                                                                                           'in the '
+                                                                                           'Ekofisk '
+                                                                                           'area '
+                                                                                           'of the '
+                                                                                           'Norwegian '
+                                                                                           'North '
+                                                                                           'Sea.',
+                                                                                           'A '
+                                                                                           'fatigue '
+                                                                                           'crack '
+                                                                                           'had '
+                                                                                           'developed '
+                                                                                           'in '
+                                                                                           'structural '
+                                                                                           'brace '
+                                                                                           'D-6 at '
+                                                                                           'the '
+                                                                                           'attachment '
+                                                                                           'for a '
+                                                                                           'hydrophone '
+                                                                                           'support.',
+                                                                                           'The '
+                                                                                           'fatigue '
+                                                                                           'crack '
+                                                                                           'propagated '
+                                                                                           'until '
+                                                                                           'brace '
+                                                                                           'D-6 '
+                                                                                           'fractured.',
+                                                                                           'Following '
+                                                                                           'failure '
+                                                                                           'of '
+                                                                                           'D-6, '
+                                                                                           'five '
+                                                                                           'other '
+                                                                                           'braces '
+                                                                                           'connecting '
+                                                                                           'column '
+                                                                                           'D to '
+                                                                                           'the '
+                                                                                           'platform '
+                                                                                           'failed '
+                                                                                           'due to '
+                                                                                           'overload.',
+                                                                                           'Column '
+                                                                                           'D was '
+                                                                                           'lost '
+                                                                                           'from '
+                                                                                           'the '
+                                                                                           'platform '
+                                                                                           'structure.',
+                                                                                           'Loss '
+                                                                                           'of '
+                                                                                           'column '
+                                                                                           'D and '
+                                                                                           'its '
+                                                                                           'buoyancy '
+                                                                                           'caused '
+                                                                                           'the '
+                                                                                           'platform '
+                                                                                           'to '
+                                                                                           'develop '
+                                                                                           'a '
+                                                                                           'severe '
+                                                                                           'list '
+                                                                                           'of '
+                                                                                           'approximately '
+                                                                                           '30 to '
+                                                                                           '35 '
+                                                                                           'degrees.',
+                                                                                           'Water '
+                                                                                           'entered '
+                                                                                           'other '
+                                                                                           'columns '
+                                                                                           'and '
+                                                                                           'deck '
+                                                                                           'volumes '
+                                                                                           'through '
+                                                                                           'openings '
+                                                                                           'as the '
+                                                                                           'platform '
+                                                                                           'remained '
+                                                                                           'heavily '
+                                                                                           'listed.',
+                                                                                           'Progressive '
+                                                                                           'flooding '
+                                                                                           'further '
+                                                                                           'reduced '
+                                                                                           'the '
+                                                                                           "platform's "
+                                                                                           'stability '
+                                                                                           'and '
+                                                                                           'buoyancy.',
+                                                                                           'Alexander '
+                                                                                           'L. '
+                                                                                           'Kielland '
+                                                                                           'capsized '
+                                                                                           'approximately '
+                                                                                           '20 '
+                                                                                           'minutes '
+                                                                                           'after '
+                                                                                           'the '
+                                                                                           'initial '
+                                                                                           'structural '
+                                                                                           'failure.'],
+                                                                        'contributing_factors': ['The '
+                                                                                                 'fatigue '
+                                                                                                 'crack '
+                                                                                                 'initiated '
+                                                                                                 'in '
+                                                                                                 'the '
+                                                                                                 'area '
+                                                                                                 'where '
+                                                                                                 'a '
+                                                                                                 'hydrophone '
+                                                                                                 'support '
+                                                                                                 'had '
+                                                                                                 'been '
+                                                                                                 'attached '
+                                                                                                 'to '
+                                                                                                 'brace '
+                                                                                                 'D-6.',
+                                                                                                 'The '
+                                                                                                 'hydrophone-support '
+                                                                                                 'attachment '
+                                                                                                 'incorporated '
+                                                                                                 'a '
+                                                                                                 'low-quality '
+                                                                                                 'fillet '
+                                                                                                 'weld.',
+                                                                                                 'The '
+                                                                                                 'hydrophone-support '
+                                                                                                 'detail '
+                                                                                                 'created '
+                                                                                                 'a '
+                                                                                                 'significant '
+                                                                                                 'stress '
+                                                                                                 'concentration '
+                                                                                                 'in '
+                                                                                                 'the '
+                                                                                                 'load-carrying '
+                                                                                                 'brace.',
+                                                                                                 'The '
+                                                                                                 'fatigue '
+                                                                                                 'crack '
+                                                                                                 'propagated '
+                                                                                                 'in '
+                                                                                                 'the '
+                                                                                                 'D-6 '
+                                                                                                 'brace '
+                                                                                                 'until '
+                                                                                                 'structural '
+                                                                                                 'fracture '
+                                                                                                 'occurred.',
+                                                                                                 'The '
+                                                                                                 'remaining '
+                                                                                                 'braces '
+                                                                                                 'connected '
+                                                                                                 'to '
+                                                                                                 'column '
+                                                                                                 'D '
+                                                                                                 'were '
+                                                                                                 'unable '
+                                                                                                 'to '
+                                                                                                 'withstand '
+                                                                                                 'the '
+                                                                                                 'redistributed '
+                                                                                                 'loads '
+                                                                                                 'after '
+                                                                                                 'D-6 '
+                                                                                                 'failed.',
+                                                                                                 'Loss '
+                                                                                                 'of '
+                                                                                                 'column '
+                                                                                                 'D '
+                                                                                                 'caused '
+                                                                                                 'a '
+                                                                                                 'major '
+                                                                                                 'loss '
+                                                                                                 'of '
+                                                                                                 'buoyancy '
+                                                                                                 'and '
+                                                                                                 'a '
+                                                                                                 'severe '
+                                                                                                 'platform '
+                                                                                                 'list.',
+                                                                                                 'Openings '
+                                                                                                 'in '
+                                                                                                 'the '
+                                                                                                 'structure '
+                                                                                                 'permitted '
+                                                                                                 'progressive '
+                                                                                                 'flooding '
+                                                                                                 'after '
+                                                                                                 'the '
+                                                                                                 'platform '
+                                                                                                 'developed '
+                                                                                                 'the '
+                                                                                                 'severe '
+                                                                                                 'list.',
+                                                                                                 'Severe '
+                                                                                                 'weather, '
+                                                                                                 'cold '
+                                                                                                 'water '
+                                                                                                 'and '
+                                                                                                 'the '
+                                                                                                 'rapid '
+                                                                                                 'development '
+                                                                                                 'of '
+                                                                                                 'the '
+                                                                                                 'accident '
+                                                                                                 'complicated '
+                                                                                                 'evacuation '
+                                                                                                 'and '
+                                                                                                 'rescue.'],
+                                                                        'system_causes': ['Deficiencies '
+                                                                                          'associated '
+                                                                                          'with '
+                                                                                          'the '
+                                                                                          'design '
+                                                                                          'and '
+                                                                                          'fabrication '
+                                                                                          'of the '
+                                                                                          'hydrophone-support '
+                                                                                          'attachment '
+                                                                                          'contributed '
+                                                                                          'to '
+                                                                                          'fatigue-crack '
+                                                                                          'initiation.',
+                                                                                          'The '
+                                                                                          'structural '
+                                                                                          'arrangement '
+                                                                                          'lacked '
+                                                                                          'sufficient '
+                                                                                          'redundancy '
+                                                                                          'to '
+                                                                                          'prevent '
+                                                                                          'a local '
+                                                                                          'brace '
+                                                                                          'failure '
+                                                                                          'from '
+                                                                                          'escalating '
+                                                                                          'into '
+                                                                                          'loss of '
+                                                                                          'an '
+                                                                                          'entire '
+                                                                                          'column.',
+                                                                                          'Structural '
+                                                                                          'integrity '
+                                                                                          'arrangements '
+                                                                                          'did not '
+                                                                                          'prevent '
+                                                                                          'the '
+                                                                                          'fatigue '
+                                                                                          'crack '
+                                                                                          'from '
+                                                                                          'developing '
+                                                                                          'into a '
+                                                                                          'catastrophic '
+                                                                                          'structural '
+                                                                                          'failure.',
+                                                                                          'The '
+                                                                                          'accident '
+                                                                                          'demonstrated '
+                                                                                          'the '
+                                                                                          'need '
+                                                                                          'for '
+                                                                                          'stronger '
+                                                                                          'control '
+                                                                                          'of '
+                                                                                          'fatigue-critical '
+                                                                                          'structural '
+                                                                                          'details, '
+                                                                                          'welding '
+                                                                                          'quality '
+                                                                                          'and '
+                                                                                          'inspection.',
+                                                                                          'Emergency '
+                                                                                          'preparedness '
+                                                                                          'and '
+                                                                                          'lifesaving '
+                                                                                          'arrangements '
+                                                                                          'were '
+                                                                                          'inadequate '
+                                                                                          'for a '
+                                                                                          'rapidly '
+                                                                                          'developing '
+                                                                                          'capsize '
+                                                                                          'scenario.',
+                                                                                          'The '
+                                                                                          'accident '
+                                                                                          'exposed '
+                                                                                          'weaknesses '
+                                                                                          'in the '
+                                                                                          'offshore '
+                                                                                          'safety '
+                                                                                          'and '
+                                                                                          'regulatory '
+                                                                                          'framework '
+                                                                                          'that '
+                                                                                          'subsequently '
+                                                                                          'required '
+                                                                                          'significant '
+                                                                                          'improvement.'],
+                                                                        'consequences': ['There '
+                                                                                         'were 212 '
+                                                                                         'people '
+                                                                                         'aboard '
+                                                                                         'Alexander '
+                                                                                         'L. '
+                                                                                         'Kielland '
+                                                                                         'when the '
+                                                                                         'accident '
+                                                                                         'occurred.',
+                                                                                         'One '
+                                                                                         'hundred '
+                                                                                         'and '
+                                                                                         'twenty-three '
+                                                                                         'people '
+                                                                                         'died.',
+                                                                                         'Eighty-nine '
+                                                                                         'people '
+                                                                                         'survived.',
+                                                                                         'The '
+                                                                                         'platform '
+                                                                                         'capsized '
+                                                                                         'approximately '
+                                                                                         '20 '
+                                                                                         'minutes '
+                                                                                         'after '
+                                                                                         'the '
+                                                                                         'initial '
+                                                                                         'structural '
+                                                                                         'failure.',
+                                                                                         'Cold '
+                                                                                         'water, '
+                                                                                         'severe '
+                                                                                         'weather '
+                                                                                         'and the '
+                                                                                         'rapid '
+                                                                                         'capsize '
+                                                                                         'greatly '
+                                                                                         'complicated '
+                                                                                         'evacuation '
+                                                                                         'and '
+                                                                                         'rescue.',
+                                                                                         'The '
+                                                                                         'accident '
+                                                                                         'became a '
+                                                                                         'major '
+                                                                                         'turning '
+                                                                                         'point in '
+                                                                                         'Norwegian '
+                                                                                         'offshore '
+                                                                                         'safety.'],
+                                                                        'investigation_findings': ['The '
+                                                                                                   'Norwegian '
+                                                                                                   'Government '
+                                                                                                   'established '
+                                                                                                   'a '
+                                                                                                   'Commission '
+                                                                                                   'of '
+                                                                                                   'Inquiry '
+                                                                                                   'following '
+                                                                                                   'the '
+                                                                                                   'accident.',
+                                                                                                   'The '
+                                                                                                   'Commission '
+                                                                                                   'concluded '
+                                                                                                   'that '
+                                                                                                   'the '
+                                                                                                   'triggering '
+                                                                                                   'cause '
+                                                                                                   'of '
+                                                                                                   'the '
+                                                                                                   'accident '
+                                                                                                   'was '
+                                                                                                   'fatigue '
+                                                                                                   'fracture '
+                                                                                                   'of '
+                                                                                                   'structural '
+                                                                                                   'brace '
+                                                                                                   'D-6.',
+                                                                                                   'The '
+                                                                                                   'fatigue '
+                                                                                                   'crack '
+                                                                                                   'developed '
+                                                                                                   'where '
+                                                                                                   'a '
+                                                                                                   'hydrophone '
+                                                                                                   'support '
+                                                                                                   'had '
+                                                                                                   'been '
+                                                                                                   'welded '
+                                                                                                   'to '
+                                                                                                   'brace '
+                                                                                                   'D-6.',
+                                                                                                   'The '
+                                                                                                   'Commission '
+                                                                                                   'linked '
+                                                                                                   'development '
+                                                                                                   'of '
+                                                                                                   'the '
+                                                                                                   'fatigue '
+                                                                                                   'crack '
+                                                                                                   'to '
+                                                                                                   'deficiencies '
+                                                                                                   'associated '
+                                                                                                   'with '
+                                                                                                   'planning '
+                                                                                                   'and '
+                                                                                                   'construction '
+                                                                                                   'of '
+                                                                                                   'the '
+                                                                                                   'platform.',
+                                                                                                   'Failure '
+                                                                                                   'of '
+                                                                                                   'D-6 '
+                                                                                                   'caused '
+                                                                                                   'overload '
+                                                                                                   'failure '
+                                                                                                   'of '
+                                                                                                   'the '
+                                                                                                   'remaining '
+                                                                                                   'braces '
+                                                                                                   'connecting '
+                                                                                                   'column '
+                                                                                                   'D '
+                                                                                                   'to '
+                                                                                                   'the '
+                                                                                                   'platform.',
+                                                                                                   'Loss '
+                                                                                                   'of '
+                                                                                                   'column '
+                                                                                                   'D '
+                                                                                                   'caused '
+                                                                                                   'loss '
+                                                                                                   'of '
+                                                                                                   'buoyancy '
+                                                                                                   'and '
+                                                                                                   'severe '
+                                                                                                   'listing.',
+                                                                                                   'Flooding '
+                                                                                                   'through '
+                                                                                                   'openings '
+                                                                                                   'contributed '
+                                                                                                   'to '
+                                                                                                   'the '
+                                                                                                   'rapid '
+                                                                                                   'loss '
+                                                                                                   'of '
+                                                                                                   'stability '
+                                                                                                   'and '
+                                                                                                   'capsize.',
+                                                                                                   'The '
+                                                                                                   'official '
+                                                                                                   'investigation '
+                                                                                                   'report '
+                                                                                                   'was '
+                                                                                                   'published '
+                                                                                                   'as '
+                                                                                                   'NOU '
+                                                                                                   '1981:11.',
+                                                                                                   'A '
+                                                                                                   'later '
+                                                                                                   'review '
+                                                                                                   'by '
+                                                                                                   'the '
+                                                                                                   'Norwegian '
+                                                                                                   'Office '
+                                                                                                   'of '
+                                                                                                   'the '
+                                                                                                   'Auditor '
+                                                                                                   'General '
+                                                                                                   'found '
+                                                                                                   'broad '
+                                                                                                   'support '
+                                                                                                   'for '
+                                                                                                   'the '
+                                                                                                   'original '
+                                                                                                   "Commission's "
+                                                                                                   'conclusion '
+                                                                                                   'that '
+                                                                                                   'D-6 '
+                                                                                                   'failed '
+                                                                                                   'due '
+                                                                                                   'to '
+                                                                                                   'fatigue.'],
+                                                                        'lessons': ['Fatigue-critical '
+                                                                                    'structural '
+                                                                                    'details '
+                                                                                    'require '
+                                                                                    'rigorous '
+                                                                                    'design '
+                                                                                    'assessment '
+                                                                                    'throughout '
+                                                                                    'the operating '
+                                                                                    'life of an '
+                                                                                    'offshore '
+                                                                                    'installation.',
+                                                                                    'Attachments '
+                                                                                    'welded to '
+                                                                                    'primary '
+                                                                                    'load-carrying '
+                                                                                    'members must '
+                                                                                    'be assessed '
+                                                                                    'for stress '
+                                                                                    'concentration '
+                                                                                    'and fatigue '
+                                                                                    'effects.',
+                                                                                    'Welding '
+                                                                                    'quality on '
+                                                                                    'safety-critical '
+                                                                                    'structural '
+                                                                                    'members '
+                                                                                    'requires '
+                                                                                    'effective '
+                                                                                    'fabrication '
+                                                                                    'control and '
+                                                                                    'inspection.',
+                                                                                    'Structural '
+                                                                                    'inspection '
+                                                                                    'programs must '
+                                                                                    'be capable of '
+                                                                                    'detecting '
+                                                                                    'fatigue '
+                                                                                    'cracking '
+                                                                                    'before it '
+                                                                                    'develops into '
+                                                                                    'catastrophic '
+                                                                                    'fracture.',
+                                                                                    'Offshore '
+                                                                                    'structures '
+                                                                                    'require '
+                                                                                    'adequate '
+                                                                                    'redundancy so '
+                                                                                    'that a local '
+                                                                                    'structural '
+                                                                                    'failure does '
+                                                                                    'not readily '
+                                                                                    'escalate into '
+                                                                                    'global '
+                                                                                    'collapse.',
+                                                                                    'Damage-stability '
+                                                                                    'assessments '
+                                                                                    'must consider '
+                                                                                    'progressive '
+                                                                                    'flooding '
+                                                                                    'following '
+                                                                                    'severe '
+                                                                                    'structural '
+                                                                                    'damage and '
+                                                                                    'loss of '
+                                                                                    'buoyancy.',
+                                                                                    'Openings that '
+                                                                                    'can '
+                                                                                    'contribute to '
+                                                                                    'progressive '
+                                                                                    'flooding '
+                                                                                    'require '
+                                                                                    'appropriate '
+                                                                                    'design and '
+                                                                                    'control.',
+                                                                                    'Emergency '
+                                                                                    'evacuation '
+                                                                                    'systems must '
+                                                                                    'remain usable '
+                                                                                    'during severe '
+                                                                                    'list, high '
+                                                                                    'waves and '
+                                                                                    'rapidly '
+                                                                                    'developing '
+                                                                                    'structural '
+                                                                                    'emergencies.',
+                                                                                    'Personnel '
+                                                                                    'require '
+                                                                                    'effective '
+                                                                                    'personal '
+                                                                                    'survival '
+                                                                                    'equipment '
+                                                                                    'appropriate '
+                                                                                    'for cold '
+                                                                                    'offshore '
+                                                                                    'environments.',
+                                                                                    'Major '
+                                                                                    'offshore '
+                                                                                    'accidents '
+                                                                                    'require '
+                                                                                    'integrated '
+                                                                                    'management of '
+                                                                                    'structural '
+                                                                                    'integrity, '
+                                                                                    'emergency '
+                                                                                    'preparedness '
+                                                                                    'and '
+                                                                                    'regulatory '
+                                                                                    'assurance.']},
+ 'Bhopal Gas Disaster (India, 1984)': {'schema_version': 2,
                                        'metadata': {'date': 'Night of 2-3 December 1984',
                                                     'location': 'Bhopal, Madhya Pradesh, India',
                                                     'type': 'Major toxic chemical release '
@@ -924,9 +3123,8 @@ VERIFIED_ACCIDENT_DATA = {
                                                    'arrangements.',
                                                    'Process-safety decisions must consider both '
                                                    'the probability of an initiating event and the '
-                                                   'potential severity of off-site consequences.']}
-,
-'Flixborough Chemical Plant Explosion (UK, 1974)': {'schema_version': 2,
+                                                   'potential severity of off-site consequences.']},
+ 'Flixborough Chemical Plant Explosion (UK, 1974)': {'schema_version': 2,
                                                      'metadata': {'date': '1 June 1974',
                                                                   'location': 'Flixborough, '
                                                                               'England, United '
@@ -1223,8 +3421,129 @@ VERIFIED_ACCIDENT_DATA = {
                                                                  'incorporated into operating '
                                                                  'procedures, mechanical-integrity '
                                                                  'programs and process-safety '
-                                                                 'management systems.']}
-}
+                                                                 'management systems.']},
+ 'Seveso Chemical Accident (Italy, 1976)': {'schema_version': 2,
+                                            'metadata': {'date': '10 July 1976',
+                                                         'location': 'Meda, near Seveso, Lombardy, '
+                                                                     'Italy',
+                                                         'type': 'Uncontrolled exothermic reaction '
+                                                                 'during trichlorophenol '
+                                                                 'production, resulting in a toxic '
+                                                                 'release containing TCDD',
+                                                         'fatalities': 'No human deaths directly '
+                                                                       'attributed to TCDD in the '
+                                                                       'referenced HSE accident '
+                                                                       'account',
+                                                         'injuries': 'No definitive injury count '
+                                                                     'established in the verified '
+                                                                     'source information',
+                                                         'investigation_agency': 'Italian '
+                                                                                 'authorities',
+                                                         'report_title': None,
+                                                         'report_number': None,
+                                                         'report_date': None},
+                                            'event_sequence': ['A batch process producing '
+                                                               '2,4,5-trichlorophenol was '
+                                                               'interrupted.',
+                                                               'The reactor contents remained hot '
+                                                               'following the interruption.',
+                                                               'An uncontrolled exothermic '
+                                                               'reaction developed in the reactor.',
+                                                               'Reactor temperature and pressure '
+                                                               'increased.',
+                                                               'The reactor bursting disc ruptured '
+                                                               'as pressure increased.',
+                                                               'A toxic cloud containing TCDD was '
+                                                               'released to the atmosphere.',
+                                                               'The release contaminated '
+                                                               'surrounding communities and land.',
+                                                               'Authorities implemented protective '
+                                                               'measures, including evacuations.'],
+                                            'contributing_factors': ['Hazards associated with '
+                                                                     'interruption of the batch '
+                                                                     'process.',
+                                                                     'Inadequate control of the '
+                                                                     'thermal runaway hazard.',
+                                                                     'Insufficient prevention of '
+                                                                     'hazardous temperature '
+                                                                     'escalation.',
+                                                                     'Release of toxic material '
+                                                                     'through the reactor relief '
+                                                                     'discharge.',
+                                                                     'Potential for severe '
+                                                                     'off-site consequences from '
+                                                                     'toxic contamination.'],
+                                            'system_causes': ['Inadequate management of hazardous '
+                                                              'batch-interruption conditions.',
+                                                              'Insufficient assessment and control '
+                                                              'of runaway-reaction hazards.',
+                                                              'Inadequate prevention of toxic '
+                                                              'off-site release consequences.',
+                                                              'Weaknesses in major-accident '
+                                                              'prevention and emergency '
+                                                              'preparedness.'],
+                                            'consequences': ['Release of a toxic chemical cloud '
+                                                             'containing TCDD.',
+                                                             'Contamination of surrounding '
+                                                             'residential and agricultural areas.',
+                                                             'Evacuation of affected residents.',
+                                                             'Significant environmental '
+                                                             'contamination.',
+                                                             'Long-term public-health and '
+                                                             'environmental concerns.',
+                                                             'Major social, economic, and '
+                                                             'regulatory consequences.',
+                                                             'The accident influenced European '
+                                                             'major-accident hazard legislation.'],
+                                            'investigation_findings': ['The incident originated '
+                                                                       'from an uncontrolled '
+                                                                       'exothermic reaction.',
+                                                                       'The interrupted batch '
+                                                                       'operation was important to '
+                                                                       'the causal sequence.',
+                                                                       'The reaction caused '
+                                                                       'reactor temperature and '
+                                                                       'pressure to increase.',
+                                                                       'The bursting disc ruptured '
+                                                                       'during the pressure '
+                                                                       'increase.',
+                                                                       'The bursting disc was not '
+                                                                       'the initiating cause of '
+                                                                       'the runaway reaction.',
+                                                                       'The resulting discharge '
+                                                                       'released toxic material '
+                                                                       'containing TCDD.',
+                                                                       'The release caused '
+                                                                       'significant off-site '
+                                                                       'contamination.',
+                                                                       'Specific historical '
+                                                                       'equipment settings must '
+                                                                       'not be inferred without '
+                                                                       'evidence.'],
+                                            'lessons': ['Identify runaway-reaction hazards through '
+                                                        'appropriate process-hazard analysis.',
+                                                        'Evaluate abnormal and interrupted batch '
+                                                        'operating conditions.',
+                                                        'Establish safe shutdown and restart '
+                                                        'criteria for hazardous reactions.',
+                                                        'Provide adequate control of reaction '
+                                                        'temperature and heat removal.',
+                                                        'Evaluate appropriate temperature '
+                                                        'monitoring and protective safeguards.',
+                                                        'Assess pressure-relief discharge '
+                                                        'consequences, not only equipment '
+                                                        'protection.',
+                                                        'Consider suitable containment or '
+                                                        'treatment of hazardous relief discharges.',
+                                                        'Evaluate potential off-site toxic-release '
+                                                        'consequences.',
+                                                        'Provide effective emergency planning and '
+                                                        'public communication.',
+                                                        'Apply management-of-change controls to '
+                                                        'process and operating modifications.',
+                                                        'Distinguish verified historical '
+                                                        'deficiencies from modern '
+                                                        'recommendations.']}}
 
 
 
@@ -1415,6 +3734,77 @@ GROUNDING REQUIREMENTS:
 - Clearly distinguish verified historical information from
   engineering interpretation.
 """
+
+        # Seveso-specific historical grounding.
+        # Other accident prompts remain unchanged.
+        if accident == "Seveso Chemical Accident (Italy, 1976)":
+            prompt += """
+ADDITIONAL SEVESO HISTORICAL ACCURACY REQUIREMENTS:
+
+1. State only that the bursting disc ruptured as
+   reactor pressure increased.
+
+   Do not claim that reactor pressure exceeded the
+   bursting-disc design setting, rated burst pressure,
+   set-point, or design limit.
+
+   The verified historical record does not establish
+   the actual bursting-disc pressure setting.
+
+   Do not infer specific historical pressure values
+   or equipment design specifications from the
+   fact that the bursting disc ruptured.
+
+2. Do not claim that the relief system was designed
+   or sized only for equipment protection unless
+   that historical design basis is verified.
+
+3. Describe controls for interrupted batch operations
+   as inadequate. Do not assert that specific shutdown
+   or restart procedures were entirely absent.
+
+4. Do not speculate about the exact configuration
+   or absence of temperature instruments, alarms,
+   interlocks, or automatic shutdown systems.
+
+5. Present modern engineering safeguards as
+   recommendations, not as verified historical
+   equipment deficiencies.
+
+6. Do not invent TCDD release quantities, human
+   casualty counts, investigation report numbers,
+   or specific historical equipment settings.
+
+7. Preserve the verified causal sequence:
+   interrupted batch operation, uncontrolled
+   exothermic reaction, temperature and pressure
+   increase, bursting-disc rupture, toxic release
+   containing TCDD, and off-site contamination.
+
+8. A bursting disc is a pressure-relief device.
+   Do not describe its opening as a failure to
+   contain material. Distinguish its intended
+   pressure-relief function from the hazardous
+   consequences of discharging toxic material
+   to the atmosphere.
+
+9. Do not attribute specific investigation findings
+   directly to Italian authorities or to an official
+   investigation report unless that attribution is
+   explicitly verified. Describe the supplied
+   findings as documented accident findings.
+
+10. Do not assert that the historical relief-system
+    design lacked containment, treatment, or other
+    specific equipment unless verified.
+
+    State that the bursting-disc discharge provided
+    a pathway for toxic material to reach the
+    atmosphere. Present containment or treatment
+    of hazardous relief discharges as a modern
+    engineering recommendation.
+"""
+
         return prompt
 
     # =====================================================
