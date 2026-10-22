@@ -4104,6 +4104,18 @@ if generate_button:
         st.divider()
         st.markdown(answer)
 
+        # V2.24: Independently display verified BP investigation links.
+        if "BP Texas City" in selected_accident:
+            st.subheader("Official Investigation Sources")
+            st.markdown(
+                "1. [U.S. Chemical Safety Board — BP Texas City "
+                "Investigation](https://www.csb.gov/"
+                "bp-america-texas-city-refinery-explosion/)\n"
+                "2. [U.S. Chemical Safety Board — Final Investigation "
+                "Report (PDF)](https://www.csb.gov/assets/1/20/"
+                "csbfinalreportbp.pdf)"
+            )
+
         st.download_button(
             label="Download Case Study as Markdown",
             data=answer,
