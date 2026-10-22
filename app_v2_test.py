@@ -4116,9 +4116,38 @@ if generate_button:
                 "csbfinalreportbp.pdf)"
             )
 
+        # V2.25: Ensure verified BP sources are in the download.
+        download_answer = answer
+
+        if "BP Texas City" in selected_accident:
+            official_sources = [
+                (
+                    "U.S. Chemical Safety Board — BP Texas City Investigation",
+                    "https://www.csb.gov/"
+                    "bp-america-texas-city-refinery-explosion/"
+                ),
+                (
+                    "U.S. Chemical Safety Board — Final Investigation Report",
+                    "https://www.csb.gov/assets/1/20/"
+                    "csbfinalreportbp.pdf"
+                ),
+            ]
+
+            missing_sources = [
+                f"- [{label}]({url})"
+                for label, url in official_sources
+                if url not in download_answer
+            ]
+
+            if missing_sources:
+                download_answer += (
+                    "\n\n## Official Investigation Sources\n\n"
+                    + "\n".join(missing_sources)
+                )
+
         st.download_button(
             label="Download Case Study as Markdown",
-            data=answer,
+            data=download_answer,
             file_name="industrial_accident_case_study.md",
             mime="text/markdown",
             use_container_width=True
