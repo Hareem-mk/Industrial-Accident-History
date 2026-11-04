@@ -242,8 +242,27 @@ VERIFIED_ACCIDENT_DATA = {'BP Texas City Refinery Explosion (USA, 2005)': {'sche
                                                               'integrity, competent operations, '
                                                               'and learning from previous '
                                                               'incidents.'],
-                                                                              'official_sources': [{'organization': 'U.S. Chemical Safety Board', 'title': 'BP America Refinery Explosion', 'url': 'https://www.csb.gov/bp-america-texas-city-refinery-explosion/', 'source_type': 'official_investigation_page', 'verified': True}, {'organization': 'U.S. Chemical Safety Board', 'title': 'Refinery Explosion and Fire — Final Report', 'url': 'https://www.csb.gov/assets/1/20/csbfinalreportbp.pdf', 'source_type': 'official_investigation_report', 'verified': True}]
-                                                                          },
+                                                  'official_sources': [{'organization': 'U.S. '
+                                                                                        'Chemical '
+                                                                                        'Safety '
+                                                                                        'Board',
+                                                                        'title': 'BP America '
+                                                                                 'Refinery '
+                                                                                 'Explosion',
+                                                                        'url': 'https://www.csb.gov/bp-america-texas-city-refinery-explosion/',
+                                                                        'source_type': 'official_investigation_page',
+                                                                        'verified': True},
+                                                                       {'organization': 'U.S. '
+                                                                                        'Chemical '
+                                                                                        'Safety '
+                                                                                        'Board',
+                                                                        'title': 'Refinery '
+                                                                                 'Explosion and '
+                                                                                 'Fire — Final '
+                                                                                 'Report',
+                                                                        'url': 'https://www.csb.gov/assets/1/20/csbfinalreportbp.pdf',
+                                                                        'source_type': 'official_investigation_report',
+                                                                        'verified': True}]},
  'Piper Alpha Offshore Platform Disaster (UK North Sea, 1988)': {'schema_version': 2,
                                                                  'metadata': {'date': '6 July 1988',
                                                                               'location': 'UK '
@@ -781,45 +800,8 @@ VERIFIED_ACCIDENT_DATA = {'BP Texas City Refinery Explosion (USA, 2005)': {'sche
                                                                                                      'hydrofluoric '
                                                                                                      'acid '
                                                                                                      'service.',
-                                                                                                     'The '
-                                                                                                     'failed '
-                                                                                                     'carbon '
-                                                                                                     'steel '
-                                                                                                     'elbow '
-                                                                                                     'contained '
-                                                                                                     'higher '
-                                                                                                     'nickel '
-                                                                                                     'and '
-                                                                                                     'copper '
-                                                                                                     'content '
-                                                                                                     'than '
-                                                                                                     'other '
-                                                                                                     'piping '
-                                                                                                     'in '
-                                                                                                     'the '
-                                                                                                     'unit, '
-                                                                                                     'making '
-                                                                                                     'it '
-                                                                                                     'more '
-                                                                                                     'susceptible '
-                                                                                                     'to '
-                                                                                                     'accelerated '
-                                                                                                     'corrosion.',
-                                                                                                     'The '
-                                                                                                     'thickness '
-                                                                                                     'of '
-                                                                                                     'the '
-                                                                                                     'elbow '
-                                                                                                     'that '
-                                                                                                     'ultimately '
-                                                                                                     'failed '
-                                                                                                     'had '
-                                                                                                     'not '
-                                                                                                     'been '
-                                                                                                     'directly '
-                                                                                                     'monitored '
-                                                                                                     'for '
-                                                                                                     'corrosion.',
+                                                                                                     'The failed steel elbow contained higher concentrations of nickel and copper than adjacent piping components, causing it to corrode faster in hydrofluoric acid service.',
+                                                                                                     'The failed elbow had no designated condition monitoring location (CML), and the inspection program did not inspect all carbon steel piping components susceptible to hydrofluoric acid corrosion.',
                                                                                                      'The '
                                                                                                      'mechanical '
                                                                                                      'integrity '
@@ -838,24 +820,7 @@ VERIFIED_ACCIDENT_DATA = {'BP Texas City Refinery Explosion (USA, 2005)': {'sche
                                                                                                      'the '
                                                                                                      'susceptible '
                                                                                                      'elbow.',
-                                                                                                     'Critical '
-                                                                                                     'components '
-                                                                                                     'used '
-                                                                                                     'to '
-                                                                                                     'remotely '
-                                                                                                     'activate '
-                                                                                                     'hydrofluoric '
-                                                                                                     'acid '
-                                                                                                     'mitigation '
-                                                                                                     'water '
-                                                                                                     'pumps '
-                                                                                                     'were '
-                                                                                                     'damaged '
-                                                                                                     'by '
-                                                                                                     'the '
-                                                                                                     'fire '
-                                                                                                     'and '
-                                                                                                     'explosions.',
+                                                                                                     "Fire rendered the water mitigation system's control and backup systems inoperable, preventing remote activation of the hydrofluoric acid mitigation water pumps.",
                                                                                                      'Remotely '
                                                                                                      'operated '
                                                                                                      'emergency '
@@ -946,22 +911,7 @@ VERIFIED_ACCIDENT_DATA = {'BP Texas City Refinery Explosion (USA, 2005)': {'sche
                                                                                               'hazardous '
                                                                                               'process '
                                                                                               'inventories.',
-                                                                                              'Existing '
-                                                                                              'requirements '
-                                                                                              'did '
-                                                                                              'not '
-                                                                                              'ensure '
-                                                                                              'systematic '
-                                                                                              'evaluation '
-                                                                                              'of '
-                                                                                              'inherently '
-                                                                                              'safer '
-                                                                                              'alternatives '
-                                                                                              'for '
-                                                                                              'hydrofluoric '
-                                                                                              'acid '
-                                                                                              'alkylation '
-                                                                                              'technology.'],
+                                                                                              "The CSB's October 2022 report identified the absence of a federal requirement for petroleum refineries to analyze and implement inherently safer design strategies to reduce serious accidental release risks."],
                                                                             'consequences': ['Five '
                                                                                              'workers '
                                                                                              'and '
@@ -977,15 +927,7 @@ VERIFIED_ACCIDENT_DATA = {'BP Texas City Refinery Explosion (USA, 2005)': {'sche
                                                                                              'hydrocarbons '
                                                                                              'were '
                                                                                              'released.',
-                                                                                             'More '
-                                                                                             'than '
-                                                                                             '5,200 '
-                                                                                             'pounds '
-                                                                                             'of '
-                                                                                             'hydrofluoric '
-                                                                                             'acid '
-                                                                                             'were '
-                                                                                             'released.',
+                                                                                             'PES estimated that 5,239 pounds of hydrofluoric acid were released from piping and equipment; 1,968 pounds were contained by water spray, while 3,271 pounds were released to the atmosphere without water-spray containment.',
                                                                                              'The '
                                                                                              'hydrofluoric '
                                                                                              'acid '
@@ -1227,20 +1169,7 @@ VERIFIED_ACCIDENT_DATA = {'BP Texas City Refinery Explosion (USA, 2005)': {'sche
                                                                                         'location '
                                                                                         'where '
                                                                                         'appropriate.',
-                                                                                        'Facilities '
-                                                                                        'using '
-                                                                                        'highly '
-                                                                                        'hazardous '
-                                                                                        'chemicals '
-                                                                                        'should '
-                                                                                        'systematically '
-                                                                                        'evaluate '
-                                                                                        'practicable '
-                                                                                        'inherently '
-                                                                                        'safer '
-                                                                                        'technologies '
-                                                                                        'and '
-                                                                                        'alternatives.']},
+                                                                                        'Refiners operating hydrofluoric acid alkylation units should periodically evaluate emerging alternative alkylation technologies that could prevent toxic hydrofluoric acid releases.']},
  'Buncefield Oil Storage Depot Explosion and Fire (UK, 2005)': {'schema_version': 2,
                                                                 'metadata': {'date': '11 December '
                                                                                      '2005',
@@ -3545,7 +3474,1654 @@ VERIFIED_ACCIDENT_DATA = {'BP Texas City Refinery Explosion (USA, 2005)': {'sche
                                                         'process and operating modifications.',
                                                         'Distinguish verified historical '
                                                         'deficiencies from modern '
-                                                        'recommendations.']}}
+                                                        'recommendations.']},
+ 'West Fertilizer Company Explosion (USA, 2013)': {'schema_version': 2,
+                                                   'metadata': {'date': '17 April 2013',
+                                                                'location': 'West, Texas, USA',
+                                                                'type': 'Ammonium nitrate fire and '
+                                                                        'explosion',
+                                                                'fatalities': 15,
+                                                                'injuries': 'More than 260',
+                                                                'investigation_agency': 'U.S. '
+                                                                                        'Chemical '
+                                                                                        'Safety '
+                                                                                        'and '
+                                                                                        'Hazard '
+                                                                                        'Investigation '
+                                                                                        'Board '
+                                                                                        '(CSB)',
+                                                                'report_title': 'West Fertilizer '
+                                                                                'Company Final '
+                                                                                'Report',
+                                                                'report_date': '28 January 2016'},
+                                                   'event_sequence': ['On 17 April 2013, a fire '
+                                                                      'developed at the West '
+                                                                      'Fertilizer Company storage '
+                                                                      'and distribution facility '
+                                                                      'in West, Texas.',
+                                                                      'The first observed smoke '
+                                                                      'and flames originated in or '
+                                                                      'above the seed room; the '
+                                                                      'initial ignition source was '
+                                                                      'not conclusively '
+                                                                      'established.',
+                                                                      'The fire spread through '
+                                                                      'combustible building '
+                                                                      'materials and contents near '
+                                                                      'stored fertilizer-grade '
+                                                                      'ammonium nitrate (FGAN).',
+                                                                      'Emergency responders '
+                                                                      'attended the developing '
+                                                                      'fire without adequate '
+                                                                      'information about the '
+                                                                      'potential FGAN detonation '
+                                                                      'hazard.',
+                                                                      'A detonation occurred '
+                                                                      'following the fire. Heat '
+                                                                      'exposure, confinement, and '
+                                                                      'possible contamination were '
+                                                                      'examined as factors in the '
+                                                                      'detonation mechanism; the '
+                                                                      'precise sequence was not '
+                                                                      'conclusively established.'],
+                                                   'contributing_factors': ['Combustible '
+                                                                            'construction '
+                                                                            'materials and storage '
+                                                                            'bins contributed to '
+                                                                            'fire development.',
+                                                                            'Combustible materials '
+                                                                            'located near stored '
+                                                                            'FGAN created fire '
+                                                                            'exposure and '
+                                                                            'potential '
+                                                                            'contamination '
+                                                                            'hazards.',
+                                                                            'The facility lacked '
+                                                                            'automatic fire '
+                                                                            'detection and '
+                                                                            'sprinkler protection.',
+                                                                            'Responders had '
+                                                                            'insufficient '
+                                                                            'specialized '
+                                                                            'information and '
+                                                                            'training for FGAN '
+                                                                            'fire and explosion '
+                                                                            'hazards.'],
+                                                   'system_causes': ['Regulatory oversight of '
+                                                                     'fertilizer-grade ammonium '
+                                                                     'nitrate storage was '
+                                                                     'inadequate at the time of '
+                                                                     'the incident.',
+                                                                     'Applicable storage '
+                                                                     'requirements and industry '
+                                                                     'safeguards did not '
+                                                                     'adequately control '
+                                                                     'catastrophic explosion '
+                                                                     'risks.',
+                                                                     'Emergency planning and '
+                                                                     'pre-incident coordination '
+                                                                     'were insufficient for the '
+                                                                     'hazards present.',
+                                                                     'Land-use planning allowed '
+                                                                     'vulnerable community '
+                                                                     'facilities and residences '
+                                                                     'near a major FGAN storage '
+                                                                     'hazard.'],
+                                                   'consequences': ['Fifteen people died, '
+                                                                    'including twelve emergency '
+                                                                    'responders and three members '
+                                                                    'of the public.',
+                                                                    'More than 260 people received '
+                                                                    'treatment for injuries.',
+                                                                    'The explosion caused '
+                                                                    'extensive damage to nearby '
+                                                                    'homes, schools, and community '
+                                                                    'infrastructure.',
+                                                                    'The incident caused '
+                                                                    'substantial property losses '
+                                                                    'and long-term disruption to '
+                                                                    'the surrounding community.'],
+                                                   'investigation_findings': ['The CSB identified '
+                                                                              'serious '
+                                                                              'deficiencies '
+                                                                              'involving '
+                                                                              'combustible '
+                                                                              'construction and '
+                                                                              'storage practices. '
+                                                                              'Potential '
+                                                                              'contamination and '
+                                                                              'other '
+                                                                              'detonation-related '
+                                                                              'conditions require '
+                                                                              'qualified '
+                                                                              'interpretation '
+                                                                              'rather than '
+                                                                              'attribution to a '
+                                                                              'single proven '
+                                                                              'mechanism.',
+                                                                              'The facility lacked '
+                                                                              'automatic fire '
+                                                                              'detection and '
+                                                                              'sprinkler systems.',
+                                                                              'The CSB identified '
+                                                                              'deficiencies in '
+                                                                              'emergency responder '
+                                                                              'hazard awareness '
+                                                                              'and preparedness.',
+                                                                              'The investigation '
+                                                                              'identified '
+                                                                              'shortcomings in '
+                                                                              'regulatory '
+                                                                              'oversight and '
+                                                                              'storage safety '
+                                                                              'requirements.',
+                                                                              'The CSB issued '
+                                                                              'recommendations '
+                                                                              'concerning storage '
+                                                                              'safeguards, '
+                                                                              'emergency response, '
+                                                                              'regulatory '
+                                                                              'improvements, and '
+                                                                              'community '
+                                                                              'protection.'],
+                                                   'lessons': ['Apply appropriate noncombustible '
+                                                               'construction and segregation '
+                                                               'controls for FGAN storage.',
+                                                               'Provide suitable fire detection, '
+                                                               'suppression, and fire prevention '
+                                                               'safeguards.',
+                                                               'Control combustible contamination '
+                                                               'and heat exposure around ammonium '
+                                                               'nitrate.',
+                                                               'Conduct pre-incident planning with '
+                                                               'emergency responders and '
+                                                               'communicate credible explosion '
+                                                               'hazards.',
+                                                               'Train responders to recognize '
+                                                               'situations requiring defensive '
+                                                               'response and evacuation.',
+                                                               'Evaluate offsite consequences and '
+                                                               'appropriate separation from '
+                                                               'occupied community areas.',
+                                                               'Maintain regulatory compliance and '
+                                                               'periodically review evolving '
+                                                               'ammonium nitrate storage '
+                                                               'guidance.'],
+                                                   'official_sources': [{'organization': 'U.S. '
+                                                                                         'Chemical '
+                                                                                         'Safety '
+                                                                                         'Board',
+                                                                         'title': 'West Fertilizer '
+                                                                                  'Explosion and '
+                                                                                  'Fire',
+                                                                         'url': 'https://www.csb.gov/west-fertilizer-explosion-and-fire-/',
+                                                                         'source_type': 'official_investigation_page',
+                                                                         'verified': True},
+                                                                        {'organization': 'U.S. '
+                                                                                         'Chemical '
+                                                                                         'Safety '
+                                                                                         'Board',
+                                                                         'title': 'West Fertilizer '
+                                                                                  'Company Final '
+                                                                                  'Report',
+                                                                         'url': 'https://www.csb.gov/assets/1/6/west_fertilizer_final_report_for_website_021216.pdf',
+                                                                         'source_type': 'official_investigation_report',
+                                                                         'verified': True}]},
+ 'Toulouse AZF Fertilizer Plant Explosion (France, 2001)': {'schema_version': 2,
+                                                            'metadata': {'date': '21 September '
+                                                                                 '2001',
+                                                                         'location': 'Toulouse, '
+                                                                                     'France',
+                                                                         'type': 'Ammonium nitrate '
+                                                                                 'storage '
+                                                                                 'explosion',
+                                                                         'fatalities': 31,
+                                                                         'injuries': '2,442 '
+                                                                                     'injured/affected '
+                                                                                     'persons '
+                                                                                     'recorded by '
+                                                                                     'the '
+                                                                                     'Haute-Garonne '
+                                                                                     'Prefecture '
+                                                                                     'on 17 '
+                                                                                     'October 2001',
+                                                                         'investigation_agency': 'French '
+                                                                                                 'judicial '
+                                                                                                 'authorities '
+                                                                                                 'and '
+                                                                                                 'industrial '
+                                                                                                 'safety '
+                                                                                                 'investigators',
+                                                                         'report_title': 'Toulouse '
+                                                                                         'AZF '
+                                                                                         'Explosion '
+                                                                                         '— '
+                                                                                         'Investigation '
+                                                                                         'and '
+                                                                                         'Technical '
+                                                                                         'Findings',
+                                                                         'report_date': 'Multiple '
+                                                                                        'investigation '
+                                                                                        'and '
+                                                                                        'judicial '
+                                                                                        'dates'},
+                                                            'event_sequence': ['On 21 September '
+                                                                               '2001, a major '
+                                                                               'explosion occurred '
+                                                                               'at the AZF '
+                                                                               'fertilizer plant '
+                                                                               'in Toulouse, '
+                                                                               'France.',
+                                                                               'The explosion '
+                                                                               'involved ammonium '
+                                                                               'nitrate material '
+                                                                               'stored in a '
+                                                                               'facility building.',
+                                                                               'The blast caused '
+                                                                               'severe destruction '
+                                                                               'within the '
+                                                                               'industrial site '
+                                                                               'and extensive '
+                                                                               'damage in '
+                                                                               'surrounding urban '
+                                                                               'areas.',
+                                                                               'Emergency services '
+                                                                               'responded to '
+                                                                               'widespread '
+                                                                               'casualties, '
+                                                                               'structural damage, '
+                                                                               'and disruption to '
+                                                                               'nearby '
+                                                                               'communities.',
+                                                                               'The precise '
+                                                                               'initiating '
+                                                                               'mechanism remained '
+                                                                               'a subject of '
+                                                                               'technical '
+                                                                               'investigation and '
+                                                                               'judicial '
+                                                                               'proceedings.'],
+                                                            'contributing_factors': ['Storage of '
+                                                                                     'hazardous '
+                                                                                     'ammonium '
+                                                                                     'nitrate '
+                                                                                     'material '
+                                                                                     'created the '
+                                                                                     'potential '
+                                                                                     'for severe '
+                                                                                     'explosion '
+                                                                                     'consequences.',
+                                                                                     'Material-handling, '
+                                                                                     'storage, and '
+                                                                                     'contamination-control '
+                                                                                     'practices '
+                                                                                     'were '
+                                                                                     'important '
+                                                                                     'subjects of '
+                                                                                     'the '
+                                                                                     'investigation.',
+                                                                                     'The '
+                                                                                     'proximity of '
+                                                                                     'populated '
+                                                                                     'areas '
+                                                                                     'increased '
+                                                                                     'the severity '
+                                                                                     'of offsite '
+                                                                                     'consequences.',
+                                                                                     'Uncertainty '
+                                                                                     'surrounding '
+                                                                                     'the '
+                                                                                     'initiating '
+                                                                                     'mechanism '
+                                                                                     'complicated '
+                                                                                     'the '
+                                                                                     'reconstruction '
+                                                                                     'of the '
+                                                                                     'accident '
+                                                                                     'sequence.'],
+                                                            'system_causes': ['The accident '
+                                                                              'demonstrated the '
+                                                                              'need for rigorous '
+                                                                              'management of '
+                                                                              'major-accident '
+                                                                              'hazards associated '
+                                                                              'with ammonium '
+                                                                              'nitrate storage.',
+                                                                              'Storage '
+                                                                              'segregation, '
+                                                                              'material '
+                                                                              'identification, '
+                                                                              'contamination '
+                                                                              'prevention, and '
+                                                                              'housekeeping '
+                                                                              'require effective '
+                                                                              'management systems.',
+                                                                              'Land-use planning '
+                                                                              'and control of '
+                                                                              'development around '
+                                                                              'hazardous '
+                                                                              'industrial '
+                                                                              'installations are '
+                                                                              'essential for '
+                                                                              'limiting offsite '
+                                                                              'consequences.',
+                                                                              'Major-accident '
+                                                                              'emergency '
+                                                                              'preparedness must '
+                                                                              'account for '
+                                                                              'credible '
+                                                                              'high-consequence '
+                                                                              'explosion '
+                                                                              'scenarios.'],
+                                                            'consequences': ['Thirty-one people '
+                                                                             'died.',
+                                                                             'The Haute-Garonne '
+                                                                             'Prefecture recorded '
+                                                                             '2,442 injured or '
+                                                                             'affected persons in '
+                                                                             'its October 2001 '
+                                                                             'assessment.',
+                                                                             'The explosion caused '
+                                                                             'extensive '
+                                                                             'destruction at the '
+                                                                             'AZF facility.',
+                                                                             'Residential, '
+                                                                             'commercial, and '
+                                                                             'public buildings in '
+                                                                             'Toulouse sustained '
+                                                                             'significant blast '
+                                                                             'damage.',
+                                                                             'The accident caused '
+                                                                             'major social, '
+                                                                             'economic, and '
+                                                                             'environmental '
+                                                                             'disruption.'],
+                                                            'investigation_findings': ['French '
+                                                                                       'investigations '
+                                                                                       'examined '
+                                                                                       'the '
+                                                                                       'condition '
+                                                                                       'and '
+                                                                                       'management '
+                                                                                       'of '
+                                                                                       'ammonium '
+                                                                                       'nitrate '
+                                                                                       'material '
+                                                                                       'stored at '
+                                                                                       'the '
+                                                                                       'facility.',
+                                                                                       'Technical '
+                                                                                       'investigations '
+                                                                                       'considered '
+                                                                                       'possible '
+                                                                                       'initiating '
+                                                                                       'mechanisms, '
+                                                                                       'including '
+                                                                                       'contamination-related '
+                                                                                       'scenarios, '
+                                                                                       'without '
+                                                                                       'establishing '
+                                                                                       'a '
+                                                                                       'universally '
+                                                                                       'uncontested '
+                                                                                       'explanation.',
+                                                                                       'The '
+                                                                                       'accident '
+                                                                                       'highlighted '
+                                                                                       'the '
+                                                                                       'consequences '
+                                                                                       'of '
+                                                                                       'locating '
+                                                                                       'major '
+                                                                                       'industrial '
+                                                                                       'hazards '
+                                                                                       'close to '
+                                                                                       'densely '
+                                                                                       'populated '
+                                                                                       'areas.',
+                                                                                       'Investigation '
+                                                                                       'and '
+                                                                                       'judicial '
+                                                                                       'conclusions '
+                                                                                       'must be '
+                                                                                       'distinguished '
+                                                                                       'from '
+                                                                                       'engineering '
+                                                                                       'hypotheses '
+                                                                                       'and '
+                                                                                       'subsequent '
+                                                                                       'safety '
+                                                                                       'recommendations.'],
+                                                            'lessons': ['Apply robust ammonium '
+                                                                        'nitrate storage controls, '
+                                                                        'including material '
+                                                                        'segregation and '
+                                                                        'prevention of '
+                                                                        'incompatible-material '
+                                                                        'contamination.',
+                                                                        'Maintain accurate '
+                                                                        'material identification, '
+                                                                        'inventory records, and '
+                                                                        'housekeeping standards.',
+                                                                        'Evaluate credible '
+                                                                        'explosion scenarios and '
+                                                                        'their potential offsite '
+                                                                        'consequences.',
+                                                                        'Use appropriate land-use '
+                                                                        'planning and separation '
+                                                                        'controls around '
+                                                                        'major-hazard '
+                                                                        'installations.',
+                                                                        'Maintain effective '
+                                                                        'emergency preparedness '
+                                                                        'and coordination with '
+                                                                        'public authorities.',
+                                                                        'Clearly distinguish '
+                                                                        'confirmed investigation '
+                                                                        'findings from hypotheses '
+                                                                        'when preparing technical '
+                                                                        'accident reports.',
+                                                                        'Review major-accident '
+                                                                        'prevention systems and '
+                                                                        'management-of-change '
+                                                                        'arrangements for '
+                                                                        'hazardous material '
+                                                                        'storage.'],
+                                                            'official_sources': [{'organization': 'French '
+                                                                                                  'Ministry '
+                                                                                                  '/ '
+                                                                                                  'BARPI',
+                                                                                  'title': 'ARIA '
+                                                                                           '21329 '
+                                                                                           '— '
+                                                                                           'Explosion '
+                                                                                           'of '
+                                                                                           'ammonium '
+                                                                                           'nitrate '
+                                                                                           'in a '
+                                                                                           'fertilizer '
+                                                                                           'plant',
+                                                                                  'url': 'https://www.aria.developpement-durable.gouv.fr/fiche_detaillee/21329-2/?lang=en',
+                                                                                  'source_type': 'official_accident_record',
+                                                                                  'verified': True},
+                                                                                 {'organization': 'French '
+                                                                                                  'Ministry '
+                                                                                                  '/ '
+                                                                                                  'BARPI',
+                                                                                  'title': 'ARIA '
+                                                                                           '21329 '
+                                                                                           '— '
+                                                                                           'Detailed '
+                                                                                           'technical '
+                                                                                           'accident '
+                                                                                           'report',
+                                                                                  'url': 'https://www.aria.developpement-durable.gouv.fr/wp-content/files_mf/FD_21329_TOULOUSE_PA_10092015.pdf',
+                                                                                  'source_type': 'official_technical_report',
+                                                                                  'verified': True}]},
+ 'Phillips Petroleum Pasadena Explosion (USA, 1989)': {'schema_version': 2,
+                                                       'metadata': {'date': '23 October 1989',
+                                                                    'location': 'Pasadena, Texas, '
+                                                                                'USA',
+                                                                    'type': 'Flammable hydrocarbon '
+                                                                            'release, vapor-cloud '
+                                                                            'explosion and fire',
+                                                                    'fatalities': 23,
+                                                                    'injuries': 'More than 130 '
+                                                                                'people injured',
+                                                                    'investigation_agency': 'US '
+                                                                                            'Occupational '
+                                                                                            'Safety '
+                                                                                            'and '
+                                                                                            'Health '
+                                                                                            'Administration '
+                                                                                            '(OSHA)',
+                                                                    'report_title': 'The Phillips '
+                                                                                    '66 Company '
+                                                                                    'Houston '
+                                                                                    'Chemical '
+                                                                                    'Complex '
+                                                                                    'Explosion and '
+                                                                                    'Fire',
+                                                                    'report_date': 'April 1990'},
+                                                       'event_sequence': ['On 23 October 1989, '
+                                                                          'maintenance work was '
+                                                                          'being performed at the '
+                                                                          'Phillips Petroleum '
+                                                                          'polyethylene complex in '
+                                                                          'Pasadena, Texas.',
+                                                                          'A process isolation '
+                                                                          'arrangement involving a '
+                                                                          'pneumatically operated '
+                                                                          'valve failed to prevent '
+                                                                          'the release of '
+                                                                          'flammable hydrocarbons.',
+                                                                          'The investigation '
+                                                                          'identified reversed '
+                                                                          'pneumatic connections '
+                                                                          'associated with the '
+                                                                          'isolation valve.',
+                                                                          'A substantial release '
+                                                                          'of flammable process '
+                                                                          'material formed a vapor '
+                                                                          'cloud.',
+                                                                          'The vapor cloud '
+                                                                          'ignited, producing a '
+                                                                          'major explosion '
+                                                                          'followed by fires and '
+                                                                          'additional explosions.',
+                                                                          'Emergency response and '
+                                                                          'firefighting operations '
+                                                                          'continued under severe '
+                                                                          'conditions caused by '
+                                                                          'extensive plant '
+                                                                          'damage.'],
+                                                       'contributing_factors': ['Inadequate '
+                                                                                'positive '
+                                                                                'isolation of '
+                                                                                'hazardous process '
+                                                                                'equipment during '
+                                                                                'maintenance.',
+                                                                                'Reliance on an '
+                                                                                'isolation '
+                                                                                'arrangement '
+                                                                                'vulnerable to '
+                                                                                'incorrect valve '
+                                                                                'operation.',
+                                                                                'Reversed '
+                                                                                'pneumatic '
+                                                                                'connections '
+                                                                                'associated with '
+                                                                                'the isolation '
+                                                                                'valve.',
+                                                                                'Insufficient '
+                                                                                'verification of '
+                                                                                'equipment '
+                                                                                'isolation before '
+                                                                                'maintenance '
+                                                                                'activities.',
+                                                                                'Large inventories '
+                                                                                'of flammable '
+                                                                                'hydrocarbons '
+                                                                                'increased the '
+                                                                                'potential '
+                                                                                'consequences of a '
+                                                                                'loss of '
+                                                                                'containment.',
+                                                                                'The arrangement '
+                                                                                'and proximity of '
+                                                                                'process equipment '
+                                                                                'contributed to '
+                                                                                'escalation '
+                                                                                'following the '
+                                                                                'initial '
+                                                                                'explosion.'],
+                                                       'system_causes': ['Deficiencies in '
+                                                                         'maintenance isolation '
+                                                                         'procedures and '
+                                                                         'verification practices.',
+                                                                         'Inadequate management of '
+                                                                         'maintenance activities '
+                                                                         'involving hazardous '
+                                                                         'process equipment.',
+                                                                         'Weaknesses in process '
+                                                                         'safety controls intended '
+                                                                         'to prevent major '
+                                                                         'hydrocarbon releases.',
+                                                                         'Insufficient assurance '
+                                                                         'that critical valve '
+                                                                         'configurations and '
+                                                                         'operating arrangements '
+                                                                         'were correctly '
+                                                                         'established.',
+                                                                         'The accident '
+                                                                         'demonstrated the need '
+                                                                         'for stronger process '
+                                                                         'safety management, '
+                                                                         'including equipment '
+                                                                         'integrity, operating '
+                                                                         'procedures, training, '
+                                                                         'and maintenance '
+                                                                         'controls.'],
+                                                       'consequences': ['Twenty-three people died.',
+                                                                        'More than 130 people were '
+                                                                        'injured.',
+                                                                        'Major explosions and '
+                                                                        'fires caused extensive '
+                                                                        'destruction within the '
+                                                                        'polyethylene complex.',
+                                                                        'Multiple process units '
+                                                                        'and associated '
+                                                                        'infrastructure sustained '
+                                                                        'severe damage.',
+                                                                        'The accident caused major '
+                                                                        'operational disruption '
+                                                                        'and substantial economic '
+                                                                        'losses.'],
+                                                       'investigation_findings': ['The '
+                                                                                  'investigation '
+                                                                                  'identified '
+                                                                                  'failures in the '
+                                                                                  'isolation '
+                                                                                  'arrangements '
+                                                                                  'used during '
+                                                                                  'maintenance.',
+                                                                                  'Reversed '
+                                                                                  'pneumatic '
+                                                                                  'connections on '
+                                                                                  'an isolation '
+                                                                                  'valve were '
+                                                                                  'identified as '
+                                                                                  'an important '
+                                                                                  'factor in the '
+                                                                                  'release '
+                                                                                  'sequence.',
+                                                                                  'The isolation '
+                                                                                  'arrangements '
+                                                                                  'did not provide '
+                                                                                  'adequate '
+                                                                                  'protection '
+                                                                                  'against '
+                                                                                  'inadvertent '
+                                                                                  'hydrocarbon '
+                                                                                  'release.',
+                                                                                  'The accident '
+                                                                                  'demonstrated '
+                                                                                  'the potential '
+                                                                                  'for a major '
+                                                                                  'vapor-cloud '
+                                                                                  'explosion '
+                                                                                  'following a '
+                                                                                  'large release '
+                                                                                  'of flammable '
+                                                                                  'process '
+                                                                                  'materials.',
+                                                                                  'OSHA '
+                                                                                  'investigated '
+                                                                                  'the incident '
+                                                                                  'and identified '
+                                                                                  'serious '
+                                                                                  'workplace '
+                                                                                  'safety '
+                                                                                  'deficiencies.',
+                                                                                  'Subsequent '
+                                                                                  'technical '
+                                                                                  'reviews '
+                                                                                  'highlighted the '
+                                                                                  'importance of '
+                                                                                  'positive '
+                                                                                  'isolation, '
+                                                                                  'maintenance '
+                                                                                  'procedures, and '
+                                                                                  'process safety '
+                                                                                  'management.'],
+                                                       'lessons': ['Apply positive isolation '
+                                                                   'methods appropriate to the '
+                                                                   'process hazards, such as '
+                                                                   'physical disconnection or '
+                                                                   'correctly designed blinds '
+                                                                   'where required.',
+                                                                   'Do not rely solely on a single '
+                                                                   'remotely operated valve for '
+                                                                   'hazardous maintenance '
+                                                                   'isolation when a more robust '
+                                                                   'isolation standard is '
+                                                                   'required.',
+                                                                   'Verify valve position, '
+                                                                   'actuator connections, and '
+                                                                   'isolation integrity before '
+                                                                   'maintenance begins.',
+                                                                   'Use formal permit-to-work, '
+                                                                   'lockout/tagout, and equipment '
+                                                                   'handover procedures.',
+                                                                   'Implement effective management '
+                                                                   'of change for modifications '
+                                                                   'affecting valve actuation, '
+                                                                   'instrumentation, and '
+                                                                   'maintenance configurations.',
+                                                                   'Evaluate major hydrocarbon '
+                                                                   'release and vapor-cloud '
+                                                                   'explosion scenarios in process '
+                                                                   'hazard analyses.',
+                                                                   'Maintain effective emergency '
+                                                                   'response arrangements for '
+                                                                   'major explosions and fires.',
+                                                                   'Audit critical process safety '
+                                                                   'barriers and verify their '
+                                                                   'effectiveness in the field.'],
+                                                       'official_sources': [{'organization': 'US '
+                                                                                             'OSHA',
+                                                                             'title': 'OSHA '
+                                                                                      'Accident '
+                                                                                      'Report '
+                                                                                      '14219646',
+                                                                             'url': 'https://www.osha.gov/ords/imis/accidentsearch.accident_detail?id=14219646',
+                                                                             'source_type': 'official_accident_record',
+                                                                             'verified': True},
+                                                                            {'organization': 'US '
+                                                                                             'OSHA',
+                                                                             'title': 'OSHA '
+                                                                                      'Investigation '
+                                                                                      'Correspondence '
+                                                                                      '— 12 '
+                                                                                      'February '
+                                                                                      '1991',
+                                                                             'url': 'https://www.osha.gov/laws-regs/standardinterpretations/1991-02-12',
+                                                                             'source_type': 'official_investigation_correspondence',
+                                                                             'verified': True},
+                                                                            {'organization': 'UK '
+                                                                                             'Health '
+                                                                                             'and '
+                                                                                             'Safety '
+                                                                                             'Executive',
+                                                                             'title': 'Phillips 66 '
+                                                                                      'Pasadena '
+                                                                                      'Accident '
+                                                                                      'Review',
+                                                                             'url': 'https://www.hse.gov.uk/comah/sragtech/casepasadena89.htm',
+                                                                             'source_type': 'official_technical_case_review',
+                                                                             'verified': True}]},
+ 'Formosa Plastics Point Comfort Explosion (USA, 2005)': {'schema_version': 2,
+                                                          'metadata': {'date': '6 October 2005',
+                                                                       'location': 'Point Comfort, '
+                                                                                   'Texas, USA',
+                                                                       'type': 'Flammable '
+                                                                               'propylene release, '
+                                                                               'vapor-cloud '
+                                                                               'ignition and fire',
+                                                                       'fatalities': 0,
+                                                                       'injuries': '16 workers '
+                                                                                   'injured, one '
+                                                                                   'seriously',
+                                                                       'investigation_agency': 'US '
+                                                                                               'Chemical '
+                                                                                               'Safety '
+                                                                                               'and '
+                                                                                               'Hazard '
+                                                                                               'Investigation '
+                                                                                               'Board '
+                                                                                               '(CSB)',
+                                                                       'report_title': 'Fire at '
+                                                                                       'Formosa '
+                                                                                       'Plastics '
+                                                                                       'Corporation: '
+                                                                                       'Evaluating '
+                                                                                       'Process '
+                                                                                       'Hazards',
+                                                                       'report_date': '20 July '
+                                                                                      '2006'},
+                                                          'event_sequence': ['On 6 October 2005, a '
+                                                                             'forklift towing a '
+                                                                             'trailer was '
+                                                                             'operating at the '
+                                                                             'Formosa Plastics '
+                                                                             'facility in Point '
+                                                                             'Comfort, Texas.',
+                                                                             'The vehicle struck '
+                                                                             'an unprotected valve '
+                                                                             'associated with a '
+                                                                             'pressurized '
+                                                                             'propylene process '
+                                                                             'system.',
+                                                                             'The impact damaged '
+                                                                             'the equipment and '
+                                                                             'caused a release of '
+                                                                             'flammable propylene.',
+                                                                             'The released '
+                                                                             'propylene ignited, '
+                                                                             'resulting in a major '
+                                                                             'fire.',
+                                                                             'The fire affected '
+                                                                             'nearby process '
+                                                                             'equipment and '
+                                                                             'created conditions '
+                                                                             'for further '
+                                                                             'escalation.',
+                                                                             'Emergency response '
+                                                                             'personnel worked to '
+                                                                             'control the incident '
+                                                                             'and isolate the '
+                                                                             'affected process '
+                                                                             'system.'],
+                                                          'contributing_factors': ['A vulnerable '
+                                                                                   'process valve '
+                                                                                   'was exposed to '
+                                                                                   'potential '
+                                                                                   'impact from '
+                                                                                   'industrial '
+                                                                                   'vehicle '
+                                                                                   'movements.',
+                                                                                   'Physical '
+                                                                                   'protection '
+                                                                                   'against '
+                                                                                   'vehicle impact '
+                                                                                   'was inadequate '
+                                                                                   'at the '
+                                                                                   'affected '
+                                                                                   'equipment '
+                                                                                   'location.',
+                                                                                   'The release '
+                                                                                   'involved '
+                                                                                   'flammable '
+                                                                                   'propylene '
+                                                                                   'under process '
+                                                                                   'conditions.',
+                                                                                   'Emergency '
+                                                                                   'isolation '
+                                                                                   'arrangements '
+                                                                                   'did not '
+                                                                                   'provide '
+                                                                                   'sufficiently '
+                                                                                   'effective '
+                                                                                   'control of the '
+                                                                                   'released '
+                                                                                   'material.',
+                                                                                   'Fire '
+                                                                                   'protection and '
+                                                                                   'equipment '
+                                                                                   'vulnerability '
+                                                                                   'contributed to '
+                                                                                   'the potential '
+                                                                                   'for incident '
+                                                                                   'escalation.',
+                                                                                   'The process '
+                                                                                   'hazard '
+                                                                                   'evaluation did '
+                                                                                   'not adequately '
+                                                                                   'address the '
+                                                                                   'consequences '
+                                                                                   'of vehicle '
+                                                                                   'impact on '
+                                                                                   'exposed '
+                                                                                   'hazardous '
+                                                                                   'process '
+                                                                                   'equipment.'],
+                                                          'system_causes': ['Insufficient '
+                                                                            'identification and '
+                                                                            'control of '
+                                                                            'vehicle-impact '
+                                                                            'hazards affecting '
+                                                                            'hazardous process '
+                                                                            'equipment.',
+                                                                            'Inadequate evaluation '
+                                                                            'of potential '
+                                                                            'loss-of-containment '
+                                                                            'scenarios during '
+                                                                            'process hazard '
+                                                                            'analysis.',
+                                                                            'Deficiencies in the '
+                                                                            'design and '
+                                                                            'effectiveness of '
+                                                                            'emergency isolation '
+                                                                            'arrangements.',
+                                                                            'Insufficient '
+                                                                            'protection of '
+                                                                            'equipment exposed to '
+                                                                            'severe fire '
+                                                                            'conditions.',
+                                                                            'Weaknesses in the '
+                                                                            'implementation and '
+                                                                            'verification of '
+                                                                            'major-accident '
+                                                                            'prevention '
+                                                                            'safeguards.'],
+                                                          'consequences': ['No fatalities were '
+                                                                           'reported.',
+                                                                           'Sixteen workers were '
+                                                                           'injured, including one '
+                                                                           'seriously.',
+                                                                           'A major propylene fire '
+                                                                           'caused significant '
+                                                                           'damage to process '
+                                                                           'equipment.',
+                                                                           'The incident disrupted '
+                                                                           'operations at the '
+                                                                           'affected facility.',
+                                                                           'The accident '
+                                                                           'demonstrated the '
+                                                                           'potential for a '
+                                                                           'localized mechanical '
+                                                                           'impact to escalate '
+                                                                           'into a major process '
+                                                                           'safety event.'],
+                                                          'investigation_findings': ['The US '
+                                                                                     'Chemical '
+                                                                                     'Safety Board '
+                                                                                     'investigated '
+                                                                                     'the 6 '
+                                                                                     'October 2005 '
+                                                                                     'incident.',
+                                                                                     'The '
+                                                                                     'initiating '
+                                                                                     'event '
+                                                                                     'involved a '
+                                                                                     'forklift '
+                                                                                     'towing a '
+                                                                                     'trailer '
+                                                                                     'striking an '
+                                                                                     'unprotected '
+                                                                                     'process '
+                                                                                     'valve.',
+                                                                                     'Damage to '
+                                                                                     'the valve '
+                                                                                     'resulted in '
+                                                                                     'the release '
+                                                                                     'of flammable '
+                                                                                     'propylene.',
+                                                                                     'The '
+                                                                                     'investigation '
+                                                                                     'identified '
+                                                                                     'inadequate '
+                                                                                     'protection '
+                                                                                     'of '
+                                                                                     'vulnerable '
+                                                                                     'process '
+                                                                                     'equipment '
+                                                                                     'from vehicle '
+                                                                                     'impacts.',
+                                                                                     'The CSB '
+                                                                                     'identified '
+                                                                                     'weaknesses '
+                                                                                     'in emergency '
+                                                                                     'isolation '
+                                                                                     'and fire '
+                                                                                     'protection '
+                                                                                     'arrangements.',
+                                                                                     'The '
+                                                                                     'investigation '
+                                                                                     'highlighted '
+                                                                                     'deficiencies '
+                                                                                     'in '
+                                                                                     'evaluating '
+                                                                                     'and '
+                                                                                     'controlling '
+                                                                                     'credible '
+                                                                                     'process '
+                                                                                     'hazards.'],
+                                                          'lessons': ['Identify hazardous process '
+                                                                      'equipment exposed to '
+                                                                      'vehicle movements and '
+                                                                      'provide suitable impact '
+                                                                      'barriers or physical '
+                                                                      'separation.',
+                                                                      'Include vehicle-impact and '
+                                                                      'mechanical-damage scenarios '
+                                                                      'in process hazard analyses '
+                                                                      'where credible.',
+                                                                      'Design emergency isolation '
+                                                                      'systems to limit hazardous '
+                                                                      'material releases and '
+                                                                      'verify their effectiveness '
+                                                                      'under emergency conditions.',
+                                                                      'Evaluate remote-operated '
+                                                                      'isolation valves and their '
+                                                                      'accessibility during fires '
+                                                                      'or explosions.',
+                                                                      'Assess passive fire '
+                                                                      'protection requirements for '
+                                                                      'critical equipment and '
+                                                                      'structural supports.',
+                                                                      'Maintain effective traffic '
+                                                                      'management and industrial '
+                                                                      'vehicle operating controls.',
+                                                                      'Verify that safeguards '
+                                                                      'identified during process '
+                                                                      'hazard analysis are '
+                                                                      'implemented and maintained.',
+                                                                      'Use incident findings to '
+                                                                      'improve mechanical '
+                                                                      'integrity, emergency '
+                                                                      'preparedness, and process '
+                                                                      'safety management.'],
+                                                          'official_sources': [{'organization': 'US '
+                                                                                                'CSB',
+                                                                                'title': 'Formosa '
+                                                                                         'Plastics '
+                                                                                         'Propylene '
+                                                                                         'Explosion',
+                                                                                'url': 'https://www.csb.gov/formosa-plastics-propylene-explosion/',
+                                                                                'source_type': 'official_investigation_page',
+                                                                                'verified': True},
+                                                                               {'organization': 'US '
+                                                                                                'CSB',
+                                                                                'title': 'Fire at '
+                                                                                         'Formosa '
+                                                                                         'Plastics '
+                                                                                         'Corporation: '
+                                                                                         'Evaluating '
+                                                                                         'Process '
+                                                                                         'Hazards',
+                                                                                'url': 'https://www.csb.gov/assets/1/20/formosa_report.pdf',
+                                                                                'source_type': 'official_case_study_pdf',
+                                                                                'verified': True}]},
+ 'Williams Olefins Geismar Explosion (USA, 2013)': {'schema_version': 2,
+                                                    'metadata': {'date': '13 June 2013',
+                                                                 'location': 'Geismar, Louisiana, '
+                                                                             'USA',
+                                                                 'type': 'Reboiler overpressure '
+                                                                         'rupture, BLEVE and fire',
+                                                                 'fatalities': 2,
+                                                                 'injuries': '167 reported '
+                                                                             'injuries',
+                                                                 'investigation_agency': 'US '
+                                                                                         'Chemical '
+                                                                                         'Safety '
+                                                                                         'and '
+                                                                                         'Hazard '
+                                                                                         'Investigation '
+                                                                                         'Board '
+                                                                                         '(CSB)',
+                                                                 'report_title': 'Williams Geismar '
+                                                                                 'Olefins Plant '
+                                                                                 'Reboiler Rupture '
+                                                                                 'and Fire',
+                                                                 'report_date': '19 October 2016'},
+                                                    'event_sequence': ['On 13 June 2013, a '
+                                                                       'catastrophic equipment '
+                                                                       'failure occurred at the '
+                                                                       'Williams Olefins plant in '
+                                                                       'Geismar, Louisiana.',
+                                                                       'A propylene fractionator '
+                                                                       'reboiler was in an offline '
+                                                                       'operating condition.',
+                                                                       'Liquid became trapped in '
+                                                                       'the reboiler while an '
+                                                                       'effective pressure relief '
+                                                                       'path was unavailable.',
+                                                                       'Heating of the trapped '
+                                                                       'liquid caused hydraulic '
+                                                                       'thermal expansion and a '
+                                                                       'rapid pressure increase.',
+                                                                       'The reboiler ruptured '
+                                                                       'catastrophically after the '
+                                                                       'internal pressure exceeded '
+                                                                       'its mechanical capacity.',
+                                                                       'The rupture produced a '
+                                                                       'boiling liquid expanding '
+                                                                       'vapor explosion (BLEVE), '
+                                                                       'followed by a fire.'],
+                                                    'contributing_factors': ['The offline reboiler '
+                                                                             'was vulnerable to '
+                                                                             'overpressure from '
+                                                                             'thermal expansion of '
+                                                                             'trapped liquid.',
+                                                                             'An effective '
+                                                                             'pressure relief path '
+                                                                             'was not available '
+                                                                             'for the hazardous '
+                                                                             'equipment '
+                                                                             'configuration.',
+                                                                             "The equipment's "
+                                                                             'special operating '
+                                                                             'status was not '
+                                                                             'adequately addressed '
+                                                                             'in overpressure '
+                                                                             'protection '
+                                                                             'arrangements.',
+                                                                             'Administrative '
+                                                                             'controls were '
+                                                                             'insufficient to '
+                                                                             'prevent the '
+                                                                             'hazardous '
+                                                                             'configuration.',
+                                                                             'Process hazard '
+                                                                             'evaluation did not '
+                                                                             'adequately identify '
+                                                                             'or control the '
+                                                                             'thermal expansion '
+                                                                             'scenario.'],
+                                                    'system_causes': ['Deficiencies in process '
+                                                                      'hazard analysis (PHA) and '
+                                                                      'the evaluation of credible '
+                                                                      'overpressure scenarios.',
+                                                                      'Weaknesses in management of '
+                                                                      'change (MOC) practices '
+                                                                      'affecting equipment '
+                                                                      'configuration and '
+                                                                      'operation.',
+                                                                      'Insufficient pre-startup '
+                                                                      'safety review (PSSR) '
+                                                                      'effectiveness.',
+                                                                      'Inadequate operating '
+                                                                      'procedures and controls for '
+                                                                      'equipment in non-routine '
+                                                                      'operating conditions.',
+                                                                      'Insufficient verification '
+                                                                      'of pressure relief '
+                                                                      'requirements for standby '
+                                                                      'and out-of-service '
+                                                                      'equipment.',
+                                                                      'Weaknesses in process '
+                                                                      'safety program '
+                                                                      'implementation and '
+                                                                      'oversight.'],
+                                                    'consequences': ['Two workers were fatally '
+                                                                     'injured.',
+                                                                     'A total of 167 injuries were '
+                                                                     'reported.',
+                                                                     'The reboiler suffered '
+                                                                     'catastrophic rupture.',
+                                                                     'The resulting explosion and '
+                                                                     'fire damaged plant '
+                                                                     'equipment.',
+                                                                     'The incident demonstrated '
+                                                                     'the major-accident potential '
+                                                                     'of trapped-liquid thermal '
+                                                                     'expansion in process '
+                                                                     'equipment.'],
+                                                    'investigation_findings': ['The US Chemical '
+                                                                               'Safety Board '
+                                                                               'investigated the '
+                                                                               'incident and '
+                                                                               'released its final '
+                                                                               'case study on 19 '
+                                                                               'October 2016.',
+                                                                               'Hydraulic thermal '
+                                                                               'expansion of '
+                                                                               'trapped liquid was '
+                                                                               'the initiating '
+                                                                               'overpressure '
+                                                                               'mechanism.',
+                                                                               'The failed '
+                                                                               'reboiler did not '
+                                                                               'have effective '
+                                                                               'pressure relief '
+                                                                               'for the relevant '
+                                                                               'operating '
+                                                                               'configuration.',
+                                                                               'The CSB identified '
+                                                                               'deficiencies '
+                                                                               'involving process '
+                                                                               'hazard analysis, '
+                                                                               'management of '
+                                                                               'change, '
+                                                                               'pre-startup safety '
+                                                                               'review and '
+                                                                               'operating '
+                                                                               'procedures.',
+                                                                               'The CSB '
+                                                                               'recommended '
+                                                                               'strengthening '
+                                                                               'industry guidance '
+                                                                               'on pressure relief '
+                                                                               'for equipment in '
+                                                                               'standby and '
+                                                                               'out-of-service '
+                                                                               'conditions.',
+                                                                               'The CSB emphasized '
+                                                                               'the need for '
+                                                                               'pressure relief '
+                                                                               'protection where '
+                                                                               'credible internal '
+                                                                               'overpressure could '
+                                                                               'exceed equipment '
+                                                                               'design limits.'],
+                                                    'lessons': ['Evaluate trapped-liquid thermal '
+                                                                'expansion for all credible '
+                                                                'blocked-in equipment '
+                                                                'configurations.',
+                                                                'Provide suitable pressure relief '
+                                                                'protection where credible '
+                                                                'overpressure scenarios can exceed '
+                                                                'equipment design limits.',
+                                                                'Explicitly assess equipment in '
+                                                                'standby, isolated, and '
+                                                                'out-of-service operating '
+                                                                'conditions.',
+                                                                'Use PHA and MOC reviews to '
+                                                                'identify changes that can '
+                                                                'compromise pressure relief or '
+                                                                'introduce trapped-liquid hazards.',
+                                                                'Verify equipment configuration, '
+                                                                'isolation boundaries and '
+                                                                'safeguards through effective PSSR '
+                                                                'and operating procedures.',
+                                                                'Avoid relying exclusively on '
+                                                                'administrative controls where '
+                                                                'engineered overpressure '
+                                                                'protection is necessary.',
+                                                                'Include non-routine operating '
+                                                                'scenarios in operator training '
+                                                                'and process safety reviews.',
+                                                                'Monitor the effectiveness of PHA, '
+                                                                'MOC, PSSR and operating '
+                                                                'procedures using process safety '
+                                                                'performance indicators.'],
+                                                    'official_sources': [{'organization': 'US CSB',
+                                                                          'title': 'Williams '
+                                                                                   'Olefins Plant '
+                                                                                   'Explosion and '
+                                                                                   'Fire',
+                                                                          'url': 'https://www.csb.gov/williams-olefins-plant-explosion-and-fire-/',
+                                                                          'source_type': 'official_investigation_page',
+                                                                          'verified': True},
+                                                                         {'organization': 'US CSB',
+                                                                          'title': 'Williams '
+                                                                                   'Geismar '
+                                                                                   'Olefins Plant '
+                                                                                   'Reboiler '
+                                                                                   'Rupture and '
+                                                                                   'Fire',
+                                                                          'url': 'https://www.csb.gov/assets/1/6/williams_case_study_2016-10-19.pdf',
+                                                                          'source_type': 'official_case_study_pdf',
+                                                                          'verified': True}]},
+ 'ITC Deer Park Tank Farm Fire (USA, 2019)': {'schema_version': 2,
+                                              'metadata': {'date': '17 March 2019',
+                                                           'location': 'Deer Park, Texas, USA',
+                                                           'type': 'Flammable liquid release and '
+                                                                   'tank farm fire',
+                                                           'fatalities': 0,
+                                                           'injuries': '0 reported injuries',
+                                                           'investigation_agency': 'US Chemical '
+                                                                                   'Safety and '
+                                                                                   'Hazard '
+                                                                                   'Investigation '
+                                                                                   'Board (CSB)',
+                                                           'report_title': 'Intercontinental '
+                                                                           'Terminals Company '
+                                                                           '(ITC) Tank Fire',
+                                                           'report_date': '6 July 2023'},
+                                              'event_sequence': ['On 17 March 2019, a loss of '
+                                                                 'containment occurred at the '
+                                                                 'Intercontinental Terminals '
+                                                                 'Company tank farm in Deer Park, '
+                                                                 'Texas.',
+                                                                 'The initiating release involved '
+                                                                 'the circulation pump associated '
+                                                                 'with storage Tank 80-8.',
+                                                                 'A mechanical seal failure '
+                                                                 'allowed butane-enriched naphtha '
+                                                                 'to escape from the pump.',
+                                                                 'The flammable liquid release '
+                                                                 'generated hazardous vapor that '
+                                                                 'subsequently ignited.',
+                                                                 'The resulting fire spread '
+                                                                 'through the affected tank farm '
+                                                                 'containment area.',
+                                                                 'The fire continued for '
+                                                                 'approximately three days and '
+                                                                 'destroyed 15 storage tanks.',
+                                                                 'Following the fire, failure of a '
+                                                                 'containment wall allowed '
+                                                                 'contaminated liquid to enter '
+                                                                 'nearby waterways.'],
+                                              'contributing_factors': ['Inadequate mechanical '
+                                                                       'integrity management of '
+                                                                       'the Tank 80-8 circulation '
+                                                                       'pump contributed to the '
+                                                                       'loss of containment.',
+                                                                       'The pump mechanical seal '
+                                                                       'was vulnerable to failure '
+                                                                       'under the conditions '
+                                                                       'preceding the incident.',
+                                                                       'Insufficient early leak '
+                                                                       'detection delayed '
+                                                                       'effective recognition of '
+                                                                       'the hazardous release.',
+                                                                       'Emergency isolation '
+                                                                       'arrangements were '
+                                                                       'inadequate to promptly '
+                                                                       'limit the release of '
+                                                                       'flammable material.',
+                                                                       'The tank farm '
+                                                                       'configuration permitted '
+                                                                       'escalation from an initial '
+                                                                       'pump fire to a multi-tank '
+                                                                       'fire.',
+                                                                       'Secondary containment '
+                                                                       'performance was '
+                                                                       'insufficient to prevent '
+                                                                       'subsequent offsite '
+                                                                       'contamination.'],
+                                              'system_causes': ['Deficiencies in the mechanical '
+                                                                'integrity program for rotating '
+                                                                'equipment handling hazardous '
+                                                                'materials.',
+                                                                'Insufficient implementation of '
+                                                                'safeguards for detecting and '
+                                                                'responding to flammable '
+                                                                'hydrocarbon leaks.',
+                                                                'Inadequate evaluation and control '
+                                                                'of major fire escalation '
+                                                                'scenarios.',
+                                                                'Weaknesses in emergency isolation '
+                                                                'design and response capability.',
+                                                                'Insufficient assessment of '
+                                                                'secondary containment integrity '
+                                                                'under major emergency conditions.',
+                                                                'Gaps in process safety management '
+                                                                'and verification of critical '
+                                                                'safeguards.'],
+                                              'consequences': ['No fatalities or injuries were '
+                                                               'reported.',
+                                                               'Fifteen storage tanks in the '
+                                                               'affected containment area were '
+                                                               'destroyed.',
+                                                               'The tank farm fire continued for '
+                                                               'approximately three days.',
+                                                               'The incident caused extensive '
+                                                               'damage to storage and associated '
+                                                               'equipment.',
+                                                               'Contaminated firewater and '
+                                                               'released material entered '
+                                                               'surrounding waterways following '
+                                                               'containment failure.',
+                                                               'The incident resulted in '
+                                                               'significant environmental '
+                                                               'consequences and prolonged '
+                                                               'emergency response.'],
+                                              'investigation_findings': ['The US Chemical Safety '
+                                                                         'Board investigated the '
+                                                                         'ITC Deer Park tank farm '
+                                                                         'fire.',
+                                                                         'The initiating loss of '
+                                                                         'containment occurred at '
+                                                                         'the Tank 80-8 '
+                                                                         'circulation pump.',
+                                                                         'Mechanical seal failure '
+                                                                         'allowed a flammable '
+                                                                         'butane-enriched naphtha '
+                                                                         'mixture to escape.',
+                                                                         'The investigation '
+                                                                         'identified deficiencies '
+                                                                         'in pump mechanical '
+                                                                         'integrity and leak '
+                                                                         'detection.',
+                                                                         'The CSB identified '
+                                                                         'weaknesses in emergency '
+                                                                         'isolation arrangements '
+                                                                         'for limiting hazardous '
+                                                                         'releases.',
+                                                                         'The incident '
+                                                                         'demonstrated '
+                                                                         'vulnerabilities in '
+                                                                         'preventing escalation of '
+                                                                         'tank farm fires.',
+                                                                         'The investigation also '
+                                                                         'addressed the '
+                                                                         'consequences of '
+                                                                         'secondary containment '
+                                                                         'failure and '
+                                                                         'environmental '
+                                                                         'contamination.'],
+                                              'lessons': ['Establish a risk-based mechanical '
+                                                          'integrity program for circulation and '
+                                                          'transfer pumps handling flammable '
+                                                          'liquids.',
+                                                          'Monitor pump condition, bearing health, '
+                                                          'vibration, and mechanical seal '
+                                                          'performance using appropriate '
+                                                          'engineering criteria.',
+                                                          'Install suitable hydrocarbon leak '
+                                                          'detection and ensure alarms are '
+                                                          'integrated with effective operator '
+                                                          'response.',
+                                                          'Evaluate remotely operated emergency '
+                                                          'isolation valves to reduce release '
+                                                          'duration during fires.',
+                                                          'Review tank spacing, drainage, '
+                                                          'firewater availability, foam '
+                                                          'application capability, and credible '
+                                                          'fire escalation scenarios.',
+                                                          'Verify secondary containment integrity '
+                                                          'and assess potential failure during '
+                                                          'prolonged firewater accumulation.',
+                                                          'Provide arrangements for controlled '
+                                                          'collection and management of '
+                                                          'contaminated firefighting water.',
+                                                          'Include pump seal failure, delayed '
+                                                          'isolation, and multi-tank fire '
+                                                          'scenarios in process hazard analysis '
+                                                          'and emergency response exercises.',
+                                                          'Verify critical fire protection and '
+                                                          'isolation safeguards through periodic '
+                                                          'inspection, testing, and maintenance.'],
+                                              'official_sources': [{'organization': 'US CSB',
+                                                                    'title': 'Intercontinental '
+                                                                             'Terminals Company '
+                                                                             '(ITC) Tank Fire — '
+                                                                             'Final Investigation '
+                                                                             'Report',
+                                                                    'url': 'https://www.csb.gov/assets/1/6/itc_report_-_final_%28july_6%2C_2023%29.pdf',
+                                                                    'source_type': 'official_investigation_report',
+                                                                    'verified': True},
+                                                                   {'organization': 'US CSB',
+                                                                    'title': 'ITC Tank Fire — '
+                                                                             'Recommendation '
+                                                                             'Status Summary',
+                                                                    'url': 'https://www.csb.gov/assets/recommendation/Status_Change_Summary_ITC_%28ITC_R4%29_O-ARAR.pdf',
+                                                                    'source_type': 'official_recommendation_record',
+                                                                    'verified': True}]},
+ 'Jaipur Indian Oil Depot Fire (India, 2009)': {'schema_version': 2,
+                                                'metadata': {'date': '29 October 2009',
+                                                             'location': 'Sanganer, Jaipur, '
+                                                                         'Rajasthan, India',
+                                                             'type': 'Gasoline release, vapor '
+                                                                     'cloud explosion and tank '
+                                                                     'farm fire',
+                                                             'fatalities': 11,
+                                                             'injuries': '105 injuries reported by '
+                                                                         'PESO',
+                                                             'investigation_agency': 'Government '
+                                                                                     'of India '
+                                                                                     'inquiry '
+                                                                                     'committee '
+                                                                                     'chaired by '
+                                                                                     'M. B. Lal',
+                                                             'report_title': 'IOC Fire Accident '
+                                                                             'Investigation Report',
+                                                             'report_date': '2010'},
+                                                'event_sequence': ['On 29 October 2009, Indian Oil '
+                                                                   'Corporation personnel at the '
+                                                                   'Jaipur POL terminal were '
+                                                                   'preparing to transfer motor '
+                                                                   'spirit (gasoline) to the '
+                                                                   'neighbouring BPCL terminal.',
+                                                                   'At approximately 6:10 PM, '
+                                                                   'gasoline began escaping from '
+                                                                   'the hammer blind valve '
+                                                                   'associated with the Tank 401-A '
+                                                                   'delivery line.',
+                                                                   'The uncontrolled gasoline '
+                                                                   'release generated a '
+                                                                   'substantial flammable vapour '
+                                                                   'cloud within the terminal.',
+                                                                   'The release continued for '
+                                                                   'approximately 75 minutes '
+                                                                   'before ignition.',
+                                                                   'The accumulated vapour cloud '
+                                                                   'ignited, resulting in a major '
+                                                                   'explosion and extensive fire.',
+                                                                   'The fire spread through the '
+                                                                   'installation and affected the '
+                                                                   "terminal's 11 storage tanks.",
+                                                                   'Emergency response and '
+                                                                   'firefighting continued as the '
+                                                                   'major fire persisted for '
+                                                                   'approximately 11 days.'],
+                                                'contributing_factors': ['Loss of containment '
+                                                                         'occurred during '
+                                                                         'preparation for gasoline '
+                                                                         'transfer at the hammer '
+                                                                         'blind valve.',
+                                                                         'The release was not '
+                                                                         'stopped promptly, '
+                                                                         'allowing a substantial '
+                                                                         'flammable vapour cloud '
+                                                                         'to develop.',
+                                                                         'Limitations in leak '
+                                                                         'detection and emergency '
+                                                                         'isolation contributed to '
+                                                                         'the severity of the '
+                                                                         'developing incident.',
+                                                                         'Operating practices and '
+                                                                         'procedural controls did '
+                                                                         'not adequately prevent '
+                                                                         'or control the major '
+                                                                         'gasoline release.',
+                                                                         'The accumulation of '
+                                                                         'flammable vapour created '
+                                                                         'conditions for a major '
+                                                                         'explosion following '
+                                                                         'ignition.',
+                                                                         'The large hydrocarbon '
+                                                                         'inventory and tank-farm '
+                                                                         'configuration increased '
+                                                                         'the potential for fire '
+                                                                         'escalation.'],
+                                                'system_causes': ['Inadequate control of major '
+                                                                  'accident hazards associated '
+                                                                  'with gasoline transfer and '
+                                                                  'valve operations.',
+                                                                  'Deficiencies in operating '
+                                                                  'procedures, personnel '
+                                                                  'competency and the management '
+                                                                  'of abnormal operating '
+                                                                  'conditions.',
+                                                                  'Insufficient safeguards for '
+                                                                  'rapid detection and isolation '
+                                                                  'of a major flammable-liquid '
+                                                                  'release.',
+                                                                  'Weaknesses in hazard '
+                                                                  'identification and risk '
+                                                                  'assessment for credible '
+                                                                  'large-release scenarios.',
+                                                                  'Inadequate assurance that '
+                                                                  'emergency response arrangements '
+                                                                  'could control a rapidly '
+                                                                  'escalating terminal fire.',
+                                                                  'Insufficient integration of '
+                                                                  'operational discipline, '
+                                                                  'mechanical integrity and '
+                                                                  'process safety management.'],
+                                                'consequences': ['Eleven fatalities were recorded '
+                                                                 'in the Jaipur terminal accident.',
+                                                                 'The Petroleum and Explosives '
+                                                                 'Safety Organisation reported 105 '
+                                                                 'injuries.',
+                                                                 'A major vapour cloud explosion '
+                                                                 'caused extensive damage within '
+                                                                 'the petroleum storage terminal.',
+                                                                 'Fire affected all 11 storage '
+                                                                 'tanks at the facility.',
+                                                                 'The major fire continued for '
+                                                                 'approximately 11 days, requiring '
+                                                                 'prolonged emergency response.',
+                                                                 'The incident resulted in major '
+                                                                 'asset destruction, operational '
+                                                                 'disruption and environmental '
+                                                                 'impacts.',
+                                                                 'The accident highlighted the '
+                                                                 'potential for a single gasoline '
+                                                                 'release to escalate into a '
+                                                                 'terminal-wide major accident.'],
+                                                'investigation_findings': ['The '
+                                                                           'government-appointed '
+                                                                           'investigation '
+                                                                           'committee was chaired '
+                                                                           'by M. B. Lal.',
+                                                                           'The initiating event '
+                                                                           'involved a major '
+                                                                           'gasoline release from '
+                                                                           'the hammer blind valve '
+                                                                           'during transfer-line '
+                                                                           'preparation.',
+                                                                           'The prolonged release '
+                                                                           'permitted formation of '
+                                                                           'a substantial '
+                                                                           'flammable vapour cloud '
+                                                                           'before ignition.',
+                                                                           'Deficiencies in '
+                                                                           'operating procedures '
+                                                                           'and operational '
+                                                                           'controls were '
+                                                                           'significant '
+                                                                           'contributors to the '
+                                                                           'incident.',
+                                                                           'Emergency detection '
+                                                                           'and isolation '
+                                                                           'safeguards were '
+                                                                           'inadequate for '
+                                                                           'controlling the '
+                                                                           'developing release.',
+                                                                           'The investigation '
+                                                                           'highlighted weaknesses '
+                                                                           'in the management of '
+                                                                           'major accident hazards '
+                                                                           'at petroleum storage '
+                                                                           'terminals.',
+                                                                           'The precise ignition '
+                                                                           'source should not be '
+                                                                           'presented as '
+                                                                           'conclusively '
+                                                                           'established without '
+                                                                           'specific supporting '
+                                                                           'evidence.'],
+                                                'lessons': ['Establish and enforce detailed '
+                                                            'operating procedures for gasoline '
+                                                            'transfer, line preparation and valve '
+                                                            'changeover.',
+                                                            'Verify valve positions, isolation '
+                                                            'arrangements and transfer readiness '
+                                                            'before introducing or redirecting '
+                                                            'flammable liquids.',
+                                                            'Provide effective hydrocarbon leak '
+                                                            'detection with clear alarms and '
+                                                            'prompt operator response '
+                                                            'requirements.',
+                                                            'Evaluate remotely operated emergency '
+                                                            'isolation valves and other safeguards '
+                                                            'for rapid limitation of major '
+                                                            'releases.',
+                                                            'Conduct process hazard analysis '
+                                                            'covering large gasoline releases, '
+                                                            'vapour cloud formation, explosion and '
+                                                            'multi-tank fire escalation.',
+                                                            'Strengthen competency assurance, '
+                                                            'shift supervision, emergency drills '
+                                                            'and response to abnormal operating '
+                                                            'conditions.',
+                                                            'Review tank-farm fire protection, '
+                                                            'emergency access, firefighting '
+                                                            'resources and escalation-control '
+                                                            'arrangements.',
+                                                            'Use management of change, mechanical '
+                                                            'integrity reviews and periodic '
+                                                            'process safety audits to verify '
+                                                            'continuing effectiveness of '
+                                                            'safeguards.'],
+                                                'official_sources': [{'organization': 'Government '
+                                                                                      'of India / '
+                                                                                      'National '
+                                                                                      'Green '
+                                                                                      'Tribunal',
+                                                                      'title': 'IOC Fire Accident '
+                                                                               'Investigation '
+                                                                               'Report',
+                                                                      'url': 'https://www.greentribunal.gov.in/sites/default/files/news_updates/1724140293_pagenumber.pdf',
+                                                                      'source_type': 'official_investigation_report',
+                                                                      'verified': True},
+                                                                     {'organization': 'Petroleum '
+                                                                                      'and '
+                                                                                      'Explosives '
+                                                                                      'Safety '
+                                                                                      'Organisation '
+                                                                                      '(PESO)',
+                                                                      'title': 'Annual Report '
+                                                                               '2009–2010',
+                                                                      'url': 'https://www.peso.gov.in/web/sites/default/files/2019-12/AR20092010.pdf',
+                                                                      'source_type': 'official_annual_report',
+                                                                      'verified': True},
+                                                                     {'organization': 'Oil '
+                                                                                      'Industry '
+                                                                                      'Safety '
+                                                                                      'Directorate '
+                                                                                      '(OISD)',
+                                                                      'title': 'Jaipur Fire '
+                                                                               'Incident — Lesson '
+                                                                               'Learnt',
+                                                                      'url': 'https://www.oisd.gov.in/public/assets/upload/Publications/1717003432_92e45b7e87b5e2cdb0a4.pdf',
+                                                                      'source_type': 'official_safety_publication',
+                                                                      'verified': True}]}}
 
 
 
@@ -3841,6 +5417,7 @@ ADDITIONAL SEVESO HISTORICAL ACCURACY REQUIREMENTS:
     engineering recommendation.
 """
 
+        prompt += '\nADDITIONAL OUTPUT ACCURACY REQUIREMENTS:\n\n- If abbreviating Recognized and Generally Accepted Good Engineering\n  Practices, use exactly RAGAGEP. Otherwise write the term in full.\n- Describe emergency isolation as operable from a safe location.\n  Do not add an off-site operation requirement unless explicitly\n  established by the supplied information.\n- Keep additional engineering recommendations clearly separate from\n  historical findings. Do not place an inferred or synthesized finding\n  in a column labelled as verified investigation findings.\n- Describe the initial release as process fluid containing hydrocarbons\n  and hydrofluoric acid; do not imply that hydrofluoric acid was the\n  predominant constituent unless a supplied composition establishes it.\n\nPES-SPECIFIC FINDING ACCURACY:\nFor Philadelphia Energy Solutions, preserve the distinction between:\n(a) the CSB\'s October 2022 finding that no federal requirement existed\nfor petroleum refineries to analyze and implement inherently safer\ndesign strategies; and\n(b) whether a particular facility applied inherently safer design.\nThe supplied information establishes (a), not a blanket assertion of (b).\nDo not state "inherently safer design not applied" as a verified finding.\nIn every findings summary or table, retain the historical date and\nregulatory scope of this finding. If a summary cannot preserve those\nqualifications, omit that summary row rather than strengthen the claim.\n'
         return prompt
 
     # =====================================================
